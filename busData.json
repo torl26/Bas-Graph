@@ -1,0 +1,4156 @@
+{
+  "stops": [
+    {
+      "id": 1,
+      "name": "JR久留米駅",
+      "lat": 33.3199658,
+      "lng": 130.5019922,
+      "connectedStopIds": [
+        133,
+        192,
+        261,
+        268
+      ],
+      "population": 1627,
+      "populationArea": "城南町"
+    },
+    {
+      "id": 2,
+      "name": "NTT筑後営業所前",
+      "lat": 33.210067100178016,
+      "lng": 130.50078626607996,
+      "connectedStopIds": [
+        258,
+        271
+      ],
+      "population": 2767,
+      "populationArea": "大字山ノ井"
+    },
+    {
+      "id": 3,
+      "name": "Tジョイ・ゆめタウン入口",
+      "lat": 33.3197167,
+      "lng": 130.5422658,
+      "connectedStopIds": [
+        45,
+        234
+      ],
+      "population": 57,
+      "populationArea": "新合川二丁目"
+    },
+    {
+      "id": 4,
+      "name": "うきは警察署入口",
+      "lat": 33.3440937,
+      "lng": 130.7476787,
+      "connectedStopIds": [
+        103,
+        163
+      ],
+      "population": 899,
+      "populationArea": "吉井"
+    },
+    {
+      "id": 5,
+      "name": "くるめ緑花センター前",
+      "lat": 33.32054474348596,
+      "lng": 130.59524483554037,
+      "connectedStopIds": [
+        33,
+        211
+      ],
+      "population": 1207,
+      "populationArea": "善導寺町木塚"
+    },
+    {
+      "id": 6,
+      "name": "のぞえの丘病院",
+      "lat": 33.265224802841885,
+      "lng": 130.540885605948,
+      "connectedStopIds": [
+        152,
+        220
+      ],
+      "population": 5647,
+      "populationArea": "上津町"
+    },
+    {
+      "id": 7,
+      "name": "ゆめタウン久留米",
+      "lat": 33.3210335,
+      "lng": 130.5392283,
+      "connectedStopIds": [
+        234
+      ],
+      "population": 173,
+      "populationArea": "新合川一丁目"
+    },
+    {
+      "id": 8,
+      "name": "ゆめマート前",
+      "lat": 33.373550146607265,
+      "lng": 130.5886275464438,
+      "connectedStopIds": [
+        62,
+        307
+      ],
+      "population": 903,
+      "populationArea": "大字下高橋"
+    },
+    {
+      "id": 9,
+      "name": "サテライト久留米前",
+      "lat": 33.30966319995382,
+      "lng": 130.49225009519316,
+      "connectedStopIds": [
+        134,
+        213
+      ],
+      "population": 6817,
+      "populationArea": "梅満町"
+    },
+    {
+      "id": 10,
+      "name": "モラージュ佐賀前",
+      "lat": 33.253931660909814,
+      "lng": 130.3193604016464,
+      "connectedStopIds": [
+        181,
+        335
+      ],
+      "population": 3413,
+      "populationArea": "巨勢町大字牛島"
+    },
+    {
+      "id": 11,
+      "name": "ローソン常持店前",
+      "lat": 33.3276019,
+      "lng": 130.6271192,
+      "connectedStopIds": [
+        156,
+        194
+      ],
+      "population": 170,
+      "populationArea": "善導寺町島"
+    },
+    {
+      "id": 12,
+      "name": "一丁田",
+      "lat": 33.3002169,
+      "lng": 130.528588,
+      "connectedStopIds": [
+        277,
+        279,
+        299,
+        318
+      ],
+      "population": 7682,
+      "populationArea": "国分町"
+    },
+    {
+      "id": 13,
+      "name": "一条",
+      "lat": 33.2426286,
+      "lng": 130.5066975,
+      "connectedStopIds": [
+        257,
+        290
+      ],
+      "population": 4849,
+      "populationArea": "大字西牟田"
+    },
+    {
+      "id": 14,
+      "name": "三井中央高校入口",
+      "lat": 33.34925984144672,
+      "lng": 130.5876077425355,
+      "connectedStopIds": [
+        82,
+        145
+      ],
+      "population": 1586,
+      "populationArea": "北野町中"
+    },
+    {
+      "id": 15,
+      "name": "三明寺",
+      "lat": 33.32257058529045,
+      "lng": 130.66130732352318,
+      "connectedStopIds": [
+        63,
+        255
+      ],
+      "population": 639,
+      "populationArea": "田主丸町竹野"
+    },
+    {
+      "id": 16,
+      "name": "三田川",
+      "lat": 33.32400864562403,
+      "lng": 130.399294714037,
+      "connectedStopIds": [
+        231,
+        236
+      ],
+      "population": 1133,
+      "populationArea": "吉田吉田"
+    },
+    {
+      "id": 17,
+      "name": "上原",
+      "lat": 33.3422273,
+      "lng": 130.6773539,
+      "connectedStopIds": [
+        28,
+        324
+      ],
+      "population": 319,
+      "populationArea": "田主丸町上原"
+    },
+    {
+      "id": 18,
+      "name": "上原々",
+      "lat": 33.3422273,
+      "lng": 130.6773539,
+      "connectedStopIds": [
+        224,
+        264
+      ],
+      "population": 319,
+      "populationArea": "田主丸町上原"
+    },
+    {
+      "id": 19,
+      "name": "上峰住宅",
+      "lat": 33.32947977142821,
+      "lng": 130.42152495686804,
+      "connectedStopIds": [
+        27,
+        311
+      ],
+      "population": 1454,
+      "populationArea": "大字坊所字井手口"
+    },
+    {
+      "id": 20,
+      "name": "上津1丁目",
+      "lat": 33.288001,
+      "lng": 130.526886,
+      "connectedStopIds": [
+        22,
+        174
+      ],
+      "population": 1089,
+      "populationArea": "上津一丁目"
+    },
+    {
+      "id": 21,
+      "name": "上津町",
+      "lat": 33.2811,
+      "lng": 130.532463,
+      "connectedStopIds": [
+        22,
+        58
+      ],
+      "population": 2963,
+      "populationArea": "上津町"
+    },
+    {
+      "id": 22,
+      "name": "上津荒木",
+      "lat": 33.284434,
+      "lng": 130.561608,
+      "connectedStopIds": [
+        20,
+        21,
+        71
+      ],
+      "population": 423,
+      "populationArea": "青峰二丁目"
+    },
+    {
+      "id": 23,
+      "name": "上田主丸",
+      "lat": 33.345044,
+      "lng": 130.6996164,
+      "connectedStopIds": [
+        201,
+        214
+      ],
+      "population": 735,
+      "populationArea": "田主丸町殖木"
+    },
+    {
+      "id": 24,
+      "name": "上町",
+      "lat": 33.308405,
+      "lng": 130.596466,
+      "connectedStopIds": [
+        224,
+        259
+      ],
+      "population": 1333,
+      "populationArea": "山本町耳納"
+    },
+    {
+      "id": 25,
+      "name": "上荒木",
+      "lat": 33.284434,
+      "lng": 130.561608,
+      "connectedStopIds": [
+        61,
+        196
+      ],
+      "population": 423,
+      "populationArea": "青峰二丁目"
+    },
+    {
+      "id": 26,
+      "name": "下千足",
+      "lat": 33.3336383,
+      "lng": 130.7850374,
+      "connectedStopIds": [
+        34,
+        117
+      ],
+      "population": 1233,
+      "populationArea": "大字浮羽"
+    },
+    {
+      "id": 27,
+      "name": "下津毛",
+      "lat": 33.32629479344902,
+      "lng": 130.42627379888904,
+      "connectedStopIds": [
+        19,
+        39
+      ],
+      "population": 1060,
+      "populationArea": "大字坊所字下津毛"
+    },
+    {
+      "id": 28,
+      "name": "下田主丸",
+      "lat": 33.3426776,
+      "lng": 130.6841364,
+      "connectedStopIds": [
+        17,
+        227
+      ],
+      "population": 1539,
+      "populationArea": "田主丸町豊城"
+    },
+    {
+      "id": 29,
+      "name": "下荒木",
+      "lat": 33.270546,
+      "lng": 130.500613,
+      "connectedStopIds": [
+        30,
+        196
+      ],
+      "population": 7160,
+      "populationArea": "荒木町荒木"
+    },
+    {
+      "id": 30,
+      "name": "下荒木十字路",
+      "lat": 33.27551088037565,
+      "lng": 130.49905381052852,
+      "connectedStopIds": [
+        29,
+        284
+      ],
+      "population": 3683,
+      "populationArea": "荒木町白口"
+    },
+    {
+      "id": 31,
+      "name": "下谷",
+      "lat": 33.2063108,
+      "lng": 130.4366462,
+      "connectedStopIds": [
+        198,
+        320
+      ],
+      "population": 644,
+      "populationArea": "大字絵下古賀"
+    },
+    {
+      "id": 32,
+      "name": "下野",
+      "lat": 33.3302217,
+      "lng": 130.4999951,
+      "connectedStopIds": [
+        164,
+        190
+      ],
+      "population": 514,
+      "populationArea": "下野町"
+    },
+    {
+      "id": 33,
+      "name": "与田",
+      "lat": 33.322297,
+      "lng": 130.6012376,
+      "connectedStopIds": [
+        5,
+        113
+      ],
+      "population": 2291,
+      "populationArea": "善導寺町与田"
+    },
+    {
+      "id": 34,
+      "name": "中千足",
+      "lat": 33.3339324,
+      "lng": 130.7905624,
+      "connectedStopIds": [
+        26,
+        215
+      ],
+      "population": 1881,
+      "populationArea": "大字朝田"
+    },
+    {
+      "id": 35,
+      "name": "中原",
+      "lat": 33.307154,
+      "lng": 130.527888,
+      "connectedStopIds": [
+        193,
+        248
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 36,
+      "name": "中央市場前",
+      "lat": 33.3091508,
+      "lng": 130.528069,
+      "connectedStopIds": [
+        60,
+        336
+      ],
+      "population": 8455,
+      "populationArea": "諏訪野町"
+    },
+    {
+      "id": 37,
+      "name": "中泉",
+      "lat": 33.2477565,
+      "lng": 130.463203,
+      "connectedStopIds": [
+        148,
+        294
+      ],
+      "population": 821,
+      "populationArea": "三潴町玉満"
+    },
+    {
+      "id": 38,
+      "name": "中津",
+      "lat": 33.276683,
+      "lng": 130.468061,
+      "connectedStopIds": [
+        65,
+        280
+      ],
+      "population": 272,
+      "populationArea": "大善寺町藤吉"
+    },
+    {
+      "id": 39,
+      "name": "中津隈",
+      "lat": 33.324693867545136,
+      "lng": 130.43328170867892,
+      "connectedStopIds": [
+        27,
+        40
+      ],
+      "population": 505,
+      "populationArea": "大字中津隈中西"
+    },
+    {
+      "id": 40,
+      "name": "中津隈宮前",
+      "lat": 33.32497562020055,
+      "lng": 130.43936942587365,
+      "connectedStopIds": [
+        39,
+        189
+      ],
+      "population": 656,
+      "populationArea": "大字中津隈中東"
+    },
+    {
+      "id": 41,
+      "name": "中牟田",
+      "lat": 33.243281,
+      "lng": 130.424234,
+      "connectedStopIds": [
+        69,
+        225
+      ],
+      "population": 291,
+      "populationArea": "城島町原中牟田"
+    },
+    {
+      "id": 42,
+      "name": "中野",
+      "lat": 33.3062749,
+      "lng": 130.5325108,
+      "connectedStopIds": [
+        221,
+        256
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 43,
+      "name": "久富",
+      "lat": 33.3451051,
+      "lng": 130.7330726,
+      "connectedStopIds": [
+        205,
+        212
+      ],
+      "population": 302,
+      "populationArea": "大字生葉字岩光"
+    },
+    {
+      "id": 44,
+      "name": "久富住宅前",
+      "lat": 33.21945145521629,
+      "lng": 130.49220794121362,
+      "connectedStopIds": [
+        205,
+        269
+      ],
+      "population": 2905,
+      "populationArea": "大字久富"
+    },
+    {
+      "id": 45,
+      "name": "久留米インター",
+      "lat": 33.3176672,
+      "lng": 130.5525007,
+      "connectedStopIds": [
+        3,
+        184
+      ],
+      "population": 533,
+      "populationArea": "東合川四丁目"
+    },
+    {
+      "id": 46,
+      "name": "久留米インター入口",
+      "lat": 33.31807146574905,
+      "lng": 130.5535639547092,
+      "connectedStopIds": [
+        90,
+        118
+      ],
+      "population": 145,
+      "populationArea": "東合川五丁目"
+    },
+    {
+      "id": 47,
+      "name": "久留米大学下",
+      "lat": 33.31158066792536,
+      "lng": 130.54820655656033,
+      "connectedStopIds": [
+        87,
+        98
+      ],
+      "population": 854,
+      "populationArea": "朝妻町"
+    },
+    {
+      "id": 48,
+      "name": "久留米大学前",
+      "lat": 33.3073018,
+      "lng": 130.5487739,
+      "connectedStopIds": [
+        49,
+        159,
+        172,
+        265
+      ],
+      "population": 2480,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 49,
+      "name": "久留米大学南門",
+      "lat": 33.30730177088893,
+      "lng": 130.5466588951861,
+      "connectedStopIds": [
+        48,
+        206
+      ],
+      "population": 2480,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 50,
+      "name": "久留米大橋",
+      "lat": 33.2171805,
+      "lng": 130.3701952,
+      "connectedStopIds": [
+        104,
+        146
+      ],
+      "population": 319,
+      "populationArea": "大字向島"
+    },
+    {
+      "id": 51,
+      "name": "久留米市世界のつばき館前",
+      "lat": 33.31824769249698,
+      "lng": 130.63046953751459,
+      "connectedStopIds": [
+        240,
+        282
+      ],
+      "population": 324,
+      "populationArea": "草野町矢作"
+    },
+    {
+      "id": 52,
+      "name": "久留米総合庁舎前",
+      "lat": 33.312167,
+      "lng": 130.5334272,
+      "connectedStopIds": [
+        165,
+        342
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 53,
+      "name": "久留米自動車工科大学",
+      "lat": 33.25420104906178,
+      "lng": 130.54085905655842,
+      "connectedStopIds": [
+        91,
+        207
+      ],
+      "population": 902,
+      "populationArea": "大字新代"
+    },
+    {
+      "id": 54,
+      "name": "久留米警察署前",
+      "lat": 33.3229991,
+      "lng": 130.5172496,
+      "connectedStopIds": [
+        104,
+        200
+      ],
+      "population": 5767,
+      "populationArea": "東櫛原町"
+    },
+    {
+      "id": 55,
+      "name": "久留米高校前",
+      "lat": 33.2984645,
+      "lng": 130.5164161,
+      "connectedStopIds": [
+        295,
+        332
+      ],
+      "population": 4022,
+      "populationArea": "西町"
+    },
+    {
+      "id": 56,
+      "name": "九州大谷短大前",
+      "lat": 33.24012117444242,
+      "lng": 130.50744231052735,
+      "connectedStopIds": [
+        257,
+        303
+      ],
+      "population": 2873,
+      "populationArea": "大字蔵数"
+    },
+    {
+      "id": 57,
+      "name": "二の江",
+      "lat": 33.29781583030925,
+      "lng": 130.5343228682009,
+      "connectedStopIds": [
+        116,
+        318
+      ],
+      "population": 7682,
+      "populationArea": "国分町"
+    },
+    {
+      "id": 58,
+      "name": "二軒茶屋",
+      "lat": 33.2814161,
+      "lng": 130.5345145,
+      "connectedStopIds": [
+        21,
+        59
+      ],
+      "population": 2963,
+      "populationArea": "上津町"
+    },
+    {
+      "id": 59,
+      "name": "二軒茶屋三ツ角",
+      "lat": 33.27660753960007,
+      "lng": 130.53613418539504,
+      "connectedStopIds": [
+        58,
+        243
+      ],
+      "population": 0,
+      "populationArea": "上津町"
+    },
+    {
+      "id": 60,
+      "name": "五穀神社",
+      "lat": 33.3146722,
+      "lng": 130.5266566,
+      "connectedStopIds": [
+        36,
+        165,
+        296,
+        328
+      ],
+      "population": 8455,
+      "populationArea": "諏訪野町"
+    },
+    {
+      "id": 61,
+      "name": "今村",
+      "lat": 33.256045209739135,
+      "lng": 130.49430509866693,
+      "connectedStopIds": [
+        25,
+        86
+      ],
+      "population": 250,
+      "populationArea": "荒木町今"
+    },
+    {
+      "id": 62,
+      "name": "今村天主堂",
+      "lat": 33.372230052846234,
+      "lng": 130.60221969703923,
+      "connectedStopIds": [
+        8
+      ],
+      "population": 846,
+      "populationArea": "大字上高橋"
+    },
+    {
+      "id": 63,
+      "name": "代慶寺",
+      "lat": 33.32280961186725,
+      "lng": 130.66664516820174,
+      "connectedStopIds": [
+        15,
+        248
+      ],
+      "population": 815,
+      "populationArea": "田主丸町地徳"
+    },
+    {
+      "id": 64,
+      "name": "仲田町",
+      "lat": 33.343673,
+      "lng": 130.664248,
+      "connectedStopIds": [
+        291,
+        309
+      ],
+      "population": 586,
+      "populationArea": "田主丸町志塚島"
+    },
+    {
+      "id": 65,
+      "name": "住吉",
+      "lat": 33.2841,
+      "lng": 130.491391,
+      "connectedStopIds": [
+        38,
+        96
+      ],
+      "population": 2489,
+      "populationArea": "大善寺町宮本"
+    },
+    {
+      "id": 66,
+      "name": "佐賀第二合同庁舎",
+      "lat": 33.26622723013026,
+      "lng": 130.30461828169223,
+      "connectedStopIds": [
+        67
+      ],
+      "population": 832,
+      "populationArea": "駅前中央三丁目"
+    },
+    {
+      "id": 67,
+      "name": "佐賀駅バスセンター",
+      "lat": 33.264568991264156,
+      "lng": 130.29930758169223,
+      "connectedStopIds": [
+        66,
+        155
+      ],
+      "population": 583,
+      "populationArea": "駅前中央一丁目"
+    },
+    {
+      "id": 68,
+      "name": "信愛学院",
+      "lat": 33.2965766,
+      "lng": 130.5492455,
+      "connectedStopIds": [
+        241
+      ],
+      "population": 4829,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 69,
+      "name": "修理田",
+      "lat": 33.568246,
+      "lng": 130.857329,
+      "connectedStopIds": [
+        41,
+        121
+      ],
+      "population": 458,
+      "populationArea": "大字添田添田中"
+    },
+    {
+      "id": 70,
+      "name": "八女営業所",
+      "lat": 33.209897909558386,
+      "lng": 130.56520971739758,
+      "connectedStopIds": [
+        292
+      ],
+      "population": 106,
+      "populationArea": "馬場"
+    },
+    {
+      "id": 71,
+      "name": "八軒屋",
+      "lat": 33.29496293809813,
+      "lng": 130.5298447087419,
+      "connectedStopIds": [
+        22,
+        279
+      ],
+      "population": 6742,
+      "populationArea": "国分町"
+    },
+    {
+      "id": 72,
+      "name": "六ツ門・シティプラザ前",
+      "lat": 33.31439676531783,
+      "lng": 130.51329928539639,
+      "connectedStopIds": [
+        154,
+        168,
+        175
+      ],
+      "population": 1778,
+      "populationArea": "日吉町"
+    },
+    {
+      "id": 73,
+      "name": "六ツ門口",
+      "lat": 33.310257894573965,
+      "lng": 130.51109249888853,
+      "connectedStopIds": [
+        74,
+        157
+      ],
+      "population": 1973,
+      "populationArea": "原古賀町"
+    },
+    {
+      "id": 74,
+      "name": "六反畑",
+      "lat": 33.3084919089007,
+      "lng": 130.5110355123807,
+      "connectedStopIds": [
+        73,
+        273
+      ],
+      "population": 1973,
+      "populationArea": "原古賀町"
+    },
+    {
+      "id": 75,
+      "name": "六田",
+      "lat": 33.2366495,
+      "lng": 130.5702151,
+      "connectedStopIds": [
+        111,
+        204
+      ],
+      "population": 402,
+      "populationArea": "大字六田"
+    },
+    {
+      "id": 76,
+      "name": "内野",
+      "lat": 33.261974,
+      "lng": 130.433647,
+      "connectedStopIds": [
+        275,
+        276
+      ],
+      "population": 534,
+      "populationArea": "城島町内野"
+    },
+    {
+      "id": 77,
+      "name": "勿体島",
+      "lat": 33.325096,
+      "lng": 130.6155344,
+      "connectedStopIds": [
+        113,
+        194
+      ],
+      "population": 3672,
+      "populationArea": "善導寺町飯田"
+    },
+    {
+      "id": 78,
+      "name": "北山",
+      "lat": 33.340069,
+      "lng": 130.609131,
+      "connectedStopIds": [
+        233,
+        315
+      ],
+      "population": 473,
+      "populationArea": "北野町大城"
+    },
+    {
+      "id": 79,
+      "name": "北茂安小学校前",
+      "lat": 33.32682805025418,
+      "lng": 130.46307779703764,
+      "connectedStopIds": [
+        185,
+        310
+      ],
+      "population": 1116,
+      "populationArea": "大字白壁白壁"
+    },
+    {
+      "id": 80,
+      "name": "北野",
+      "lat": 33.3454108,
+      "lng": 130.5828331,
+      "connectedStopIds": [
+        81,
+        82
+      ],
+      "population": 1480,
+      "populationArea": "北野町今山"
+    },
+    {
+      "id": 81,
+      "name": "北野町体育センター前",
+      "lat": 33.3454108,
+      "lng": 130.5828331,
+      "connectedStopIds": [
+        80,
+        339
+      ],
+      "population": 1480,
+      "populationArea": "北野町今山"
+    },
+    {
+      "id": 82,
+      "name": "北野総合支所前",
+      "lat": 33.3454108,
+      "lng": 130.5828331,
+      "connectedStopIds": [
+        14,
+        80
+      ],
+      "population": 1480,
+      "populationArea": "北野町今山"
+    },
+    {
+      "id": 83,
+      "name": "医学部前",
+      "lat": 33.3275739,
+      "lng": 130.510203,
+      "connectedStopIds": [
+        129,
+        147,
+        334
+      ],
+      "population": 379,
+      "populationArea": "旭町"
+    },
+    {
+      "id": 84,
+      "name": "十三部",
+      "lat": 33.3107141,
+      "lng": 130.5391651,
+      "connectedStopIds": [
+        87,
+        342
+      ],
+      "population": 7676,
+      "populationArea": "合川町"
+    },
+    {
+      "id": 85,
+      "name": "十二軒屋",
+      "lat": 33.29443174630179,
+      "lng": 130.51535177735417,
+      "connectedStopIds": [
+        110,
+        203,
+        210,
+        325
+      ],
+      "population": 1656,
+      "populationArea": "南一丁目"
+    },
+    {
+      "id": 86,
+      "name": "十連寺",
+      "lat": 33.248215,
+      "lng": 130.486393,
+      "connectedStopIds": [
+        61,
+        218
+      ],
+      "population": 1303,
+      "populationArea": "三潴町西牟田"
+    },
+    {
+      "id": 87,
+      "name": "千本杉",
+      "lat": 33.3101559,
+      "lng": 130.5428741,
+      "connectedStopIds": [
+        47,
+        84,
+        172
+      ],
+      "population": 7676,
+      "populationArea": "合川町"
+    },
+    {
+      "id": 88,
+      "name": "千栗",
+      "lat": 33.5621601,
+      "lng": 130.2423423,
+      "connectedStopIds": [
+        89,
+        310
+      ],
+      "population": 2315,
+      "populationArea": "大字千里"
+    },
+    {
+      "id": 89,
+      "name": "千栗八幡宮前",
+      "lat": 33.3314201,
+      "lng": 130.4786568,
+      "connectedStopIds": [
+        88,
+        321
+      ],
+      "population": 176,
+      "populationArea": "大字白壁千栗"
+    },
+    {
+      "id": 90,
+      "name": "千歳市民センター入口",
+      "lat": 33.31807146574905,
+      "lng": 130.5535639547092,
+      "connectedStopIds": [
+        46,
+        184
+      ],
+      "population": 145,
+      "populationArea": "東合川五丁目"
+    },
+    {
+      "id": 91,
+      "name": "南湯納楚",
+      "lat": 33.25731992453089,
+      "lng": 130.5384231282792,
+      "connectedStopIds": [
+        53,
+        220
+      ],
+      "population": 902,
+      "populationArea": "大字新代"
+    },
+    {
+      "id": 92,
+      "name": "南町",
+      "lat": 33.306409450000004,
+      "lng": 130.53045055,
+      "connectedStopIds": [
+        174,
+        295
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 93,
+      "name": "南野伏間",
+      "lat": 33.4463825,
+      "lng": 130.53886735,
+      "connectedStopIds": [
+        119,
+        315
+      ],
+      "population": 893,
+      "populationArea": "原田五丁目"
+    },
+    {
+      "id": 94,
+      "name": "原の町",
+      "lat": 33.2631322,
+      "lng": 130.3526641,
+      "connectedStopIds": [
+        124,
+        291
+      ],
+      "population": 379,
+      "populationArea": "大字境原字原の町"
+    },
+    {
+      "id": 95,
+      "name": "又南里",
+      "lat": 33.598365,
+      "lng": 130.468208,
+      "connectedStopIds": [
+        287,
+        298
+      ],
+      "population": 1537,
+      "populationArea": "南里六丁目"
+    },
+    {
+      "id": 96,
+      "name": "古町",
+      "lat": 33.033134,
+      "lng": 130.445529,
+      "connectedStopIds": [
+        65,
+        141
+      ],
+      "population": 45,
+      "populationArea": "古町"
+    },
+    {
+      "id": 97,
+      "name": "古賀",
+      "lat": 33.4290431,
+      "lng": 130.5649469,
+      "connectedStopIds": [
+        151,
+        250
+      ],
+      "population": 2466,
+      "populationArea": "三沢古賀"
+    },
+    {
+      "id": 98,
+      "name": "合川",
+      "lat": 33.312258,
+      "lng": 130.5502301,
+      "connectedStopIds": [
+        47,
+        166,
+        328
+      ],
+      "population": 991,
+      "populationArea": "東合川三丁目"
+    },
+    {
+      "id": 99,
+      "name": "合楽",
+      "lat": 33.3326655,
+      "lng": 130.6371087,
+      "connectedStopIds": [
+        100,
+        150
+      ],
+      "population": 724,
+      "populationArea": "大橋町常持"
+    },
+    {
+      "id": 100,
+      "name": "合楽団地前",
+      "lat": 33.3326655,
+      "lng": 130.6371087,
+      "connectedStopIds": [
+        99,
+        156
+      ],
+      "population": 724,
+      "populationArea": "大橋町常持"
+    },
+    {
+      "id": 101,
+      "name": "吉井中町",
+      "lat": 33.3339983,
+      "lng": 130.5903845,
+      "connectedStopIds": [
+        102,
+        103
+      ],
+      "population": 1207,
+      "populationArea": "善導寺町木塚"
+    },
+    {
+      "id": 102,
+      "name": "吉井営業所",
+      "lat": 33.3422113,
+      "lng": 130.7612665,
+      "connectedStopIds": [
+        101,
+        219
+      ],
+      "population": 1263,
+      "populationArea": "吉井"
+    },
+    {
+      "id": 103,
+      "name": "吉井駅前",
+      "lat": 33.3437378,
+      "lng": 130.751885,
+      "connectedStopIds": [
+        4,
+        101
+      ],
+      "population": 899,
+      "populationArea": "吉井"
+    },
+    {
+      "id": 104,
+      "name": "吉原",
+      "lat": 33.3256337,
+      "lng": 130.522799,
+      "connectedStopIds": [
+        50,
+        54
+      ],
+      "population": 5767,
+      "populationArea": "東櫛原町"
+    },
+    {
+      "id": 105,
+      "name": "吉木",
+      "lat": 33.3164253,
+      "lng": 130.6131908,
+      "connectedStopIds": [
+        106,
+        107
+      ],
+      "population": 1333,
+      "populationArea": "山本町耳納"
+    },
+    {
+      "id": 106,
+      "name": "吉木温室前",
+      "lat": 33.315858649999996,
+      "lng": 130.62029139999999,
+      "connectedStopIds": [
+        105,
+        240
+      ],
+      "population": 657,
+      "populationArea": "草野町吉木"
+    },
+    {
+      "id": 107,
+      "name": "吉木西",
+      "lat": 33.3272819,
+      "lng": 130.4961694,
+      "connectedStopIds": [
+        105,
+        148
+      ],
+      "population": 514,
+      "populationArea": "下野町"
+    },
+    {
+      "id": 108,
+      "name": "吉田",
+      "lat": 33.339029,
+      "lng": 130.72059,
+      "connectedStopIds": [
+        191,
+        250
+      ],
+      "population": 0,
+      "populationArea": "田主丸町吉本"
+    },
+    {
+      "id": 109,
+      "name": "呉服元町",
+      "lat": 33.258837,
+      "lng": 130.429648,
+      "connectedStopIds": [
+        135,
+        222
+      ],
+      "population": 430,
+      "populationArea": "城島町城島"
+    },
+    {
+      "id": 110,
+      "name": "和楽園",
+      "lat": 33.3020861,
+      "lng": 130.5102264,
+      "connectedStopIds": [
+        85,
+        274
+      ],
+      "population": 0,
+      "populationArea": "津福本町"
+    },
+    {
+      "id": 111,
+      "name": "和泉",
+      "lat": 33.3162402,
+      "lng": 130.5455969,
+      "connectedStopIds": [
+        75,
+        143
+      ],
+      "population": 1800,
+      "populationArea": "東合川町"
+    },
+    {
+      "id": 112,
+      "name": "唐島",
+      "lat": 33.3410728,
+      "lng": 130.6598983,
+      "connectedStopIds": [
+        223,
+        324
+      ],
+      "population": 696,
+      "populationArea": "田主丸町以真恵"
+    },
+    {
+      "id": 113,
+      "name": "善導寺",
+      "lat": 33.3239045,
+      "lng": 130.6064695,
+      "connectedStopIds": [
+        33,
+        77
+      ],
+      "population": 3672,
+      "populationArea": "善導寺町飯田"
+    },
+    {
+      "id": 114,
+      "name": "嘉納",
+      "lat": 33.1882893,
+      "lng": 130.4170222,
+      "connectedStopIds": [
+        238,
+        289
+      ],
+      "population": 678,
+      "populationArea": "大字金納"
+    },
+    {
+      "id": 115,
+      "name": "団地入口",
+      "lat": 33.5432556,
+      "lng": 130.3831049,
+      "connectedStopIds": [
+        275,
+        331
+      ],
+      "population": 1385,
+      "populationArea": "樋井川四丁目"
+    },
+    {
+      "id": 116,
+      "name": "国分",
+      "lat": 33.294703,
+      "lng": 130.53665,
+      "connectedStopIds": [
+        57,
+        188
+      ],
+      "population": 6742,
+      "populationArea": "国分町"
+    },
+    {
+      "id": 117,
+      "name": "土取",
+      "lat": 33.3375171,
+      "lng": 130.7739394,
+      "connectedStopIds": [
+        26,
+        219
+      ],
+      "population": 1233,
+      "populationArea": "大字浮羽"
+    },
+    {
+      "id": 118,
+      "name": "地場産業センター入口",
+      "lat": 33.319981582874526,
+      "lng": 130.55454327735458,
+      "connectedStopIds": [
+        46,
+        183
+      ],
+      "population": 145,
+      "populationArea": "東合川五丁目"
+    },
+    {
+      "id": 119,
+      "name": "坂の上",
+      "lat": 33.5485896,
+      "lng": 130.442483,
+      "connectedStopIds": [
+        93,
+        340
+      ],
+      "population": 3326,
+      "populationArea": "井尻四丁目"
+    },
+    {
+      "id": 120,
+      "name": "城南中学校前",
+      "lat": 33.320249700000005,
+      "lng": 130.50861824999998,
+      "connectedStopIds": [
+        154,
+        262
+      ],
+      "population": 1627,
+      "populationArea": "城南町"
+    },
+    {
+      "id": 121,
+      "name": "城東中学校前",
+      "lat": 33.443040100000005,
+      "lng": 130.62633540000002,
+      "connectedStopIds": [
+        69,
+        181
+      ],
+      "population": 729,
+      "populationArea": "栗田"
+    },
+    {
+      "id": 122,
+      "name": "基里公民館前",
+      "lat": 33.3229991,
+      "lng": 130.5172496,
+      "connectedStopIds": [
+        171,
+        312
+      ],
+      "population": 5767,
+      "populationArea": "東櫛原町"
+    },
+    {
+      "id": 123,
+      "name": "堀立",
+      "lat": 33.5959702,
+      "lng": 130.4158299,
+      "connectedStopIds": [
+        125,
+        225
+      ],
+      "population": 1300,
+      "populationArea": "御供所町"
+    },
+    {
+      "id": 124,
+      "name": "境原",
+      "lat": 33.310182,
+      "lng": 130.549997,
+      "connectedStopIds": [
+        94,
+        138
+      ],
+      "population": 4829,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 125,
+      "name": "境橋",
+      "lat": 33.3005513,
+      "lng": 130.5440095,
+      "connectedStopIds": [
+        123,
+        139
+      ],
+      "population": 300,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 126,
+      "name": "大善寺",
+      "lat": 33.271519,
+      "lng": 130.473986,
+      "connectedStopIds": [
+        142
+      ],
+      "population": 2489,
+      "populationArea": "大善寺町宮本"
+    },
+    {
+      "id": 127,
+      "name": "大学医療センター",
+      "lat": null,
+      "lng": null,
+      "connectedStopIds": [
+        128
+      ]
+    },
+    {
+      "id": 128,
+      "name": "大学医療センター入口",
+      "lat": 33.314593,
+      "lng": 130.5654497,
+      "connectedStopIds": [
+        127,
+        188,
+        319
+      ],
+      "population": 729,
+      "populationArea": "山川追分一丁目"
+    },
+    {
+      "id": 129,
+      "name": "大学病院",
+      "lat": 33.3258923,
+      "lng": 130.5104283,
+      "connectedStopIds": [
+        83,
+        170,
+        261
+      ],
+      "population": 379,
+      "populationArea": "旭町"
+    },
+    {
+      "id": 130,
+      "name": "大学稲荷前",
+      "lat": 33.227521,
+      "lng": 130.43973,
+      "connectedStopIds": [
+        241,
+        308
+      ],
+      "population": 950,
+      "populationArea": "大字前牟田"
+    },
+    {
+      "id": 131,
+      "name": "大島",
+      "lat": 33.252948,
+      "lng": 130.427677,
+      "connectedStopIds": [
+        191,
+        249
+      ],
+      "population": 648,
+      "populationArea": "城島町楢津"
+    },
+    {
+      "id": 132,
+      "name": "大町橋",
+      "lat": 33.337542,
+      "lng": 130.636685,
+      "connectedStopIds": [
+        139,
+        197
+      ],
+      "population": 433,
+      "populationArea": "大橋町合楽"
+    },
+    {
+      "id": 133,
+      "name": "大石町",
+      "lat": 33.314534,
+      "lng": 130.493616,
+      "connectedStopIds": [
+        1,
+        134,
+        268,
+        301
+      ],
+      "population": 2541,
+      "populationArea": "大石町"
+    },
+    {
+      "id": 134,
+      "name": "大石町南",
+      "lat": 33.313459,
+      "lng": 130.533332,
+      "connectedStopIds": [
+        9,
+        133
+      ],
+      "population": 7676,
+      "populationArea": "合川町"
+    },
+    {
+      "id": 135,
+      "name": "大財町",
+      "lat": 33.3061437,
+      "lng": 130.5541854,
+      "connectedStopIds": [
+        109,
+        162
+      ],
+      "population": 4829,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 136,
+      "name": "大野",
+      "lat": 33.307154,
+      "lng": 130.527888,
+      "connectedStopIds": [
+        256,
+        300
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 137,
+      "name": "太郎原",
+      "lat": 33.3174813,
+      "lng": 130.5841003,
+      "connectedStopIds": [
+        169,
+        211
+      ],
+      "population": 621,
+      "populationArea": "太郎原町"
+    },
+    {
+      "id": 138,
+      "name": "姉",
+      "lat": 33.304294,
+      "lng": 130.5496831,
+      "connectedStopIds": [
+        124,
+        238
+      ],
+      "population": 2480,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 139,
+      "name": "姉川",
+      "lat": 33.2612948,
+      "lng": 130.5336841,
+      "connectedStopIds": [
+        125,
+        132
+      ],
+      "population": 981,
+      "populationArea": "荒木町藤田"
+    },
+    {
+      "id": 140,
+      "name": "安武堤防",
+      "lat": 33.2864762,
+      "lng": 130.4893219,
+      "connectedStopIds": [
+        213,
+        217
+      ],
+      "population": 3109,
+      "populationArea": "安武町安武本"
+    },
+    {
+      "id": 141,
+      "name": "安武学校前",
+      "lat": 33.284495,
+      "lng": 130.486315,
+      "connectedStopIds": [
+        96,
+        217
+      ],
+      "population": 3109,
+      "populationArea": "安武町安武本"
+    },
+    {
+      "id": 142,
+      "name": "宮前",
+      "lat": 33.27416,
+      "lng": 130.473829,
+      "connectedStopIds": [
+        126,
+        280
+      ],
+      "population": 1525,
+      "populationArea": "大善寺町夜明"
+    },
+    {
+      "id": 143,
+      "name": "寄人橋",
+      "lat": 33.2868253,
+      "lng": 130.415316,
+      "connectedStopIds": [
+        111,
+        237
+      ],
+      "population": 183,
+      "populationArea": "大字寄人字和泉"
+    },
+    {
+      "id": 144,
+      "name": "寛元寺",
+      "lat": 33.3175984,
+      "lng": 130.5525032,
+      "connectedStopIds": [
+        177,
+        232
+      ],
+      "population": 533,
+      "populationArea": "東合川四丁目"
+    },
+    {
+      "id": 145,
+      "name": "寺田",
+      "lat": 33.329403,
+      "lng": 130.606187,
+      "connectedStopIds": [
+        14,
+        307
+      ],
+      "population": 3672,
+      "populationArea": "善導寺町飯田"
+    },
+    {
+      "id": 146,
+      "name": "小森野",
+      "lat": 33.335002,
+      "lng": 130.509777,
+      "connectedStopIds": [
+        50,
+        337
+      ],
+      "population": 878,
+      "populationArea": "小森野一丁目"
+    },
+    {
+      "id": 147,
+      "name": "小森野4丁目",
+      "lat": 33.334706,
+      "lng": 130.517885,
+      "connectedStopIds": [
+        83,
+        334
+      ],
+      "population": 819,
+      "populationArea": "小森野四丁目"
+    },
+    {
+      "id": 148,
+      "name": "山本",
+      "lat": 33.3103259,
+      "lng": 130.5435331,
+      "connectedStopIds": [
+        37,
+        107
+      ],
+      "population": 7676,
+      "populationArea": "合川町"
+    },
+    {
+      "id": 149,
+      "name": "山本コミュニティセンター前",
+      "lat": 33.3933996,
+      "lng": 129.9811692,
+      "connectedStopIds": [
+        190,
+        294
+      ],
+      "population": 2435,
+      "populationArea": "山本"
+    },
+    {
+      "id": 150,
+      "name": "川崎",
+      "lat": 33.3377824,
+      "lng": 130.6457581,
+      "connectedStopIds": [
+        99,
+        223
+      ],
+      "population": 1045,
+      "populationArea": "田主丸町中尾"
+    },
+    {
+      "id": 151,
+      "name": "川瀬",
+      "lat": 33.3435938,
+      "lng": 130.7144249,
+      "connectedStopIds": [
+        97,
+        207
+      ],
+      "population": 648,
+      "populationArea": "田主丸町秋成"
+    },
+    {
+      "id": 152,
+      "name": "工業大学前",
+      "lat": 33.28636990142094,
+      "lng": 130.533192302974,
+      "connectedStopIds": [
+        6,
+        317
+      ],
+      "population": 0,
+      "populationArea": "上津町"
+    },
+    {
+      "id": 153,
+      "name": "巨勢公民館前",
+      "lat": 33.254797,
+      "lng": 130.3283067,
+      "connectedStopIds": [
+        272,
+        309
+      ],
+      "population": 976,
+      "populationArea": "巨勢町大字高尾"
+    },
+    {
+      "id": 154,
+      "name": "市役所前",
+      "lat": 33.3188831,
+      "lng": 130.5087749,
+      "connectedStopIds": [
+        72,
+        120,
+        175,
+        261
+      ],
+      "population": 1627,
+      "populationArea": "城南町"
+    },
+    {
+      "id": 155,
+      "name": "市役所南",
+      "lat": 33.3191127,
+      "lng": 130.5075265,
+      "connectedStopIds": [
+        67,
+        162
+      ],
+      "population": 3970,
+      "populationArea": "中央町"
+    },
+    {
+      "id": 156,
+      "name": "常持",
+      "lat": 33.3311107,
+      "lng": 130.6342226,
+      "connectedStopIds": [
+        11,
+        100
+      ],
+      "population": 724,
+      "populationArea": "大橋町常持"
+    },
+    {
+      "id": 157,
+      "name": "広又",
+      "lat": 33.310487,
+      "lng": 130.520527,
+      "connectedStopIds": [
+        73,
+        278,
+        296
+      ],
+      "population": 651,
+      "populationArea": "天神町"
+    },
+    {
+      "id": 158,
+      "name": "弓削農協前",
+      "lat": 33.3106525,
+      "lng": 130.54316185,
+      "connectedStopIds": [
+        242,
+        338
+      ],
+      "population": 7676,
+      "populationArea": "合川町"
+    },
+    {
+      "id": 159,
+      "name": "御井町",
+      "lat": 33.3064345,
+      "lng": 130.5537241,
+      "connectedStopIds": [
+        48,
+        265
+      ],
+      "population": 4829,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 160,
+      "name": "御井駅前",
+      "lat": 33.3130566,
+      "lng": 130.5613531,
+      "connectedStopIds": [
+        166,
+        304
+      ],
+      "population": 649,
+      "populationArea": "御井旗崎五丁目"
+    },
+    {
+      "id": 161,
+      "name": "徳童",
+      "lat": 33.3458256,
+      "lng": 130.7201068,
+      "connectedStopIds": [
+        195,
+        286
+      ],
+      "population": 648,
+      "populationArea": "田主丸町秋成"
+    },
+    {
+      "id": 162,
+      "name": "戸上電機前",
+      "lat": 33.3126282,
+      "lng": 130.53085595,
+      "connectedStopIds": [
+        135,
+        155
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 163,
+      "name": "扇島",
+      "lat": 33.3235778,
+      "lng": 130.6056396,
+      "connectedStopIds": [
+        4,
+        254
+      ],
+      "population": 3672,
+      "populationArea": "善導寺町飯田"
+    },
+    {
+      "id": 164,
+      "name": "放光寺",
+      "lat": 33.3084482,
+      "lng": 130.5804323,
+      "connectedStopIds": [
+        32,
+        169
+      ],
+      "population": 1612,
+      "populationArea": "山本町豊田"
+    },
+    {
+      "id": 165,
+      "name": "文化センター前",
+      "lat": 33.3133381,
+      "lng": 130.5312066,
+      "connectedStopIds": [
+        52,
+        60
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 166,
+      "name": "旗崎",
+      "lat": 33.312991,
+      "lng": 130.5568442,
+      "connectedStopIds": [
+        98,
+        160
+      ],
+      "population": 737,
+      "populationArea": "御井旗崎二丁目"
+    },
+    {
+      "id": 167,
+      "name": "日吉町",
+      "lat": 33.3141397,
+      "lng": 130.5146125,
+      "connectedStopIds": [
+        168,
+        296
+      ],
+      "population": 1778,
+      "populationArea": "日吉町"
+    },
+    {
+      "id": 168,
+      "name": "日吉町・シティプラザ前",
+      "lat": 33.3141397,
+      "lng": 130.5146125,
+      "connectedStopIds": [
+        72,
+        167,
+        296
+      ],
+      "population": 1778,
+      "populationArea": "日吉町"
+    },
+    {
+      "id": 169,
+      "name": "日野曽根",
+      "lat": 33.3161283,
+      "lng": 130.5775302,
+      "connectedStopIds": [
+        137,
+        164,
+        260
+      ],
+      "population": 1612,
+      "populationArea": "山本町豊田"
+    },
+    {
+      "id": 170,
+      "name": "旭町団地前",
+      "lat": 33.3244445,
+      "lng": 130.509252,
+      "connectedStopIds": [
+        129,
+        262
+      ],
+      "population": 379,
+      "populationArea": "旭町"
+    },
+    {
+      "id": 171,
+      "name": "曽根崎",
+      "lat": null,
+      "lng": null,
+      "connectedStopIds": [
+        122,
+        179
+      ]
+    },
+    {
+      "id": 172,
+      "name": "朝妻",
+      "lat": 33.3104216,
+      "lng": 130.5474084,
+      "connectedStopIds": [
+        48,
+        87
+      ],
+      "population": 2480,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 173,
+      "name": "本分",
+      "lat": 33.2921048,
+      "lng": 130.5031324,
+      "connectedStopIds": [
+        204,
+        293
+      ],
+      "population": 6162,
+      "populationArea": "津福今町"
+    },
+    {
+      "id": 174,
+      "name": "本山",
+      "lat": 33.3103259,
+      "lng": 130.5435331,
+      "connectedStopIds": [
+        20,
+        92,
+        288
+      ],
+      "population": 7676,
+      "populationArea": "合川町"
+    },
+    {
+      "id": 175,
+      "name": "本町",
+      "lat": 33.3151421,
+      "lng": 130.5100036,
+      "connectedStopIds": [
+        72,
+        154,
+        285
+      ],
+      "population": 1403,
+      "populationArea": "本町"
+    },
+    {
+      "id": 176,
+      "name": "本町2丁目",
+      "lat": 33.3151421,
+      "lng": 130.5100036,
+      "connectedStopIds": [
+        178,
+        343
+      ],
+      "population": 1403,
+      "populationArea": "本町"
+    },
+    {
+      "id": 177,
+      "name": "本町四ツ角",
+      "lat": 33.3151421,
+      "lng": 130.5100036,
+      "connectedStopIds": [
+        144,
+        218
+      ],
+      "population": 1403,
+      "populationArea": "本町"
+    },
+    {
+      "id": 178,
+      "name": "本通町1丁目",
+      "lat": 33.5684127,
+      "lng": 130.3154442,
+      "connectedStopIds": [
+        176,
+        344
+      ],
+      "population": 748,
+      "populationArea": "拾六町一丁目"
+    },
+    {
+      "id": 179,
+      "name": "本鳥栖",
+      "lat": 33.3740089,
+      "lng": 130.5196313,
+      "connectedStopIds": [
+        171,
+        344
+      ],
+      "population": 96,
+      "populationArea": "京町"
+    },
+    {
+      "id": 180,
+      "name": "杉土井団地前",
+      "lat": 33.6349771,
+      "lng": 130.4662446,
+      "connectedStopIds": [
+        182,
+        202
+      ],
+      "population": 507,
+      "populationArea": "土井三丁目"
+    },
+    {
+      "id": 181,
+      "name": "東佐賀",
+      "lat": 33.3178342,
+      "lng": 130.3953418,
+      "connectedStopIds": [
+        10,
+        121,
+        222
+      ],
+      "population": 815,
+      "populationArea": "豆田上豆田"
+    },
+    {
+      "id": 182,
+      "name": "東分",
+      "lat": 33.2986879,
+      "lng": 130.5397342,
+      "connectedStopIds": [
+        180,
+        293
+      ],
+      "population": 7682,
+      "populationArea": "国分町"
+    },
+    {
+      "id": 183,
+      "name": "東合川",
+      "lat": 33.3218917,
+      "lng": 130.5555226,
+      "connectedStopIds": [
+        118,
+        316
+      ],
+      "population": 668,
+      "populationArea": "東合川七丁目"
+    },
+    {
+      "id": 184,
+      "name": "東合川商工団地",
+      "lat": 33.3218917,
+      "lng": 130.5555226,
+      "connectedStopIds": [
+        45,
+        90
+      ],
+      "population": 668,
+      "populationArea": "東合川七丁目"
+    },
+    {
+      "id": 185,
+      "name": "東尾・みやき町庁舎前",
+      "lat": 33.5200739,
+      "lng": 130.3904094,
+      "connectedStopIds": [
+        79,
+        189
+      ],
+      "population": 2959,
+      "populationArea": "柏原六丁目"
+    },
+    {
+      "id": 186,
+      "name": "東目達原",
+      "lat": 33.247224575689046,
+      "lng": 130.57621241663946,
+      "connectedStopIds": [
+        236,
+        311
+      ],
+      "population": 404,
+      "populationArea": "大字吉常"
+    },
+    {
+      "id": 187,
+      "name": "東野中",
+      "lat": 33.3061096,
+      "lng": 130.5361389,
+      "connectedStopIds": [
+        252,
+        314
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 188,
+      "name": "松山",
+      "lat": 33.3144097,
+      "lng": 130.5589832,
+      "connectedStopIds": [
+        116,
+        128
+      ],
+      "population": 737,
+      "populationArea": "御井旗崎二丁目"
+    },
+    {
+      "id": 189,
+      "name": "板部",
+      "lat": 33.5200739,
+      "lng": 130.3904094,
+      "connectedStopIds": [
+        40,
+        185
+      ],
+      "population": 2959,
+      "populationArea": "柏原六丁目"
+    },
+    {
+      "id": 190,
+      "name": "柳坂",
+      "lat": 33.3091613,
+      "lng": 130.5301202,
+      "connectedStopIds": [
+        32,
+        149
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 191,
+      "name": "柳病院前",
+      "lat": 33.2959885,
+      "lng": 130.5741335,
+      "connectedStopIds": [
+        108,
+        131
+      ],
+      "population": 0,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 192,
+      "name": "梅林寺",
+      "lat": 33.3231123,
+      "lng": 130.4982549,
+      "connectedStopIds": [
+        1,
+        267
+      ],
+      "population": 1164,
+      "populationArea": "京町"
+    },
+    {
+      "id": 193,
+      "name": "森山",
+      "lat": 33.455747,
+      "lng": 130.629721,
+      "connectedStopIds": [
+        35,
+        345
+      ],
+      "population": 315,
+      "populationArea": "森山"
+    },
+    {
+      "id": 194,
+      "name": "椛目",
+      "lat": 33.3265082,
+      "lng": 130.624567,
+      "connectedStopIds": [
+        11,
+        77
+      ],
+      "population": 170,
+      "populationArea": "善導寺町島"
+    },
+    {
+      "id": 195,
+      "name": "樋の口",
+      "lat": 33.3457418,
+      "lng": 130.7256287,
+      "connectedStopIds": [
+        161,
+        302
+      ],
+      "population": 289,
+      "populationArea": "田主丸町鷹取"
+    },
+    {
+      "id": 196,
+      "name": "横小路",
+      "lat": 33.27749,
+      "lng": 130.5311105,
+      "connectedStopIds": [
+        25,
+        29
+      ],
+      "population": 2963,
+      "populationArea": "上津町"
+    },
+    {
+      "id": 197,
+      "name": "横武",
+      "lat": 33.423838,
+      "lng": 130.564827,
+      "connectedStopIds": [
+        132,
+        245
+      ],
+      "population": 2466,
+      "populationArea": "三沢古賀"
+    },
+    {
+      "id": 198,
+      "name": "横馬場",
+      "lat": 33.232646599999995,
+      "lng": 130.48403595000002,
+      "connectedStopIds": [
+        31,
+        308
+      ],
+      "population": 4849,
+      "populationArea": "大字西牟田"
+    },
+    {
+      "id": 199,
+      "name": "樹蘭マルシェ",
+      "lat": 33.3773056,
+      "lng": 130.62430805,
+      "connectedStopIds": [
+        228,
+        235,
+        263
+      ],
+      "population": 2626,
+      "populationArea": "大字本郷"
+    },
+    {
+      "id": 200,
+      "name": "櫛原町",
+      "lat": 33.3192425,
+      "lng": 130.5150897,
+      "connectedStopIds": [
+        54,
+        306
+      ],
+      "population": 1406,
+      "populationArea": "櫛原町"
+    },
+    {
+      "id": 201,
+      "name": "殖木",
+      "lat": 33.3459871,
+      "lng": 130.7075729,
+      "connectedStopIds": [
+        23,
+        286
+      ],
+      "population": 735,
+      "populationArea": "田主丸町殖木"
+    },
+    {
+      "id": 202,
+      "name": "江口",
+      "lat": 33.3280497,
+      "lng": 130.4861878,
+      "connectedStopIds": [
+        180,
+        221
+      ],
+      "population": 1059,
+      "populationArea": "長門石三丁目"
+    },
+    {
+      "id": 203,
+      "name": "江戸屋敷",
+      "lat": 33.293556,
+      "lng": 130.513682,
+      "connectedStopIds": [
+        85,
+        315
+      ],
+      "population": 1656,
+      "populationArea": "南一丁目"
+    },
+    {
+      "id": 204,
+      "name": "江見",
+      "lat": 33.2641486,
+      "lng": 130.4187825,
+      "connectedStopIds": [
+        75,
+        173
+      ],
+      "population": 326,
+      "populationArea": "城島町下田"
+    },
+    {
+      "id": 205,
+      "name": "池の本",
+      "lat": 33.28227827760814,
+      "lng": 130.61264027060682,
+      "connectedStopIds": [
+        43,
+        44
+      ],
+      "population": 51,
+      "populationArea": "大字小椎尾"
+    },
+    {
+      "id": 206,
+      "name": "池の谷",
+      "lat": 33.3059236,
+      "lng": 130.5438312,
+      "connectedStopIds": [
+        49,
+        326
+      ],
+      "population": 2480,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 207,
+      "name": "池田",
+      "lat": 33.3580059,
+      "lng": 130.6145231,
+      "connectedStopIds": [
+        53,
+        151
+      ],
+      "population": 316,
+      "populationArea": "北野町中川"
+    },
+    {
+      "id": 208,
+      "name": "津福今町",
+      "lat": 33.2969909,
+      "lng": 130.4969242,
+      "connectedStopIds": [
+        209,
+        210
+      ],
+      "population": 6890,
+      "populationArea": "津福本町"
+    },
+    {
+      "id": 209,
+      "name": "津福今町(構内)",
+      "lat": 33.2966482,
+      "lng": 130.497887,
+      "connectedStopIds": [
+        208
+      ],
+      "population": 6890,
+      "populationArea": "津福本町"
+    },
+    {
+      "id": 210,
+      "name": "津福新堀",
+      "lat": 33.2966482,
+      "lng": 130.497887,
+      "connectedStopIds": [
+        85,
+        208
+      ],
+      "population": 6890,
+      "populationArea": "津福本町"
+    },
+    {
+      "id": 211,
+      "name": "津遊川",
+      "lat": 33.31906,
+      "lng": 130.5907993,
+      "connectedStopIds": [
+        5,
+        137
+      ],
+      "population": 1207,
+      "populationArea": "善導寺町木塚"
+    },
+    {
+      "id": 212,
+      "name": "流",
+      "lat": 33.3229991,
+      "lng": 130.5172496,
+      "connectedStopIds": [
+        43,
+        232
+      ],
+      "population": 5767,
+      "populationArea": "東櫛原町"
+    },
+    {
+      "id": 213,
+      "name": "浄化センター前",
+      "lat": 33.30966319995382,
+      "lng": 130.49225009519316,
+      "connectedStopIds": [
+        9,
+        140
+      ],
+      "population": 6817,
+      "populationArea": "梅満町"
+    },
+    {
+      "id": 214,
+      "name": "浮羽工業前",
+      "lat": 33.3442956,
+      "lng": 130.6953801,
+      "connectedStopIds": [
+        23,
+        226
+      ],
+      "population": 3886,
+      "populationArea": "田主丸町田主丸"
+    },
+    {
+      "id": 215,
+      "name": "浮羽発着所",
+      "lat": 33.3344232,
+      "lng": 130.7936304,
+      "connectedStopIds": [
+        34
+      ],
+      "population": 1547,
+      "populationArea": "大字西隈上"
+    },
+    {
+      "id": 216,
+      "name": "浮羽究真館高校前",
+      "lat": 33.3451051,
+      "lng": 130.7330726,
+      "connectedStopIds": [
+        254,
+        302
+      ],
+      "population": 302,
+      "populationArea": "大字生葉字岩光"
+    },
+    {
+      "id": 217,
+      "name": "淡河病院前",
+      "lat": null,
+      "lng": null,
+      "connectedStopIds": [
+        140,
+        141
+      ]
+    },
+    {
+      "id": 218,
+      "name": "清導寺",
+      "lat": 33.248215,
+      "lng": 130.486393,
+      "connectedStopIds": [
+        86,
+        177
+      ],
+      "population": 1303,
+      "populationArea": "三潴町西牟田"
+    },
+    {
+      "id": 219,
+      "name": "清瀬",
+      "lat": 33.3401257,
+      "lng": 130.7663917,
+      "connectedStopIds": [
+        102,
+        117
+      ],
+      "population": 300,
+      "populationArea": "大字清瀬字上吉井"
+    },
+    {
+      "id": 220,
+      "name": "湯納楚",
+      "lat": 33.2604388,
+      "lng": 130.5359872,
+      "connectedStopIds": [
+        6,
+        91
+      ],
+      "population": 724,
+      "populationArea": "大字藤田"
+    },
+    {
+      "id": 221,
+      "name": "瀬戸",
+      "lat": 33.3171623,
+      "lng": 130.5093493,
+      "connectedStopIds": [
+        42,
+        202
+      ],
+      "population": 3970,
+      "populationArea": "中央町"
+    },
+    {
+      "id": 222,
+      "name": "片田江",
+      "lat": 33.288335599999996,
+      "lng": 130.4124949,
+      "connectedStopIds": [
+        109,
+        181
+      ],
+      "population": 284,
+      "populationArea": "大字寄人字新村"
+    },
+    {
+      "id": 223,
+      "name": "牧",
+      "lat": 33.3390172,
+      "lng": 130.6493819,
+      "connectedStopIds": [
+        112,
+        150
+      ],
+      "population": 361,
+      "populationArea": "田主丸町牧"
+    },
+    {
+      "id": 224,
+      "name": "玄ケ野",
+      "lat": 33.2209783,
+      "lng": 130.502728,
+      "connectedStopIds": [
+        18,
+        24
+      ],
+      "population": 5499,
+      "populationArea": "大字熊野"
+    },
+    {
+      "id": 225,
+      "name": "瓦町",
+      "lat": 33.035183,
+      "lng": 130.463491,
+      "connectedStopIds": [
+        41,
+        123
+      ],
+      "population": 213,
+      "populationArea": "瓦町"
+    },
+    {
+      "id": 226,
+      "name": "田主丸そよ風ホール",
+      "lat": 33.3391289,
+      "lng": 130.6930497,
+      "connectedStopIds": [
+        214,
+        229
+      ],
+      "population": 3886,
+      "populationArea": "田主丸町田主丸"
+    },
+    {
+      "id": 227,
+      "name": "田主丸中央",
+      "lat": 33.34334,
+      "lng": 130.6907256,
+      "connectedStopIds": [
+        28,
+        230
+      ],
+      "population": 3886,
+      "populationArea": "田主丸町田主丸"
+    },
+    {
+      "id": 228,
+      "name": "田主丸中央病院",
+      "lat": 33.336543,
+      "lng": 130.689569,
+      "connectedStopIds": [
+        199,
+        230
+      ],
+      "population": 1695,
+      "populationArea": "田主丸町益生田"
+    },
+    {
+      "id": 229,
+      "name": "田主丸中央病院北",
+      "lat": 33.3391289,
+      "lng": 130.6930497,
+      "connectedStopIds": [
+        226,
+        230
+      ],
+      "population": 3886,
+      "populationArea": "田主丸町田主丸"
+    },
+    {
+      "id": 230,
+      "name": "田主丸駅前",
+      "lat": 33.3393028,
+      "lng": 130.6925053,
+      "connectedStopIds": [
+        227,
+        228,
+        229
+      ],
+      "population": 3886,
+      "populationArea": "田主丸町田主丸"
+    },
+    {
+      "id": 231,
+      "name": "田手・吉野ケ里歴史公園南",
+      "lat": 33.0758025,
+      "lng": 130.4663281,
+      "connectedStopIds": [
+        16,
+        333
+      ],
+      "population": 2315,
+      "populationArea": "大字倉永"
+    },
+    {
+      "id": 232,
+      "name": "町",
+      "lat": 33.3175984,
+      "lng": 130.5525032,
+      "connectedStopIds": [
+        144,
+        212
+      ],
+      "population": 533,
+      "populationArea": "東合川四丁目"
+    },
+    {
+      "id": 233,
+      "name": "白口",
+      "lat": 33.282383,
+      "lng": 130.500411,
+      "connectedStopIds": [
+        78,
+        284
+      ],
+      "population": 3683,
+      "populationArea": "荒木町白口"
+    },
+    {
+      "id": 234,
+      "name": "百年公園",
+      "lat": 33.3212456,
+      "lng": 130.5319514,
+      "connectedStopIds": [
+        3,
+        7,
+        328
+      ],
+      "population": 7676,
+      "populationArea": "合川町"
+    },
+    {
+      "id": 235,
+      "name": "益永",
+      "lat": 33.4180682,
+      "lng": 130.5590471,
+      "connectedStopIds": [
+        199,
+        345
+      ],
+      "population": 1642,
+      "populationArea": "三沢三沢"
+    },
+    {
+      "id": 236,
+      "name": "目達原",
+      "lat": 33.161857,
+      "lng": 130.734923,
+      "connectedStopIds": [
+        16,
+        186
+      ],
+      "population": 61,
+      "populationArea": "黒木町大淵"
+    },
+    {
+      "id": 237,
+      "name": "直代",
+      "lat": 33.5964508,
+      "lng": 130.4107159,
+      "connectedStopIds": [
+        143,
+        266
+      ],
+      "population": 756,
+      "populationArea": "店屋町"
+    },
+    {
+      "id": 238,
+      "name": "直鳥",
+      "lat": 33.3168433,
+      "lng": 130.5066207,
+      "connectedStopIds": [
+        114,
+        138
+      ],
+      "population": 3970,
+      "populationArea": "中央町"
+    },
+    {
+      "id": 239,
+      "name": "相川",
+      "lat": 33.2231741,
+      "lng": 130.3848144,
+      "connectedStopIds": [
+        290,
+        341
+      ],
+      "population": 390,
+      "populationArea": "大字中古賀"
+    },
+    {
+      "id": 240,
+      "name": "矢作",
+      "lat": 33.315292,
+      "lng": 130.627392,
+      "connectedStopIds": [
+        51,
+        106
+      ],
+      "population": 324,
+      "populationArea": "草野町矢作"
+    },
+    {
+      "id": 241,
+      "name": "矢取",
+      "lat": 33.3004648,
+      "lng": 130.5513938,
+      "connectedStopIds": [
+        68,
+        130,
+        265
+      ],
+      "population": 4829,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 242,
+      "name": "石崎",
+      "lat": 33.310182,
+      "lng": 130.549997,
+      "connectedStopIds": [
+        158,
+        244
+      ],
+      "population": 4829,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 243,
+      "name": "祐誠高等学校前",
+      "lat": 33.29206126980004,
+      "lng": 130.53081659269753,
+      "connectedStopIds": [
+        59,
+        317
+      ],
+      "population": 6742,
+      "populationArea": "国分町"
+    },
+    {
+      "id": 244,
+      "name": "神代",
+      "lat": 33.3203369,
+      "lng": 130.4962573,
+      "connectedStopIds": [
+        242,
+        316
+      ],
+      "population": 1164,
+      "populationArea": "京町"
+    },
+    {
+      "id": 245,
+      "name": "神埼協和町",
+      "lat": 33.3158334,
+      "lng": 130.3746061,
+      "connectedStopIds": [
+        197,
+        246
+      ],
+      "population": 683,
+      "populationArea": "大字田道ケ里字駅通り"
+    },
+    {
+      "id": 246,
+      "name": "神埼市役所前",
+      "lat": 33.3159402,
+      "lng": 130.3745448,
+      "connectedStopIds": [
+        245,
+        247
+      ],
+      "population": 683,
+      "populationArea": "大字田道ケ里字駅通り"
+    },
+    {
+      "id": 247,
+      "name": "神埼駅通り",
+      "lat": 33.3155782,
+      "lng": 130.3744749,
+      "connectedStopIds": [
+        246,
+        333
+      ],
+      "population": 683,
+      "populationArea": "大字田道ケ里字駅通り"
+    },
+    {
+      "id": 248,
+      "name": "禅院",
+      "lat": 33.26546,
+      "lng": 130.484033,
+      "connectedStopIds": [
+        35,
+        63
+      ],
+      "population": 1115,
+      "populationArea": "荒木町下荒木"
+    },
+    {
+      "id": 249,
+      "name": "福島",
+      "lat": 33.2938569,
+      "lng": 130.4585262,
+      "connectedStopIds": [
+        131,
+        292
+      ],
+      "population": 1156,
+      "populationArea": "安武町武島"
+    },
+    {
+      "id": 250,
+      "name": "福島高校前",
+      "lat": 33.4036773,
+      "lng": 130.5963523,
+      "connectedStopIds": [
+        97,
+        108
+      ],
+      "population": 564,
+      "populationArea": "山隈今隈"
+    },
+    {
+      "id": 251,
+      "name": "税務署前",
+      "lat": 33.3083533047634,
+      "lng": 130.52328582153385,
+      "connectedStopIds": [
+        296,
+        299
+      ],
+      "population": 8455,
+      "populationArea": "諏訪野町"
+    },
+    {
+      "id": 252,
+      "name": "競輪場口",
+      "lat": 33.3057702,
+      "lng": 130.5387311,
+      "connectedStopIds": [
+        187,
+        326
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 253,
+      "name": "竹の子",
+      "lat": 33.2908382,
+      "lng": 130.5657824,
+      "connectedStopIds": [
+        320
+      ],
+      "population": 9097,
+      "populationArea": "高良内町"
+    },
+    {
+      "id": 254,
+      "name": "竹重",
+      "lat": 33.34334,
+      "lng": 130.6907256,
+      "connectedStopIds": [
+        163,
+        216
+      ],
+      "population": 3886,
+      "populationArea": "田主丸町田主丸"
+    },
+    {
+      "id": 255,
+      "name": "竹野小学校前",
+      "lat": 33.377911142645225,
+      "lng": 130.6125608617616,
+      "connectedStopIds": [
+        15,
+        327
+      ],
+      "population": 246,
+      "populationArea": "大字春日"
+    },
+    {
+      "id": 256,
+      "name": "笹野団地前",
+      "lat": 33.30671445,
+      "lng": 130.53019940000001,
+      "connectedStopIds": [
+        42,
+        136
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 257,
+      "name": "筑後北小学校",
+      "lat": 33.24137488722121,
+      "lng": 130.50706990526368,
+      "connectedStopIds": [
+        13,
+        56
+      ],
+      "population": 2873,
+      "populationArea": "大字蔵数"
+    },
+    {
+      "id": 258,
+      "name": "筑後市役所前",
+      "lat": null,
+      "lng": null,
+      "connectedStopIds": [
+        2,
+        269,
+        270
+      ]
+    },
+    {
+      "id": 259,
+      "name": "筑後自動車免許試験場",
+      "lat": 33.308405,
+      "lng": 130.596466,
+      "connectedStopIds": [
+        24,
+        270
+      ],
+      "population": 1333,
+      "populationArea": "山本町耳納"
+    },
+    {
+      "id": 260,
+      "name": "筑水高校前",
+      "lat": 33.314382,
+      "lng": 130.5706046,
+      "connectedStopIds": [
+        169,
+        304
+      ],
+      "population": 3684,
+      "populationArea": "山川町"
+    },
+    {
+      "id": 261,
+      "name": "築島",
+      "lat": 33.3195985,
+      "lng": 130.5063274,
+      "connectedStopIds": [
+        1,
+        129,
+        154,
+        285
+      ],
+      "population": 1627,
+      "populationArea": "城南町"
+    },
+    {
+      "id": 262,
+      "name": "篠山3丁目",
+      "lat": 33.3216163,
+      "lng": 130.5084616,
+      "connectedStopIds": [
+        120,
+        170
+      ],
+      "population": 1627,
+      "populationArea": "城南町"
+    },
+    {
+      "id": 263,
+      "name": "紅乙女酒造",
+      "lat": null,
+      "lng": null,
+      "connectedStopIds": [
+        199
+      ]
+    },
+    {
+      "id": 264,
+      "name": "紅葉ケ丘",
+      "lat": 33.519731,
+      "lng": 130.46055,
+      "connectedStopIds": [
+        18,
+        303
+      ],
+      "population": 357,
+      "populationArea": "紅葉ケ丘東八丁目"
+    },
+    {
+      "id": 265,
+      "name": "紫山住宅前",
+      "lat": 33.304294,
+      "lng": 130.5496831,
+      "connectedStopIds": [
+        48,
+        159,
+        241
+      ],
+      "population": 2480,
+      "populationArea": "御井町"
+    },
+    {
+      "id": 266,
+      "name": "続命院",
+      "lat": 33.439535166401306,
+      "lng": 130.40770388502582,
+      "connectedStopIds": [
+        237,
+        287
+      ],
+      "population": 413,
+      "populationArea": "大字成竹"
+    },
+    {
+      "id": 267,
+      "name": "総合福祉会館前",
+      "lat": 33.325883515430505,
+      "lng": 130.4926679696831,
+      "connectedStopIds": [
+        192,
+        323
+      ],
+      "population": 808,
+      "populationArea": "長門石一丁目"
+    },
+    {
+      "id": 268,
+      "name": "縄手",
+      "lat": 33.318886,
+      "lng": 130.501202,
+      "connectedStopIds": [
+        1,
+        133,
+        285
+      ],
+      "population": 12,
+      "populationArea": "縄手町"
+    },
+    {
+      "id": 269,
+      "name": "羽犬塚下町",
+      "lat": 33.2099899,
+      "lng": 130.49753,
+      "connectedStopIds": [
+        44,
+        258
+      ],
+      "population": 2767,
+      "populationArea": "大字山ノ井"
+    },
+    {
+      "id": 270,
+      "name": "羽犬塚小学校前",
+      "lat": 33.2477817,
+      "lng": 130.4631678,
+      "connectedStopIds": [
+        258,
+        259
+      ],
+      "population": 821,
+      "populationArea": "三潴町玉満"
+    },
+    {
+      "id": 271,
+      "name": "羽犬塚駅東口",
+      "lat": 33.2477817,
+      "lng": 130.4631678,
+      "connectedStopIds": [
+        2
+      ],
+      "population": 821,
+      "populationArea": "三潴町玉満"
+    },
+    {
+      "id": 272,
+      "name": "老人センター",
+      "lat": 33.2768919,
+      "lng": 130.5279629,
+      "connectedStopIds": [
+        153,
+        335
+      ],
+      "population": 2963,
+      "populationArea": "上津町"
+    },
+    {
+      "id": 273,
+      "name": "聖マリア病院",
+      "lat": 33.3020861,
+      "lng": 130.5102264,
+      "connectedStopIds": [
+        74,
+        274
+      ],
+      "population": 0,
+      "populationArea": "津福本町"
+    },
+    {
+      "id": 274,
+      "name": "聖マリア病院前駅",
+      "lat": 33.3020861,
+      "lng": 130.5102264,
+      "connectedStopIds": [
+        110,
+        273
+      ],
+      "population": 0,
+      "populationArea": "津福本町"
+    },
+    {
+      "id": 275,
+      "name": "自衛隊アパート前",
+      "lat": 33.4026148,
+      "lng": 130.40837595,
+      "connectedStopIds": [
+        76,
+        115
+      ],
+      "population": 0,
+      "populationArea": "大字五ケ山"
+    },
+    {
+      "id": 276,
+      "name": "自衛隊幹部候補生学校",
+      "lat": 33.28837515,
+      "lng": 130.5027816,
+      "connectedStopIds": [
+        76,
+        319
+      ],
+      "population": 3683,
+      "populationArea": "荒木町白口"
+    },
+    {
+      "id": 277,
+      "name": "花畑",
+      "lat": 33.3059172,
+      "lng": 130.5152969,
+      "connectedStopIds": [
+        12,
+        278,
+        299,
+        332
+      ],
+      "population": 695,
+      "populationArea": "花畑一丁目"
+    },
+    {
+      "id": 278,
+      "name": "花畑北",
+      "lat": 33.3059172,
+      "lng": 130.5152969,
+      "connectedStopIds": [
+        157,
+        277
+      ],
+      "population": 695,
+      "populationArea": "花畑一丁目"
+    },
+    {
+      "id": 279,
+      "name": "苅原",
+      "lat": 33.4017702,
+      "lng": 130.5596173,
+      "connectedStopIds": [
+        12,
+        71
+      ],
+      "population": 231,
+      "populationArea": "大板井中央二"
+    },
+    {
+      "id": 280,
+      "name": "若宮橋",
+      "lat": 33.5739801,
+      "lng": 130.2338474,
+      "connectedStopIds": [
+        38,
+        142
+      ],
+      "population": 366,
+      "populationArea": "板持二丁目"
+    },
+    {
+      "id": 281,
+      "name": "草野上町",
+      "lat": 33.3113993,
+      "lng": 130.5877088,
+      "connectedStopIds": [
+        282,
+        283
+      ],
+      "population": 1612,
+      "populationArea": "山本町豊田"
+    },
+    {
+      "id": 282,
+      "name": "草野局前",
+      "lat": 33.31482349624849,
+      "lng": 130.6090891687573,
+      "connectedStopIds": [
+        51,
+        281
+      ],
+      "population": 1333,
+      "populationArea": "山本町耳納"
+    },
+    {
+      "id": 283,
+      "name": "草野駅前",
+      "lat": 33.3213359300161,
+      "lng": 130.64243570867873,
+      "connectedStopIds": [
+        281,
+        327
+      ],
+      "population": 296,
+      "populationArea": "草野町紅桃林"
+    },
+    {
+      "id": 284,
+      "name": "荒木駅前",
+      "lat": 33.27702108720294,
+      "lng": 130.5022416988874,
+      "connectedStopIds": [
+        30,
+        233
+      ],
+      "population": 3683,
+      "populationArea": "荒木町白口"
+    },
+    {
+      "id": 285,
+      "name": "荘島",
+      "lat": 33.3160101,
+      "lng": 130.5066078,
+      "connectedStopIds": [
+        175,
+        261,
+        268
+      ],
+      "population": 1973,
+      "populationArea": "荘島町"
+    },
+    {
+      "id": 286,
+      "name": "蔵町松原",
+      "lat": 33.3455337,
+      "lng": 130.7137197,
+      "connectedStopIds": [
+        161,
+        201
+      ],
+      "population": 648,
+      "populationArea": "田主丸町秋成"
+    },
+    {
+      "id": 287,
+      "name": "藤ノ木",
+      "lat": 33.28261953280261,
+      "lng": 130.40469187005164,
+      "connectedStopIds": [
+        95,
+        266
+      ],
+      "population": 123,
+      "populationArea": "大字寄人字続命院"
+    },
+    {
+      "id": 288,
+      "name": "藤光1丁目",
+      "lat": 33.284674,
+      "lng": 130.515056,
+      "connectedStopIds": [
+        174,
+        315
+      ],
+      "population": 603,
+      "populationArea": "藤光"
+    },
+    {
+      "id": 289,
+      "name": "西分",
+      "lat": 33.303099,
+      "lng": 130.526388,
+      "connectedStopIds": [
+        114,
+        298
+      ],
+      "population": 8455,
+      "populationArea": "諏訪野町"
+    },
+    {
+      "id": 290,
+      "name": "西原",
+      "lat": 33.3135307,
+      "lng": 130.5338255,
+      "connectedStopIds": [
+        13,
+        239
+      ],
+      "population": 7676,
+      "populationArea": "合川町"
+    },
+    {
+      "id": 291,
+      "name": "西原の町",
+      "lat": 33.26346854859794,
+      "lng": 130.3529498988871,
+      "connectedStopIds": [
+        64,
+        94
+      ],
+      "population": 379,
+      "populationArea": "大字境原字原の町"
+    },
+    {
+      "id": 292,
+      "name": "西唐人町",
+      "lat": 33.210352943809944,
+      "lng": 130.56266271978248,
+      "connectedStopIds": [
+        70,
+        249
+      ],
+      "population": 269,
+      "populationArea": "本町"
+    },
+    {
+      "id": 293,
+      "name": "西島",
+      "lat": 33.3280497,
+      "lng": 130.4861878,
+      "connectedStopIds": [
+        173,
+        182
+      ],
+      "population": 1059,
+      "populationArea": "長門石三丁目"
+    },
+    {
+      "id": 294,
+      "name": "西泉",
+      "lat": 33.31163747481788,
+      "lng": 130.60281480999586,
+      "connectedStopIds": [
+        37,
+        149
+      ],
+      "population": 1333,
+      "populationArea": "山本町耳納"
+    },
+    {
+      "id": 295,
+      "name": "西町",
+      "lat": 33.302493,
+      "lng": 130.517368,
+      "connectedStopIds": [
+        55,
+        92,
+        325
+      ],
+      "population": 5164,
+      "populationArea": "西町"
+    },
+    {
+      "id": 296,
+      "name": "西鉄久留米",
+      "lat": 33.3123758,
+      "lng": 130.5210285,
+      "connectedStopIds": [
+        60,
+        157,
+        167,
+        168,
+        251,
+        306
+      ],
+      "population": 2637,
+      "populationArea": "東町"
+    },
+    {
+      "id": 297,
+      "name": "西鉄鳥栖",
+      "lat": 33.36976,
+      "lng": 130.597437,
+      "connectedStopIds": [
+        343
+      ],
+      "population": 356,
+      "populationArea": "大字今"
+    },
+    {
+      "id": 298,
+      "name": "詫田",
+      "lat": 33.344681,
+      "lng": 130.697207,
+      "connectedStopIds": [
+        95,
+        289
+      ],
+      "population": 3886,
+      "populationArea": "田主丸町田主丸"
+    },
+    {
+      "id": 299,
+      "name": "諏訪野町5丁目",
+      "lat": 33.304330809526796,
+      "lng": 130.5255431430677,
+      "connectedStopIds": [
+        12,
+        251,
+        277
+      ],
+      "population": 8455,
+      "populationArea": "諏訪野町"
+    },
+    {
+      "id": 300,
+      "name": "豆津",
+      "lat": 33.314655,
+      "lng": 130.490086,
+      "connectedStopIds": [
+        136,
+        301
+      ],
+      "population": 2541,
+      "populationArea": "大石町"
+    },
+    {
+      "id": 301,
+      "name": "豆津橋",
+      "lat": 33.314655,
+      "lng": 130.490086,
+      "connectedStopIds": [
+        133,
+        300
+      ],
+      "population": 2541,
+      "populationArea": "大石町"
+    },
+    {
+      "id": 302,
+      "name": "資生堂前",
+      "lat": 33.342078,
+      "lng": 130.7295133,
+      "connectedStopIds": [
+        195,
+        216
+      ],
+      "population": 289,
+      "populationArea": "田主丸町鷹取"
+    },
+    {
+      "id": 303,
+      "name": "赤坂",
+      "lat": 33.3101916,
+      "lng": 130.558509,
+      "connectedStopIds": [
+        56,
+        264
+      ],
+      "population": 3684,
+      "populationArea": "山川町"
+    },
+    {
+      "id": 304,
+      "name": "追分",
+      "lat": 33.3135141,
+      "lng": 130.5666706,
+      "connectedStopIds": [
+        160,
+        260
+      ],
+      "population": 729,
+      "populationArea": "山川追分一丁目"
+    },
+    {
+      "id": 306,
+      "name": "通町6丁目",
+      "lat": 33.31593053267892,
+      "lng": 130.51860544306822,
+      "connectedStopIds": [
+        200,
+        296
+      ],
+      "population": 1173,
+      "populationArea": "通町"
+    },
+    {
+      "id": 307,
+      "name": "造出",
+      "lat": 33.5149973,
+      "lng": 130.3353799,
+      "connectedStopIds": [
+        8,
+        145
+      ],
+      "population": 180,
+      "populationArea": "東入部七丁目"
+    },
+    {
+      "id": 308,
+      "name": "道堀",
+      "lat": 33.2589824,
+      "lng": 130.5314257,
+      "connectedStopIds": [
+        130,
+        198
+      ],
+      "population": 981,
+      "populationArea": "荒木町藤田"
+    },
+    {
+      "id": 309,
+      "name": "道崎",
+      "lat": 33.257527447629876,
+      "lng": 130.33495336106137,
+      "connectedStopIds": [
+        64,
+        153
+      ],
+      "population": 1189,
+      "populationArea": "巨勢町大字修理田"
+    },
+    {
+      "id": 310,
+      "name": "道瀬橋",
+      "lat": 33.32682805025418,
+      "lng": 130.46307779703764,
+      "connectedStopIds": [
+        79,
+        88
+      ],
+      "population": 1116,
+      "populationArea": "大字白壁白壁"
+    },
+    {
+      "id": 311,
+      "name": "都紀女加王墓前",
+      "lat": 33.3325921513781,
+      "lng": 130.4175018332789,
+      "connectedStopIds": [
+        19,
+        186
+      ],
+      "population": 1454,
+      "populationArea": "大字坊所字井手口"
+    },
+    {
+      "id": 312,
+      "name": "酒井",
+      "lat": 33.3229991,
+      "lng": 130.5172496,
+      "connectedStopIds": [
+        122,
+        313
+      ],
+      "population": 5767,
+      "populationArea": "東櫛原町"
+    },
+    {
+      "id": 313,
+      "name": "酒井西",
+      "lat": 33.3280497,
+      "lng": 130.4861878,
+      "connectedStopIds": [
+        312,
+        337
+      ],
+      "population": 1059,
+      "populationArea": "長門石三丁目"
+    },
+    {
+      "id": 314,
+      "name": "野中中通り",
+      "lat": 33.3063476,
+      "lng": 130.5318196,
+      "connectedStopIds": [
+        187,
+        336
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 315,
+      "name": "野伏間",
+      "lat": 33.3441754,
+      "lng": 130.6352517,
+      "connectedStopIds": [
+        78,
+        93,
+        203,
+        288
+      ],
+      "population": 409,
+      "populationArea": "大橋町蜷川"
+    },
+    {
+      "id": 316,
+      "name": "野口",
+      "lat": 33.276683,
+      "lng": 130.468061,
+      "connectedStopIds": [
+        183,
+        244
+      ],
+      "population": 272,
+      "populationArea": "大善寺町藤吉"
+    },
+    {
+      "id": 317,
+      "name": "野添",
+      "lat": 33.307515,
+      "lng": 130.525499,
+      "connectedStopIds": [
+        152,
+        243
+      ],
+      "population": 8455,
+      "populationArea": "諏訪野町"
+    },
+    {
+      "id": 318,
+      "name": "野田",
+      "lat": 33.307154,
+      "lng": 130.527888,
+      "connectedStopIds": [
+        12,
+        57
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 319,
+      "name": "鑓水",
+      "lat": 33.3147763,
+      "lng": 130.5719162,
+      "connectedStopIds": [
+        128,
+        276
+      ],
+      "population": 644,
+      "populationArea": "山川安居野三丁目"
+    },
+    {
+      "id": 320,
+      "name": "長園",
+      "lat": 33.3108544,
+      "lng": 130.5685935,
+      "connectedStopIds": [
+        31,
+        253
+      ],
+      "population": 3684,
+      "populationArea": "山川町"
+    },
+    {
+      "id": 321,
+      "name": "長門石",
+      "lat": 33.32487,
+      "lng": 130.484554,
+      "connectedStopIds": [
+        89,
+        322
+      ],
+      "population": 209,
+      "populationArea": "長門石町"
+    },
+    {
+      "id": 322,
+      "name": "長門石団地入口",
+      "lat": 33.32943858633224,
+      "lng": 130.48532581053018,
+      "connectedStopIds": [
+        321,
+        323
+      ],
+      "population": 1519,
+      "populationArea": "長門石四丁目"
+    },
+    {
+      "id": 323,
+      "name": "長門石農協前",
+      "lat": 33.32865473086102,
+      "lng": 130.48708103936625,
+      "connectedStopIds": [
+        267,
+        322
+      ],
+      "population": 1903,
+      "populationArea": "長門石二丁目"
+    },
+    {
+      "id": 324,
+      "name": "門の上",
+      "lat": 33.3419812,
+      "lng": 130.6724874,
+      "connectedStopIds": [
+        17,
+        112
+      ],
+      "population": 586,
+      "populationArea": "田主丸町志塚島"
+    },
+    {
+      "id": 325,
+      "name": "附属校前",
+      "lat": 33.29530749260358,
+      "lng": 130.51702155470838,
+      "connectedStopIds": [
+        85,
+        295
+      ],
+      "population": 4022,
+      "populationArea": "西町"
+    },
+    {
+      "id": 326,
+      "name": "附設高校前",
+      "lat": 33.3057397,
+      "lng": 130.542525,
+      "connectedStopIds": [
+        206,
+        252
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 327,
+      "name": "隈",
+      "lat": 33.4332517,
+      "lng": 130.5638144,
+      "connectedStopIds": [
+        255,
+        283
+      ],
+      "population": 755,
+      "populationArea": "三国が丘一丁目"
+    },
+    {
+      "id": 328,
+      "name": "青少年科学館前",
+      "lat": 33.3172163,
+      "lng": 130.5294449,
+      "connectedStopIds": [
+        60,
+        98,
+        234
+      ],
+      "population": 7676,
+      "populationArea": "合川町"
+    },
+    {
+      "id": 329,
+      "name": "青峰団地",
+      "lat": 33.28226442598936,
+      "lng": 130.5574363258721,
+      "connectedStopIds": [
+        330
+      ],
+      "population": 1120,
+      "populationArea": "高良内町"
+    },
+    {
+      "id": 330,
+      "name": "青峰団地角",
+      "lat": 33.28118488035613,
+      "lng": 130.56044905841054,
+      "connectedStopIds": [
+        329,
+        331
+      ],
+      "population": 1062,
+      "populationArea": "青峰三丁目"
+    },
+    {
+      "id": 331,
+      "name": "青峰校前",
+      "lat": 33.28367603839614,
+      "lng": 130.56105132772348,
+      "connectedStopIds": [
+        115,
+        330
+      ],
+      "population": 423,
+      "populationArea": "青峰二丁目"
+    },
+    {
+      "id": 332,
+      "name": "鞍打",
+      "lat": 33.3031257,
+      "lng": 130.5198435,
+      "connectedStopIds": [
+        55,
+        277
+      ],
+      "population": 5164,
+      "populationArea": "西町"
+    },
+    {
+      "id": 333,
+      "name": "駅ケ里",
+      "lat": 33.316290804574486,
+      "lng": 130.37922563936579,
+      "connectedStopIds": [
+        231,
+        247
+      ],
+      "population": 635,
+      "populationArea": "大字田道ケ里字駅ケ里"
+    },
+    {
+      "id": 334,
+      "name": "高専前",
+      "lat": 33.5605327,
+      "lng": 130.2141114,
+      "connectedStopIds": [
+        83,
+        147
+      ],
+      "population": 403,
+      "populationArea": "伊都の杜一丁目"
+    },
+    {
+      "id": 335,
+      "name": "高尾",
+      "lat": 33.2768919,
+      "lng": 130.5279629,
+      "connectedStopIds": [
+        10,
+        272
+      ],
+      "population": 2963,
+      "populationArea": "上津町"
+    },
+    {
+      "id": 336,
+      "name": "高屋敷",
+      "lat": 33.3078138,
+      "lng": 130.5288931,
+      "connectedStopIds": [
+        36,
+        314
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 337,
+      "name": "高田",
+      "lat": 33.326431,
+      "lng": 130.608937,
+      "connectedStopIds": [
+        146,
+        313
+      ],
+      "population": 3672,
+      "populationArea": "善導寺町飯田"
+    },
+    {
+      "id": 338,
+      "name": "高良",
+      "lat": 33.311123,
+      "lng": 130.5363267,
+      "connectedStopIds": [
+        158,
+        339
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 339,
+      "name": "高良北",
+      "lat": 33.335191,
+      "lng": 130.57407,
+      "connectedStopIds": [
+        81,
+        338
+      ],
+      "population": 1100,
+      "populationArea": "北野町高良"
+    },
+    {
+      "id": 340,
+      "name": "高良台",
+      "lat": 33.2768919,
+      "lng": 130.5279629,
+      "connectedStopIds": [
+        119,
+        341
+      ],
+      "population": 2963,
+      "populationArea": "上津町"
+    },
+    {
+      "id": 341,
+      "name": "高良台リハビリテーション病院前",
+      "lat": 33.26511968175213,
+      "lng": 130.5110643700511,
+      "connectedStopIds": [
+        239,
+        340
+      ],
+      "population": 7160,
+      "populationArea": "荒木町荒木"
+    },
+    {
+      "id": 342,
+      "name": "高良川",
+      "lat": 33.3111308,
+      "lng": 130.5367648,
+      "connectedStopIds": [
+        52,
+        84
+      ],
+      "population": 9352,
+      "populationArea": "野中町"
+    },
+    {
+      "id": 343,
+      "name": "鳥栖元町",
+      "lat": 33.3709618,
+      "lng": 130.4969922,
+      "connectedStopIds": [
+        176,
+        297
+      ],
+      "population": 0,
+      "populationArea": "蔵上町"
+    },
+    {
+      "id": 344,
+      "name": "鳥栖駅前",
+      "lat": 33.374420709690554,
+      "lng": 130.51893879703954,
+      "connectedStopIds": [
+        178,
+        179
+      ],
+      "population": 96,
+      "populationArea": "京町"
+    },
+    {
+      "id": 345,
+      "name": "麦生",
+      "lat": 33.5954271,
+      "lng": 130.3939861,
+      "connectedStopIds": [
+        193,
+        235
+      ],
+      "population": 786,
+      "populationArea": "長浜一丁目"
+    }
+  ]
+}

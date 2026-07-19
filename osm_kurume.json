@@ -1,0 +1,3299 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-16T13:37:46Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 265889176,
+  "lat": 33.3200500,
+  "lon": 130.6094780,
+  "tags": {
+    "KSJ2:LIN": "久大線",
+    "KSJ2:STN": "善導寺",
+    "name": "善導寺",
+    "name:en": "Zendoji",
+    "name:ja": "善導寺",
+    "name:ko": "젠도지",
+    "network": "JR久大線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q4405136",
+    "wikipedia": "ja:善導寺駅"
+  }
+},
+{
+  "type": "node",
+  "id": 265889208,
+  "lat": 33.3127388,
+  "lon": 130.5625244,
+  "tags": {
+    "KSJ2:LIN": "久大線",
+    "KSJ2:STN": "御井",
+    "name": "御井",
+    "name:en": "Mii",
+    "name:ja": "御井",
+    "name:ko": "미이",
+    "network": "JR久大線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q4405132",
+    "wikipedia": "ja:御井駅"
+  }
+},
+{
+  "type": "node",
+  "id": 265889246,
+  "lat": 33.3030897,
+  "lon": 130.5327206,
+  "tags": {
+    "KSJ2:LIN": "久大線",
+    "KSJ2:STN": "南久留米",
+    "name": "南久留米",
+    "name:en": "Minami-Kurume",
+    "name:ja": "南久留米",
+    "name:ko": "미나미쿠루메",
+    "network": "JR久大線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年 国土交通省",
+    "operator": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q6862946",
+    "wikipedia": "ja:南久留米駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267463061,
+  "lat": 33.2864762,
+  "lon": 130.4893219,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "安武",
+    "name": "安武",
+    "name:en": "Yasutake",
+    "name:ja": "安武",
+    "name:ko": "야스타케",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11450897",
+    "wikipedia": "ja:安武駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267463145,
+  "lat": 33.3020861,
+  "lon": 130.5102264,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "試験場前",
+    "alt_name:ko": "시켄조마에",
+    "name": "聖マリア病院前駅",
+    "name:en": "St. Mary Hospital Station",
+    "name:ja": "聖マリア病院前駅",
+    "name:ko": "세인트 마리아 병원 앞 역",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11631360"
+  }
+},
+{
+  "type": "node",
+  "id": 267463374,
+  "lat": 33.2477817,
+  "lon": 130.4631678,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "犬塚",
+    "name": "犬塚",
+    "name:en": "Inuzuka",
+    "name:ja": "犬塚",
+    "name:ko": "이누즈카",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "usage": "main",
+    "wikidata": "Q11571193",
+    "wikipedia": "ja:犬塚駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267463389,
+  "lat": 33.2562224,
+  "lon": 130.4695070,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "三潴",
+    "name": "三潴",
+    "name:en": "Mizuma",
+    "name:ja": "三潴",
+    "name:ko": "미즈마",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q6884863",
+    "wikipedia": "ja:三潴駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267463400,
+  "lat": 33.3123758,
+  "lon": 130.5210285,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "西鉄久留米",
+    "name": "西鉄久留米",
+    "name:en": "Nishitetsu Kurume",
+    "name:ja": "西鉄久留米",
+    "name:ko": "니시테쓰쿠루메",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q7040736",
+    "wikipedia": "ja:西鉄久留米駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267463584,
+  "lat": 33.2966482,
+  "lon": 130.4978870,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "津福",
+    "name": "津福",
+    "name:en": "Tsubuku",
+    "name:ja": "津福",
+    "name:ko": "쓰부쿠",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11556360",
+    "wikipedia": "ja:津福駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267463835,
+  "lat": 33.2705140,
+  "lon": 130.4740487,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "大善寺",
+    "name": "大善寺",
+    "name:en": "Daizenji",
+    "name:ja": "大善寺",
+    "name:ko": "다이젠지",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q5209854",
+    "wikipedia": "ja:大善寺駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267598344,
+  "lat": 33.3304883,
+  "lon": 130.5398823,
+  "tags": {
+    "KSJ2:LIN": "甘木線",
+    "KSJ2:STN": "五郎丸",
+    "name": "五郎丸",
+    "name:en": "Goromaru",
+    "name:ja": "五郎丸",
+    "name:ko": "고로마루",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11372693",
+    "wikipedia": "ja:五郎丸駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267598373,
+  "lat": 33.3436259,
+  "lon": 130.5668643,
+  "tags": {
+    "KSJ2:LIN": "甘木線",
+    "KSJ2:STN": "古賀茶屋",
+    "name": "古賀茶屋",
+    "name:en": "Kogan'chaya",
+    "name:ja": "古賀茶屋",
+    "name:ko": "고간차야",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11411698",
+    "wikipedia": "ja:古賀茶屋駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267598384,
+  "lat": 33.3530650,
+  "lon": 130.6228190,
+  "tags": {
+    "KSJ2:LIN": "甘木線",
+    "KSJ2:STN": "金島",
+    "name": "金島",
+    "name:en": "Kaneshima",
+    "name:ja": "金島",
+    "name:ko": "가네시마",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11647040",
+    "wikipedia": "ja:金島駅 (福岡県)"
+  }
+},
+{
+  "type": "node",
+  "id": 267598398,
+  "lat": 33.3365794,
+  "lon": 130.5475904,
+  "tags": {
+    "KSJ2:LIN": "甘木線",
+    "KSJ2:STN": "学校前",
+    "alt_name:ko": "갓코마에",
+    "name": "学校前",
+    "name:en": "Elementary School",
+    "name:ja": "学校前",
+    "name:ko": "학교앞",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11448249",
+    "wikipedia": "ja:学校前駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267598401,
+  "lat": 33.3509254,
+  "lon": 130.6081077,
+  "tags": {
+    "KSJ2:LIN": "甘木線",
+    "KSJ2:STN": "大城",
+    "name": "大城",
+    "name:en": "Ohki",
+    "name:ja": "大城",
+    "name:ko": "오키",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11433849",
+    "wikipedia": "ja:大城駅"
+  }
+},
+{
+  "type": "node",
+  "id": 267598429,
+  "lat": 33.3453760,
+  "lon": 130.5828430,
+  "tags": {
+    "KSJ2:LIN": "甘木線",
+    "KSJ2:STN": "北野",
+    "name": "北野",
+    "name:en": "Kitano",
+    "name:ja": "北野",
+    "name:ko": "기타노",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11404333",
+    "wikipedia": "ja:北野駅 (福岡県)"
+  }
+},
+{
+  "type": "node",
+  "id": 267598503,
+  "lat": 33.3291051,
+  "lon": 130.5308132,
+  "tags": {
+    "KSJ2:LIN": "甘木線",
+    "KSJ2:STN": "宮の陣",
+    "local_ref": "1",
+    "name": "宮の陣",
+    "name:en": "Miyanojin",
+    "name:ja": "宮の陣",
+    "name:ko": "미야노진",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q6884381",
+    "wikipedia": "ja:宮の陣駅"
+  }
+},
+{
+  "type": "node",
+  "id": 1595642606,
+  "lat": 33.3129910,
+  "lon": 130.5568442,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "旗崎 Hatazaki",
+    "name:en": "Hatazaki",
+    "name:ja": "旗崎",
+    "source": "bing",
+    "source:name": "knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 1595642643,
+  "lat": 33.3124353,
+  "lon": 130.5512860,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "合川",
+    "name:en": "Aikawa",
+    "name:ja": "合川",
+    "source": "bing",
+    "source:name": "knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 1595642664,
+  "lat": 33.3129925,
+  "lon": 130.5573432,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "旗崎 Hatazaki",
+    "name:en": "Hatazaki",
+    "name:ja": "旗崎",
+    "source": "bing",
+    "source:name": "knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 1846952860,
+  "lat": 33.2984914,
+  "lon": 130.5164179,
+  "tags": {
+    "alt_name:ko": "구루메코코마에",
+    "name": "久留米高校前",
+    "name:en": "Kurume-Kōkōmae",
+    "name:ja": "久留米高校前",
+    "name:ja-Hira": "くるめこうこうまえ",
+    "name:ko": "구루메고교앞",
+    "network": "JR久大線",
+    "operator": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "GPS",
+    "source:name": "survey",
+    "train": "yes",
+    "wikidata": "Q5359544",
+    "wikipedia": "ja:久留米高校前駅"
+  }
+},
+{
+  "type": "node",
+  "id": 1846994791,
+  "lat": 33.3117683,
+  "lon": 130.5342271,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "久留米総合庁舎前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1846994796,
+  "lat": 33.3146331,
+  "lon": 130.5273682,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "五穀神社",
+    "name:en": "Gokoku Shrine",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1846994809,
+  "lat": 33.3107102,
+  "lon": 130.5386927,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "十三部",
+    "name:en": "Jusanbu",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1846994810,
+  "lat": 33.3101559,
+  "lon": 130.5428741,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "千本杉",
+    "name:en": "Senbonsugi",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1846994811,
+  "lat": 33.3133289,
+  "lon": 130.5307582,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "文化センター前",
+    "name:en": "Culture Center",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1846994813,
+  "lat": 33.3111230,
+  "lon": 130.5363267,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "高良川",
+    "name:en": "Koura River",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1847004007,
+  "lat": 33.3142442,
+  "lon": 130.5133076,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "六つ門",
+    "name:en": "Mutsumon",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1847004026,
+  "lat": 33.3151421,
+  "lon": 130.5100036,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "本町",
+    "name:en": "Hommachi",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1847004030,
+  "lat": 33.3160101,
+  "lon": 130.5066078,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "荘島",
+    "name:en": "Shoujima",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 1847014266,
+  "lat": 33.3131227,
+  "lon": 130.5626633,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "御井駅前",
+    "name:en": "Mii Station",
+    "name:ja": "御井駅前",
+    "source": "bing",
+    "source:name": "knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 2024594307,
+  "lat": 33.3449138,
+  "lon": 130.6987810,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "上田主丸",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024594308,
+  "lat": 33.3450440,
+  "lon": 130.6996164,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "上田主丸",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024594310,
+  "lat": 33.3457909,
+  "lon": 130.7207509,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "徳童",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024594311,
+  "lat": 33.3458256,
+  "lon": 130.7201068,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "徳童",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024594312,
+  "lat": 33.3456592,
+  "lon": 130.7249365,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "樋の口",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024594313,
+  "lat": 33.3457418,
+  "lon": 130.7256287,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "樋の口",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024594314,
+  "lat": 33.3459871,
+  "lon": 130.7075729,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "殖木",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024594315,
+  "lat": 33.3460490,
+  "lon": 130.7077929,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "殖木",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024594316,
+  "lat": 33.3455337,
+  "lon": 130.7137197,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "蔵町松原",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024594317,
+  "lat": 33.3456344,
+  "lon": 130.7137506,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "蔵町松原",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024595868,
+  "lat": 33.3426776,
+  "lon": 130.6841364,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "下田主丸",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024595869,
+  "lat": 33.3428415,
+  "lon": 130.6850599,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "下田主丸",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024595870,
+  "lat": 33.3442956,
+  "lon": 130.6953801,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "浮羽工業高校前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024595871,
+  "lat": 33.3442920,
+  "lon": 130.6961119,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "浮羽工業高校前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024595872,
+  "lat": 33.3433400,
+  "lon": 130.6907256,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "田主丸中央",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024595873,
+  "lat": 33.3434233,
+  "lon": 130.6902955,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "田主丸中央",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024599461,
+  "lat": 33.3393028,
+  "lon": 130.6925053,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "田主丸駅前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024605694,
+  "lat": 33.3422273,
+  "lon": 130.6773539,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "上原",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024605698,
+  "lat": 33.3410728,
+  "lon": 130.6598983,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "唐島",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024605702,
+  "lat": 33.3411170,
+  "lon": 130.6612604,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "唐島",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024605706,
+  "lat": 33.3390172,
+  "lon": 130.6493819,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "牧",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024605710,
+  "lat": 33.3419812,
+  "lon": 130.6724874,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "門の上",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024605711,
+  "lat": 33.3420567,
+  "lon": 130.6722648,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "門の上",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675312,
+  "lat": 33.3276019,
+  "lon": 130.6271192,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "ローソン常持店前",
+    "name:ko": "로손",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675313,
+  "lat": 33.3248872,
+  "lon": 130.6148289,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "勿体島",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675314,
+  "lat": 33.3250960,
+  "lon": 130.6155344,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "勿体島",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675315,
+  "lat": 33.3326655,
+  "lon": 130.6371087,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "合楽団地前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675316,
+  "lat": 33.3330774,
+  "lon": 130.6377122,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "合楽団地前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675317,
+  "lat": 33.3235778,
+  "lon": 130.6056396,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "善導寺",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675318,
+  "lat": 33.3239045,
+  "lon": 130.6064695,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "善導寺",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675319,
+  "lat": 33.3377824,
+  "lon": 130.6457581,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "川崎",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675320,
+  "lat": 33.3308011,
+  "lon": 130.6338424,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "常持",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675321,
+  "lat": 33.3311107,
+  "lon": 130.6342226,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "常持",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675322,
+  "lat": 33.3265082,
+  "lon": 130.6245670,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "椛目",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024675323,
+  "lat": 33.3265164,
+  "lon": 130.6248935,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "椛目",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696136,
+  "lat": 33.3222970,
+  "lon": 130.6012376,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "与田",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696140,
+  "lat": 33.3225090,
+  "lon": 130.6018426,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "与田",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696144,
+  "lat": 33.3174813,
+  "lon": 130.5841003,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "太郎原",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696148,
+  "lat": 33.3175958,
+  "lon": 130.5836047,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "太郎原",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696158,
+  "lat": 33.3130566,
+  "lon": 130.5613531,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "御井駅前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696162,
+  "lat": 33.3161283,
+  "lon": 130.5775302,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "日野曽根",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696163,
+  "lat": 33.3190600,
+  "lon": 130.5907993,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "津遊川",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696164,
+  "lat": 33.3193946,
+  "lon": 130.5917806,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "津遊川",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696165,
+  "lat": 33.3143820,
+  "lon": 130.5706046,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "筑水高校前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696166,
+  "lat": 33.3147763,
+  "lon": 130.5719162,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "筑水高校前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696169,
+  "lat": 33.3204436,
+  "lon": 130.5952648,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "緑化センター前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696172,
+  "lat": 33.3206776,
+  "lon": 130.5963352,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "緑化センター前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696173,
+  "lat": 33.3135141,
+  "lon": 130.5666706,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "追分",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024696174,
+  "lat": 33.3135178,
+  "lon": 130.5658038,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "追分",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2024702252,
+  "lat": 33.3185307,
+  "lon": 130.5092222,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "市役所前"
+  }
+},
+{
+  "type": "node",
+  "id": 2024702253,
+  "lat": 33.3188831,
+  "lon": 130.5087749,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "市役所前"
+  }
+},
+{
+  "type": "node",
+  "id": 2025977843,
+  "lat": 33.3064345,
+  "lon": 130.5537241,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "御井町",
+    "name:en": "Mii Town"
+  }
+},
+{
+  "type": "node",
+  "id": 2036200904,
+  "lat": 33.3206735,
+  "lon": 130.5014231,
+  "tags": {
+    "local_ref": "3",
+    "name": "久留米",
+    "name:de": "Kurume",
+    "name:en": "Kurume",
+    "name:ja": "久留米",
+    "name:ko": "구루메",
+    "operator": "九州旅客鉄道",
+    "operator:en": "Kyushu Railway Company",
+    "operator:ja": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "JB17",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2342309279,
+  "lat": 33.3231123,
+  "lon": 130.4982549,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "梅林寺",
+    "name:en": "Bailin Temple",
+    "source": "GPS"
+  }
+},
+{
+  "type": "node",
+  "id": 2342310921,
+  "lat": 33.3138582,
+  "lon": 130.5158228,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "日吉町",
+    "name:en": "Hiyoshi Machi",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2342314592,
+  "lat": 33.3002169,
+  "lon": 130.5285880,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "一丁田",
+    "name:en": "Iccho'da",
+    "source": "GPS"
+  }
+},
+{
+  "type": "node",
+  "id": 2342345903,
+  "lat": 33.3107141,
+  "lon": 130.5391651,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "十三部",
+    "name:en": "Jusanbu",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3011789512,
+  "lat": 33.3201933,
+  "lon": 130.5026157,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "JR久留米駅5",
+    "name:en": "JR Kurume Station 5",
+    "source": "GPS"
+  }
+},
+{
+  "type": "node",
+  "id": 3011789514,
+  "lat": 33.3203563,
+  "lon": 130.5025193,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "JR久留米駅3",
+    "name:en": "JR Kurume Station 3"
+  }
+},
+{
+  "type": "node",
+  "id": 3011789515,
+  "lat": 33.3204677,
+  "lon": 130.5024239,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "JR久留米駅2",
+    "name:en": "JR Kurume Station 2"
+  }
+},
+{
+  "type": "node",
+  "id": 3011789516,
+  "lat": 33.3204597,
+  "lon": 130.5022888,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "JR久留米駅1",
+    "name:en": "JR Kurume Station 1"
+  }
+},
+{
+  "type": "node",
+  "id": 3011789521,
+  "lat": 33.3201859,
+  "lon": 130.5024101,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "JR久留米駅4",
+    "name:en": "JR Kurume Station 4",
+    "network": "西鉄バス"
+  }
+},
+{
+  "type": "node",
+  "id": 3011807065,
+  "lat": 33.3133381,
+  "lon": 130.5312066,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "文化センター前",
+    "name:en": "Culture Center",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3085819195,
+  "lat": 33.3210335,
+  "lon": 130.5392283,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "ゆめタウン 久留米",
+    "name:en": "YouMe Town Kurume",
+    "source": "bing,2011"
+  }
+},
+{
+  "type": "node",
+  "id": 3086130780,
+  "lat": 33.3275739,
+  "lon": 130.5102030,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "医学部前",
+    "name:en": "Medical School",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3086130781,
+  "lat": 33.3258923,
+  "lon": 130.5104283,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "大学病院",
+    "name:en": "University Hospital",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3086130782,
+  "lat": 33.3263857,
+  "lon": 130.5098379,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "大学病院",
+    "name:en": "University Hospital",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3086130783,
+  "lat": 33.3244445,
+  "lon": 130.5092520,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "旭町団地前",
+    "name:en": "Asahimachi Danchi",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3086130784,
+  "lat": 33.3195985,
+  "lon": 130.5063274,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "築島",
+    "name:en": "Tsukijima",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3103919554,
+  "lat": 33.3121670,
+  "lon": 130.5334272,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "久留米総合庁舎前",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3103919555,
+  "lat": 33.3146722,
+  "lon": 130.5266566,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "五穀神社",
+    "name:en": "Gokoku Shrine",
+    "public_transport": "platform",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3103919556,
+  "lat": 33.3103259,
+  "lon": 130.5435331,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "千本杉",
+    "name:en": "Senbonsugi",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3103919557,
+  "lat": 33.3122580,
+  "lon": 130.5502301,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "合川",
+    "name:en": "Aikawa",
+    "name:ja": "合川",
+    "source": "GPS",
+    "source:name": "knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 3103919558,
+  "lat": 33.3111308,
+  "lon": 130.5367648,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "高良川",
+    "name:en": "Koura River",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 3250773566,
+  "lat": 33.3206398,
+  "lon": 130.5012693,
+  "tags": {
+    "local_ref": "5",
+    "name": "久留米",
+    "name:de": "Kurume",
+    "name:en": "Kurume",
+    "name:ja": "久留米",
+    "name:ko": "구루메",
+    "operator": "九州旅客鉄道",
+    "operator:en": "Kyushu Railway Company",
+    "operator:ja": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "JB17",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3250788116,
+  "lat": 33.3209669,
+  "lon": 130.5010013,
+  "tags": {
+    "name": "久留米",
+    "name:de": "Kurume",
+    "name:en": "Kurume",
+    "name:ja": "久留米",
+    "name:ko": "구루메",
+    "operator": "九州旅客鉄道",
+    "operator:en": "Kyushu Railway Company",
+    "operator:ja": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "11",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3250788145,
+  "lat": 33.3209824,
+  "lon": 130.5010420,
+  "tags": {
+    "name": "久留米",
+    "name:de": "Kurume",
+    "name:en": "Kurume",
+    "name:ja": "久留米",
+    "name:ko": "구루메",
+    "operator": "九州旅客鉄道",
+    "operator:en": "Kyushu Railway Company",
+    "operator:ja": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "12",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4403826663,
+  "lat": 33.3148364,
+  "lon": 130.5119749,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 4403836248,
+  "lat": 33.3141397,
+  "lon": 130.5146125,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "日吉町",
+    "name:en": "Hiyoshi Machi",
+    "source": "GPS",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 4403852063,
+  "lat": 33.3154590,
+  "lon": 130.5096930,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 4405117392,
+  "lat": 33.3159797,
+  "lon": 130.5186185,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 4405127294,
+  "lat": 33.3173372,
+  "lon": 130.5131405,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 4405131936,
+  "lat": 33.3197390,
+  "lon": 130.5054970,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 4544206097,
+  "lat": 33.3227150,
+  "lon": 130.5089260,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "篠山3丁目"
+  }
+},
+{
+  "type": "node",
+  "id": 4571085991,
+  "lat": 33.3205020,
+  "lon": 130.5081550,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "市民会館前"
+  }
+},
+{
+  "type": "node",
+  "id": 4571111693,
+  "lat": 33.3146550,
+  "lon": 130.4900860,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "豆津橋"
+  }
+},
+{
+  "type": "node",
+  "id": 4571118092,
+  "lat": 33.3100590,
+  "lon": 130.4878560,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "油田"
+  }
+},
+{
+  "type": "node",
+  "id": 4571152590,
+  "lat": 33.3197180,
+  "lon": 130.5076990,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "市民会館前"
+  }
+},
+{
+  "type": "node",
+  "id": 4571165191,
+  "lat": 33.2652980,
+  "lon": 130.4698460,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "早津崎"
+  }
+},
+{
+  "type": "node",
+  "id": 4571203793,
+  "lat": 33.2741600,
+  "lon": 130.4738290,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "宮前"
+  }
+},
+{
+  "type": "node",
+  "id": 4571212789,
+  "lat": 33.2912440,
+  "lon": 130.4928830,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "目安町"
+  }
+},
+{
+  "type": "node",
+  "id": 4571213689,
+  "lat": 33.2844950,
+  "lon": 130.4863150,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "安武"
+  }
+},
+{
+  "type": "node",
+  "id": 4571345690,
+  "lat": 33.2715190,
+  "lon": 130.4739860,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "大善寺駅"
+  }
+},
+{
+  "type": "node",
+  "id": 4935485656,
+  "lat": 33.3351985,
+  "lon": 130.5427436,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 4935485661,
+  "lat": 33.3347279,
+  "lon": 130.5423735,
+  "tags": {
+    "highway": "bus_stop"
+  }
+},
+{
+  "type": "node",
+  "id": 5177461421,
+  "lat": 33.3247386,
+  "lon": 130.5094631,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "旭町団地前"
+  }
+},
+{
+  "type": "node",
+  "id": 5192616922,
+  "lat": 33.3197167,
+  "lon": 130.5422658,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Tジョイ・ゆめタウン入口",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5213236131,
+  "lat": 33.2971013,
+  "lon": 130.4942457,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "津福本町"
+  }
+},
+{
+  "type": "node",
+  "id": 5213274022,
+  "lat": 33.3216163,
+  "lon": 130.5084616,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "篠山三丁目"
+  }
+},
+{
+  "type": "node",
+  "id": 5213302121,
+  "lat": 33.3229991,
+  "lon": 130.5172496,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "久留米警察署前"
+  }
+},
+{
+  "type": "node",
+  "id": 5218890022,
+  "lat": 33.2741330,
+  "lon": 130.4740179,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "宮前"
+  }
+},
+{
+  "type": "node",
+  "id": 5218894921,
+  "lat": 33.2969909,
+  "lon": 130.4969242,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "津福本町"
+  }
+},
+{
+  "type": "node",
+  "id": 5218930723,
+  "lat": 33.3212456,
+  "lon": 130.5319514,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "百年公園",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5218935624,
+  "lat": 33.3205877,
+  "lon": 130.5335514,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "百年公園",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5218935626,
+  "lat": 33.3218917,
+  "lon": 130.5555226,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "東合川"
+  }
+},
+{
+  "type": "node",
+  "id": 5218971121,
+  "lat": 33.3254248,
+  "lon": 130.5228247,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "吉原"
+  }
+},
+{
+  "type": "node",
+  "id": 5218992123,
+  "lat": 33.3232351,
+  "lon": 130.4983917,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "梅林寺"
+  }
+},
+{
+  "type": "node",
+  "id": 5220585823,
+  "lat": 33.3023631,
+  "lon": 130.5001773,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "西小路"
+  }
+},
+{
+  "type": "node",
+  "id": 5220770021,
+  "lat": 33.3256337,
+  "lon": 130.5227990,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "吉原"
+  }
+},
+{
+  "type": "node",
+  "id": 5394847329,
+  "lat": 33.3110100,
+  "lon": 130.5486257,
+  "tags": {
+    "KSJ2:LIN": "久大線",
+    "KSJ2:STN": "久留米大学前",
+    "alt_name:ko": "구루메다이가쿠마에",
+    "name": "久留米大学前",
+    "name:en": "Kurume-Daigakumae",
+    "name:ja": "久留米大学前",
+    "name:ko": "구루메대학앞",
+    "network": "JR久大線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q4405128",
+    "wikipedia": "ja:久留米大学前駅"
+  }
+},
+{
+  "type": "node",
+  "id": 5515846386,
+  "lat": 33.2908382,
+  "lon": 130.5657824,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "竹の子（降車場）",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5515848172,
+  "lat": 33.2908225,
+  "lon": 130.5654713,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "竹の子（乗車場）",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5728716590,
+  "lat": 33.3294122,
+  "lon": 130.5308075,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "宮の陣",
+    "local_ref": "3",
+    "name": "宮の陣",
+    "name:en": "Miyanojin",
+    "name:ja": "宮の陣",
+    "name:ko": "미야노진",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q6884381",
+    "wikipedia": "ja:宮の陣駅"
+  }
+},
+{
+  "type": "node",
+  "id": 5728716596,
+  "lat": 33.3196345,
+  "lon": 130.5243546,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "櫛原",
+    "name": "櫛原",
+    "name:en": "Kushiwara",
+    "name:ja": "櫛原",
+    "name:ko": "구시와라",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11544663",
+    "wikipedia": "ja:櫛原駅"
+  }
+},
+{
+  "type": "node",
+  "id": 5728721174,
+  "lat": 33.3060584,
+  "lon": 130.5151092,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "花畑",
+    "name": "花畑",
+    "name:en": "Hanabatake",
+    "name:ja": "花畑",
+    "name:ko": "하나바타케",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q5646811",
+    "wikipedia": "ja:花畑駅"
+  }
+},
+{
+  "type": "node",
+  "id": 5811907654,
+  "lat": 33.2511483,
+  "lon": 130.4160612,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "高津"
+  }
+},
+{
+  "type": "node",
+  "id": 5811908053,
+  "lat": 33.2525731,
+  "lon": 130.4219121,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "楢津"
+  }
+},
+{
+  "type": "node",
+  "id": 5825515072,
+  "lat": 33.3103973,
+  "lon": 130.5475389,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "朝妻",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5825515073,
+  "lat": 33.3104216,
+  "lon": 130.5474084,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "朝妻",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5825515074,
+  "lat": 33.3104559,
+  "lon": 130.5485318,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "久留米大学前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5825515075,
+  "lat": 33.3090001,
+  "lon": 130.5496161,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "久留米大学前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5825515076,
+  "lat": 33.3073018,
+  "lon": 130.5487739,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "久留米大学前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5825515077,
+  "lat": 33.3072301,
+  "lon": 130.5487115,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "久留米大学前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5825515078,
+  "lat": 33.3071711,
+  "lon": 130.5467706,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "野菜試験場前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5825515079,
+  "lat": 33.3072866,
+  "lon": 130.5470530,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "野菜試験場前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758396,
+  "lat": 33.3059236,
+  "lon": 130.5438312,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "池の谷",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758397,
+  "lat": 33.3059863,
+  "lon": 130.5438031,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "池の谷",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758398,
+  "lat": 33.3058507,
+  "lon": 130.5428120,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "附設高校前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758399,
+  "lat": 33.3057397,
+  "lon": 130.5425250,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "附設高校前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758400,
+  "lat": 33.3057702,
+  "lon": 130.5387311,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "競輪場口",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758401,
+  "lat": 33.3059337,
+  "lon": 130.5388747,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "競輪場口",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758402,
+  "lat": 33.3060358,
+  "lon": 130.5361278,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "東野中",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758403,
+  "lat": 33.3061096,
+  "lon": 130.5361389,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "東野中",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758404,
+  "lat": 33.3062749,
+  "lon": 130.5325108,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "野中中通り",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758405,
+  "lat": 33.3063476,
+  "lon": 130.5318196,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "野中中通り",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758406,
+  "lat": 33.3075674,
+  "lon": 130.5288544,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "高屋敷",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758407,
+  "lat": 33.3078138,
+  "lon": 130.5288931,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "高屋敷",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758408,
+  "lat": 33.3093366,
+  "lon": 130.5281584,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "中央市場前（西鉄バス）",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758409,
+  "lat": 33.3091508,
+  "lon": 130.5280690,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "中央市場前（西鉄バス）",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758410,
+  "lat": 33.3135312,
+  "lon": 130.5261089,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "五穀神社",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828758411,
+  "lat": 33.3139632,
+  "lon": 130.5257760,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "五穀神社",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828868563,
+  "lat": 33.3049106,
+  "lon": 130.5497865,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "紫山住宅前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828868564,
+  "lat": 33.3042940,
+  "lon": 130.5496831,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "紫山住宅前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828868565,
+  "lat": 33.3006975,
+  "lon": 130.5510145,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "矢取",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828868566,
+  "lat": 33.3004648,
+  "lon": 130.5513938,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "矢取",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828868567,
+  "lat": 33.2972966,
+  "lon": 130.5497345,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "信愛学院（降車場）",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828868568,
+  "lat": 33.2968879,
+  "lon": 130.5492746,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "信愛学院",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 5828868569,
+  "lat": 33.2965766,
+  "lon": 130.5492455,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "信愛学院",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 6403724655,
+  "lat": 33.2767532,
+  "lon": 130.5026659,
+  "tags": {
+    "name": "荒木",
+    "name:en": "Araki",
+    "name:ja": "荒木",
+    "name:ja-Hira": "あらき",
+    "operator": "九州旅客鉄道",
+    "operator:ja": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "JB18",
+    "train": "yes",
+    "wikidata": "Q4783838",
+    "wikipedia": "ja:荒木駅"
+  }
+},
+{
+  "type": "node",
+  "id": 6871594951,
+  "lat": 33.3200945,
+  "lon": 130.5016472,
+  "tags": {
+    "local_ref": "2",
+    "name": "久留米",
+    "name:de": "Kurume",
+    "name:en": "Kurume",
+    "name:ja": "久留米",
+    "name:ko": "구루메",
+    "operator": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "JB17",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6871594952,
+  "lat": 33.3207067,
+  "lon": 130.5015300,
+  "tags": {
+    "local_ref": "1",
+    "name": "久留米",
+    "name:de": "Kurume",
+    "name:en": "Kurume",
+    "name:ja": "久留米",
+    "name:ko": "구루메",
+    "operator": "九州旅客鉄道",
+    "operator:en": "Kyushu Railway Company",
+    "operator:ja": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "JB17",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6871594953,
+  "lat": 33.3206651,
+  "lon": 130.5013778,
+  "tags": {
+    "local_ref": "4",
+    "name": "久留米",
+    "name:de": "Kurume",
+    "name:en": "Kurume",
+    "name:ja": "久留米",
+    "name:ko": "구루메",
+    "operator": "九州旅客鉄道",
+    "operator:en": "Kyushu Railway Company",
+    "operator:ja": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "JB17",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176507,
+  "lat": 33.3293954,
+  "lon": 130.5308363,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "宮の陣",
+    "local_ref": "2",
+    "name": "宮の陣",
+    "name:en": "Miyanojin",
+    "name:ja": "宮の陣",
+    "name:ko": "미야노진",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q6884381",
+    "wikipedia": "ja:宮の陣駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176509,
+  "lat": 33.3196395,
+  "lon": 130.5243868,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "櫛原",
+    "name": "櫛原",
+    "name:en": "Kushiwara",
+    "name:ja": "櫛原",
+    "name:ko": "구시와라",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11544663",
+    "wikipedia": "ja:櫛原駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176511,
+  "lat": 33.3122368,
+  "lon": 130.5212360,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "西鉄久留米",
+    "name": "西鉄久留米",
+    "name:en": "Nishitetsu Kurume",
+    "name:ja": "西鉄久留米",
+    "name:ko": "니시테쓰쿠루메",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q7040736",
+    "wikipedia": "ja:西鉄久留米駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176512,
+  "lat": 33.3122984,
+  "lon": 130.5211421,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "西鉄久留米",
+    "name": "西鉄久留米",
+    "name:en": "Nishitetsu Kurume",
+    "name:ja": "西鉄久留米",
+    "name:ko": "니시테쓰쿠루메",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q7040736",
+    "wikipedia": "ja:西鉄久留米駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176513,
+  "lat": 33.3123135,
+  "lon": 130.5211193,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "西鉄久留米",
+    "name": "西鉄久留米",
+    "name:en": "Nishitetsu Kurume",
+    "name:ja": "西鉄久留米",
+    "name:ko": "니시테쓰쿠루메",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q7040736",
+    "wikipedia": "ja:西鉄久留米駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176515,
+  "lat": 33.3059172,
+  "lon": 130.5152969,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "花畑",
+    "name": "花畑",
+    "name:en": "Hanabatake",
+    "name:ja": "花畑",
+    "name:ko": "하나바타케",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q5646811",
+    "wikipedia": "ja:花畑駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176516,
+  "lat": 33.3059721,
+  "lon": 130.5152218,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "花畑",
+    "name": "花畑",
+    "name:en": "Hanabatake",
+    "name:ja": "花畑",
+    "name:ko": "하나바타케",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q5646811",
+    "wikipedia": "ja:花畑駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176517,
+  "lat": 33.3059934,
+  "lon": 130.5151977,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "花畑",
+    "name": "花畑",
+    "name:en": "Hanabatake",
+    "name:ja": "花畑",
+    "name:ko": "하나바타케",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q5646811",
+    "wikipedia": "ja:花畑駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176519,
+  "lat": 33.2965981,
+  "lon": 130.4979430,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "津福",
+    "name": "津福",
+    "name:en": "Tsubuku",
+    "name:ja": "津福",
+    "name:ko": "쓰부쿠",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11556360",
+    "wikipedia": "ja:津福駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176523,
+  "lat": 33.2865135,
+  "lon": 130.4892573,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "安武",
+    "name": "安武",
+    "name:en": "Yasutake",
+    "name:ja": "安武",
+    "name:ko": "야스타케",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11450897",
+    "wikipedia": "ja:安武駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176525,
+  "lat": 33.2705249,
+  "lon": 130.4740084,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "大善寺",
+    "name": "大善寺",
+    "name:en": "Daizenji",
+    "name:ja": "大善寺",
+    "name:ko": "다이젠지",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q5209854",
+    "wikipedia": "ja:大善寺駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176527,
+  "lat": 33.2562139,
+  "lon": 130.4695431,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "三潴",
+    "name": "三潴",
+    "name:en": "Mizuma",
+    "name:ja": "三潴",
+    "name:ko": "미즈마",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q6884863",
+    "wikipedia": "ja:三潴駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176529,
+  "lat": 33.2477565,
+  "lon": 130.4632030,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "犬塚",
+    "name": "犬塚",
+    "name:en": "Inuzuka",
+    "name:ja": "犬塚",
+    "name:ko": "이누즈카",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "usage": "main",
+    "wikidata": "Q11571193",
+    "wikipedia": "ja:犬塚駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7817176531,
+  "lat": 33.3020609,
+  "lon": 130.5102336,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "聖マリア病院前",
+    "name": "聖マリア病院前駅",
+    "name:en": "St. Mary Hospital Station",
+    "name:ja": "聖マリア病院前駅",
+    "name:ko": "세인트 마리아 병원 앞 역",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11631360"
+  }
+},
+{
+  "type": "node",
+  "id": 7838170995,
+  "lat": 33.2767596,
+  "lon": 130.5028152,
+  "tags": {
+    "name": "荒木",
+    "name:en": "Araki",
+    "name:ja": "荒木",
+    "name:ja-Hira": "あらき",
+    "operator": "九州旅客鉄道",
+    "operator:ja": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "JB18",
+    "train": "yes",
+    "wikidata": "Q4783838",
+    "wikipedia": "ja:荒木駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7838170996,
+  "lat": 33.2767506,
+  "lon": 130.5027066,
+  "tags": {
+    "name": "荒木",
+    "name:en": "Araki",
+    "name:ja": "荒木",
+    "name:ja-Hira": "あらき",
+    "operator": "九州旅客鉄道",
+    "operator:ja": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "JB18",
+    "train": "yes",
+    "wikidata": "Q4783838",
+    "wikipedia": "ja:荒木駅"
+  }
+},
+{
+  "type": "node",
+  "id": 7838170997,
+  "lat": 33.2767562,
+  "lon": 130.5025350,
+  "tags": {
+    "name": "荒木",
+    "name:en": "Araki",
+    "name:ja": "荒木",
+    "name:ja-Hira": "あらき",
+    "operator": "九州旅客鉄道",
+    "operator:ja": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "ref": "JB18",
+    "train": "yes",
+    "wikidata": "Q4783838",
+    "wikipedia": "ja:荒木駅"
+  }
+},
+{
+  "type": "node",
+  "id": 8077656527,
+  "lat": 33.3531158,
+  "lon": 130.6227746,
+  "tags": {
+    "KSJ2:LIN": "甘木線",
+    "KSJ2:STN": "金島",
+    "name": "金島",
+    "name:en": "Kaneshima",
+    "name:ja": "金島",
+    "name:ko": "가네시마",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11647040",
+    "wikipedia": "ja:金島駅 (福岡県)"
+  }
+},
+{
+  "type": "node",
+  "id": 8077660979,
+  "lat": 33.3365479,
+  "lon": 130.5476207,
+  "tags": {
+    "KSJ2:LIN": "甘木線",
+    "KSJ2:STN": "学校前",
+    "alt_name:ko": "갓코마에",
+    "name": "学校前",
+    "name:en": "Elementary School",
+    "name:ja": "学校前",
+    "name:ko": "학교앞",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11448249",
+    "wikipedia": "ja:学校前駅"
+  }
+},
+{
+  "type": "node",
+  "id": 8077662374,
+  "lat": 33.3454108,
+  "lon": 130.5828331,
+  "tags": {
+    "KSJ2:LIN": "甘木線",
+    "KSJ2:STN": "北野",
+    "name": "北野",
+    "name:en": "Kitano",
+    "name:ja": "北野",
+    "name:ko": "기타노",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q11404333",
+    "wikipedia": "ja:北野駅 (福岡県)"
+  }
+},
+{
+  "type": "node",
+  "id": 8079817416,
+  "lat": 33.3126988,
+  "lon": 130.5625450,
+  "tags": {
+    "KSJ2:LIN": "久大線",
+    "KSJ2:STN": "御井",
+    "name": "御井",
+    "name:en": "Mii",
+    "name:ja": "御井",
+    "name:ko": "미이",
+    "network": "JR久大線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q4405132",
+    "wikipedia": "ja:御井駅"
+  }
+},
+{
+  "type": "node",
+  "id": 8079827423,
+  "lat": 33.3031547,
+  "lon": 130.5326647,
+  "tags": {
+    "KSJ2:LIN": "久大線",
+    "KSJ2:STN": "南久留米",
+    "name": "南久留米",
+    "name:en": "Minami-Kurume",
+    "name:ja": "南久留米",
+    "name:ko": "미나미쿠루메",
+    "network": "JR久大線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年 国土交通省",
+    "operator": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q6862946",
+    "wikipedia": "ja:南久留米駅"
+  }
+},
+{
+  "type": "node",
+  "id": 8080013031,
+  "lat": 33.3200948,
+  "lon": 130.6094741,
+  "tags": {
+    "KSJ2:LIN": "久大線",
+    "KSJ2:STN": "善導寺",
+    "name": "善導寺",
+    "name:en": "Zendoji",
+    "name:ja": "善導寺",
+    "name:ko": "젠도지",
+    "network": "JR久大線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "九州旅客鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q4405136",
+    "wikipedia": "ja:善導寺駅"
+  }
+},
+{
+  "type": "node",
+  "id": 8194105969,
+  "lat": 33.2705023,
+  "lon": 130.4741192,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "大善寺",
+    "name": "大善寺",
+    "name:en": "Daizenji",
+    "name:ja": "大善寺",
+    "name:ko": "다이젠지",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q5209854",
+    "wikipedia": "ja:大善寺駅"
+  }
+},
+{
+  "type": "node",
+  "id": 8194105970,
+  "lat": 33.2705636,
+  "lon": 130.4739305,
+  "tags": {
+    "KSJ2:LIN": "天神大牟田線",
+    "KSJ2:STN": "大善寺",
+    "name": "大善寺",
+    "name:en": "Daizenji",
+    "name:ja": "大善寺",
+    "name:ko": "다이젠지",
+    "network": "西日本鉄道天神大牟田線",
+    "note": "National-Land Numerical Information (Railway) 2007, MLIT Japan",
+    "note:ja": "国土数値情報（鉄道データ）平成19年　国土交通省",
+    "operator": "西日本鉄道",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N02-v1_1.html",
+    "train": "yes",
+    "wikidata": "Q5209854",
+    "wikipedia": "ja:大善寺駅"
+  }
+},
+{
+  "type": "node",
+  "id": 8635352221,
+  "lat": 33.3387098,
+  "lon": 130.6921548,
+  "tags": {
+    "name": "田主丸",
+    "name:en": "Tanushimaru",
+    "name:ja": "田主丸",
+    "name:ko": "다누시마루",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8635352225,
+  "lat": 33.3391289,
+  "lon": 130.6930497,
+  "tags": {
+    "name": "田主丸",
+    "name:en": "Tanushimaru",
+    "name:ja": "田主丸",
+    "name:ko": "다누시마루",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8635352258,
+  "lat": 33.3222070,
+  "lon": 130.6427837,
+  "tags": {
+    "name": "筑後草野",
+    "name:en": "Chikugo Kusano",
+    "name:ja": "筑後草野",
+    "name:ko": "지쿠고쿠사노",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8635352259,
+  "lat": 33.3220949,
+  "lon": 130.6416957,
+  "tags": {
+    "name": "筑後草野",
+    "name:en": "Chikugo Kusano",
+    "name:ja": "筑後草野",
+    "name:ko": "지쿠고쿠사노",
+    "public_transport": "stop_position",
+    "railway": "stop",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12292784164,
+  "lat": 33.3058135,
+  "lon": 130.5391449,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "競輪場口",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12342555264,
+  "lat": 33.3176672,
+  "lon": 130.5525007,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "久留米インター",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12421863679,
+  "lat": 33.3172163,
+  "lon": 130.5294449,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "青少年科学館前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12421863680,
+  "lat": 33.3178808,
+  "lon": 130.5294415,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "青少年科学館前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12725192331,
+  "lat": 33.3420780,
+  "lon": 130.7295133,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "資生堂前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 12725192333,
+  "lat": 33.3421269,
+  "lon": 130.7294106,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "資生堂前",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13685063969,
+  "lat": 33.3199658,
+  "lon": 130.5019922,
+  "tags": {
+    "highway": "bus_stop",
+    "name": "JR久留米駅 降車",
+    "name:en": "JR Kurume Station Drop off point",
+    "network": "西鉄バス"
+  }
+}
+
+  ]
+}

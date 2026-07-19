@@ -1,0 +1,2375 @@
+{
+  "1": {
+    "name": "JR久留米駅",
+    "cityName": "久留米市",
+    "areaName": "城南町",
+    "population": 1627,
+    "method": "contains"
+  },
+  "2": {
+    "name": "NTT筑後営業所前",
+    "cityName": "筑後市",
+    "areaName": "大字山ノ井",
+    "population": 2767,
+    "method": "contains"
+  },
+  "3": {
+    "name": "Tジョイ・ゆめタウン入口",
+    "cityName": "久留米市",
+    "areaName": "新合川二丁目",
+    "population": 57,
+    "method": "contains"
+  },
+  "4": {
+    "name": "うきは警察署入口",
+    "cityName": "うきは市",
+    "areaName": "吉井",
+    "population": 899,
+    "method": "contains"
+  },
+  "5": {
+    "name": "くるめ緑花センター前",
+    "cityName": "久留米市",
+    "areaName": "善導寺町木塚",
+    "population": 1207,
+    "method": "contains"
+  },
+  "6": {
+    "name": "のぞえの丘病院",
+    "cityName": "久留米市",
+    "areaName": "上津町",
+    "population": 5647,
+    "method": "contains"
+  },
+  "7": {
+    "name": "ゆめタウン久留米",
+    "cityName": "久留米市",
+    "areaName": "新合川一丁目",
+    "population": 173,
+    "method": "contains"
+  },
+  "8": {
+    "name": "ゆめマート前",
+    "cityName": "大刀洗町",
+    "areaName": "大字下高橋",
+    "population": 903,
+    "method": "contains"
+  },
+  "9": {
+    "name": "サテライト久留米前",
+    "cityName": "久留米市",
+    "areaName": "梅満町",
+    "population": 6817,
+    "method": "contains"
+  },
+  "10": {
+    "name": "モラージュ佐賀前",
+    "cityName": "佐賀市",
+    "areaName": "巨勢町大字牛島",
+    "population": 3413,
+    "method": "contains"
+  },
+  "11": {
+    "name": "ローソン常持店前",
+    "cityName": "久留米市",
+    "areaName": "善導寺町島",
+    "population": 170,
+    "method": "contains"
+  },
+  "12": {
+    "name": "一丁田",
+    "cityName": "久留米市",
+    "areaName": "国分町",
+    "population": 7682,
+    "method": "contains"
+  },
+  "13": {
+    "name": "一条",
+    "cityName": "筑後市",
+    "areaName": "大字西牟田",
+    "population": 4849,
+    "method": "contains"
+  },
+  "14": {
+    "name": "三井中央高校入口",
+    "cityName": "久留米市",
+    "areaName": "北野町中",
+    "population": 1586,
+    "method": "contains"
+  },
+  "15": {
+    "name": "三明寺",
+    "cityName": "久留米市",
+    "areaName": "田主丸町竹野",
+    "population": 639,
+    "method": "contains"
+  },
+  "16": {
+    "name": "三田川",
+    "cityName": "吉野ヶ里町",
+    "areaName": "吉田吉田",
+    "population": 1133,
+    "method": "contains"
+  },
+  "17": {
+    "name": "上原",
+    "cityName": "久留米市",
+    "areaName": "田主丸町上原",
+    "population": 319,
+    "method": "contains"
+  },
+  "18": {
+    "name": "上原々",
+    "cityName": "久留米市",
+    "areaName": "田主丸町上原",
+    "population": 319,
+    "method": "contains"
+  },
+  "19": {
+    "name": "上峰住宅",
+    "cityName": "上峰町",
+    "areaName": "大字坊所字井手口",
+    "population": 1454,
+    "method": "contains"
+  },
+  "20": {
+    "name": "上津1丁目",
+    "cityName": "久留米市",
+    "areaName": "上津一丁目",
+    "population": 1089,
+    "method": "contains"
+  },
+  "21": {
+    "name": "上津町",
+    "cityName": "久留米市",
+    "areaName": "上津町",
+    "population": 2963,
+    "method": "contains"
+  },
+  "22": {
+    "name": "上津荒木",
+    "cityName": "久留米市",
+    "areaName": "青峰二丁目",
+    "population": 423,
+    "method": "contains"
+  },
+  "23": {
+    "name": "上田主丸",
+    "cityName": "久留米市",
+    "areaName": "田主丸町殖木",
+    "population": 735,
+    "method": "contains"
+  },
+  "24": {
+    "name": "上町",
+    "cityName": "久留米市",
+    "areaName": "山本町耳納",
+    "population": 1333,
+    "method": "contains"
+  },
+  "25": {
+    "name": "上荒木",
+    "cityName": "久留米市",
+    "areaName": "青峰二丁目",
+    "population": 423,
+    "method": "contains"
+  },
+  "26": {
+    "name": "下千足",
+    "cityName": "うきは市",
+    "areaName": "大字浮羽",
+    "population": 1233,
+    "method": "contains"
+  },
+  "27": {
+    "name": "下津毛",
+    "cityName": "上峰町",
+    "areaName": "大字坊所字下津毛",
+    "population": 1060,
+    "method": "contains"
+  },
+  "28": {
+    "name": "下田主丸",
+    "cityName": "久留米市",
+    "areaName": "田主丸町豊城",
+    "population": 1539,
+    "method": "contains"
+  },
+  "29": {
+    "name": "下荒木",
+    "cityName": "久留米市",
+    "areaName": "荒木町荒木",
+    "population": 7160,
+    "method": "contains"
+  },
+  "30": {
+    "name": "下荒木十字路",
+    "cityName": "久留米市",
+    "areaName": "荒木町白口",
+    "population": 3683,
+    "method": "contains"
+  },
+  "31": {
+    "name": "下谷",
+    "cityName": "大木町",
+    "areaName": "大字絵下古賀",
+    "population": 644,
+    "method": "contains"
+  },
+  "32": {
+    "name": "下野",
+    "cityName": "鳥栖市",
+    "areaName": "下野町",
+    "population": 514,
+    "method": "contains"
+  },
+  "33": {
+    "name": "与田",
+    "cityName": "久留米市",
+    "areaName": "善導寺町与田",
+    "population": 2291,
+    "method": "contains"
+  },
+  "34": {
+    "name": "中千足",
+    "cityName": "うきは市",
+    "areaName": "大字朝田",
+    "population": 1881,
+    "method": "contains"
+  },
+  "35": {
+    "name": "中原",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "36": {
+    "name": "中央市場前",
+    "cityName": "久留米市",
+    "areaName": "諏訪野町",
+    "population": 8455,
+    "method": "contains"
+  },
+  "37": {
+    "name": "中泉",
+    "cityName": "久留米市",
+    "areaName": "三潴町玉満",
+    "population": 821,
+    "method": "contains"
+  },
+  "38": {
+    "name": "中津",
+    "cityName": "久留米市",
+    "areaName": "大善寺町藤吉",
+    "population": 272,
+    "method": "contains"
+  },
+  "39": {
+    "name": "中津隈",
+    "cityName": "みやき町",
+    "areaName": "大字中津隈中西",
+    "population": 505,
+    "method": "contains"
+  },
+  "40": {
+    "name": "中津隈宮前",
+    "cityName": "みやき町",
+    "areaName": "大字中津隈中東",
+    "population": 656,
+    "method": "contains"
+  },
+  "41": {
+    "name": "中牟田",
+    "cityName": "久留米市",
+    "areaName": "城島町原中牟田",
+    "population": 291,
+    "method": "contains"
+  },
+  "42": {
+    "name": "中野",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "43": {
+    "name": "久富",
+    "cityName": "うきは市",
+    "areaName": "大字生葉字岩光",
+    "population": 302,
+    "method": "contains"
+  },
+  "44": {
+    "name": "久富住宅前",
+    "cityName": "筑後市",
+    "areaName": "大字久富",
+    "population": 2905,
+    "method": "contains"
+  },
+  "45": {
+    "name": "久留米インター",
+    "cityName": "久留米市",
+    "areaName": "東合川四丁目",
+    "population": 533,
+    "method": "contains"
+  },
+  "46": {
+    "name": "久留米インター入口",
+    "cityName": "久留米市",
+    "areaName": "東合川五丁目",
+    "population": 145,
+    "method": "contains"
+  },
+  "47": {
+    "name": "久留米大学下",
+    "cityName": "久留米市",
+    "areaName": "朝妻町",
+    "population": 854,
+    "method": "contains"
+  },
+  "48": {
+    "name": "久留米大学前",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 2480,
+    "method": "contains"
+  },
+  "49": {
+    "name": "久留米大学南門",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 2480,
+    "method": "contains"
+  },
+  "50": {
+    "name": "久留米大橋",
+    "cityName": "大川市",
+    "areaName": "大字向島",
+    "population": 319,
+    "method": "contains"
+  },
+  "51": {
+    "name": "久留米市世界のつばき館前",
+    "cityName": "久留米市",
+    "areaName": "草野町矢作",
+    "population": 324,
+    "method": "contains"
+  },
+  "52": {
+    "name": "久留米総合庁舎前",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "53": {
+    "name": "久留米自動車工科大学",
+    "cityName": "広川町",
+    "areaName": "大字新代",
+    "population": 902,
+    "method": "contains"
+  },
+  "54": {
+    "name": "久留米警察署前",
+    "cityName": "久留米市",
+    "areaName": "東櫛原町",
+    "population": 5767,
+    "method": "contains"
+  },
+  "55": {
+    "name": "久留米高校前",
+    "cityName": "久留米市",
+    "areaName": "西町",
+    "population": 4022,
+    "method": "contains"
+  },
+  "56": {
+    "name": "九州大谷短大前",
+    "cityName": "筑後市",
+    "areaName": "大字蔵数",
+    "population": 2873,
+    "method": "contains"
+  },
+  "57": {
+    "name": "二の江",
+    "cityName": "久留米市",
+    "areaName": "国分町",
+    "population": 7682,
+    "method": "contains"
+  },
+  "58": {
+    "name": "二軒茶屋",
+    "cityName": "久留米市",
+    "areaName": "上津町",
+    "population": 2963,
+    "method": "contains"
+  },
+  "59": {
+    "name": "二軒茶屋三ツ角",
+    "cityName": "久留米市",
+    "areaName": "上津町",
+    "population": 0,
+    "method": "contains"
+  },
+  "60": {
+    "name": "五穀神社",
+    "cityName": "久留米市",
+    "areaName": "諏訪野町",
+    "population": 8455,
+    "method": "contains"
+  },
+  "61": {
+    "name": "今村",
+    "cityName": "久留米市",
+    "areaName": "荒木町今",
+    "population": 250,
+    "method": "contains"
+  },
+  "62": {
+    "name": "今村天主堂",
+    "cityName": "大刀洗町",
+    "areaName": "大字上高橋",
+    "population": 846,
+    "method": "contains"
+  },
+  "63": {
+    "name": "代慶寺",
+    "cityName": "久留米市",
+    "areaName": "田主丸町地徳",
+    "population": 815,
+    "method": "contains"
+  },
+  "64": {
+    "name": "仲田町",
+    "cityName": "久留米市",
+    "areaName": "田主丸町志塚島",
+    "population": 586,
+    "method": "contains"
+  },
+  "65": {
+    "name": "住吉",
+    "cityName": "久留米市",
+    "areaName": "大善寺町宮本",
+    "population": 2489,
+    "method": "contains"
+  },
+  "66": {
+    "name": "佐賀第二合同庁舎",
+    "cityName": "佐賀市",
+    "areaName": "駅前中央三丁目",
+    "population": 832,
+    "method": "contains"
+  },
+  "67": {
+    "name": "佐賀駅バスセンター",
+    "cityName": "佐賀市",
+    "areaName": "駅前中央一丁目",
+    "population": 583,
+    "method": "contains"
+  },
+  "68": {
+    "name": "信愛学院",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 4829,
+    "method": "contains"
+  },
+  "69": {
+    "name": "修理田",
+    "cityName": "添田町",
+    "areaName": "大字添田添田中",
+    "population": 458,
+    "method": "contains"
+  },
+  "70": {
+    "name": "八女営業所",
+    "cityName": "八女市",
+    "areaName": "馬場",
+    "population": 106,
+    "method": "contains"
+  },
+  "71": {
+    "name": "八軒屋",
+    "cityName": "久留米市",
+    "areaName": "国分町",
+    "population": 6742,
+    "method": "contains"
+  },
+  "72": {
+    "name": "六ツ門・シティプラザ前",
+    "cityName": "久留米市",
+    "areaName": "日吉町",
+    "population": 1778,
+    "method": "contains"
+  },
+  "73": {
+    "name": "六ツ門口",
+    "cityName": "久留米市",
+    "areaName": "原古賀町",
+    "population": 1973,
+    "method": "contains"
+  },
+  "74": {
+    "name": "六反畑",
+    "cityName": "久留米市",
+    "areaName": "原古賀町",
+    "population": 1973,
+    "method": "contains"
+  },
+  "75": {
+    "name": "六田",
+    "cityName": "広川町",
+    "areaName": "大字六田",
+    "population": 402,
+    "method": "contains"
+  },
+  "76": {
+    "name": "内野",
+    "cityName": "久留米市",
+    "areaName": "城島町内野",
+    "population": 534,
+    "method": "contains"
+  },
+  "77": {
+    "name": "勿体島",
+    "cityName": "久留米市",
+    "areaName": "善導寺町飯田",
+    "population": 3672,
+    "method": "contains"
+  },
+  "78": {
+    "name": "北山",
+    "cityName": "久留米市",
+    "areaName": "北野町大城",
+    "population": 473,
+    "method": "contains"
+  },
+  "79": {
+    "name": "北茂安小学校前",
+    "cityName": "みやき町",
+    "areaName": "大字白壁白壁",
+    "population": 1116,
+    "method": "contains"
+  },
+  "80": {
+    "name": "北野",
+    "cityName": "久留米市",
+    "areaName": "北野町今山",
+    "population": 1480,
+    "method": "contains"
+  },
+  "81": {
+    "name": "北野町体育センター前",
+    "cityName": "久留米市",
+    "areaName": "北野町今山",
+    "population": 1480,
+    "method": "contains"
+  },
+  "82": {
+    "name": "北野総合支所前",
+    "cityName": "久留米市",
+    "areaName": "北野町今山",
+    "population": 1480,
+    "method": "contains"
+  },
+  "83": {
+    "name": "医学部前",
+    "cityName": "久留米市",
+    "areaName": "旭町",
+    "population": 379,
+    "method": "contains"
+  },
+  "84": {
+    "name": "十三部",
+    "cityName": "久留米市",
+    "areaName": "合川町",
+    "population": 7676,
+    "method": "contains"
+  },
+  "85": {
+    "name": "十二軒屋",
+    "cityName": "久留米市",
+    "areaName": "南一丁目",
+    "population": 1656,
+    "method": "contains"
+  },
+  "86": {
+    "name": "十連寺",
+    "cityName": "久留米市",
+    "areaName": "三潴町西牟田",
+    "population": 1303,
+    "method": "contains"
+  },
+  "87": {
+    "name": "千本杉",
+    "cityName": "久留米市",
+    "areaName": "合川町",
+    "population": 7676,
+    "method": "contains"
+  },
+  "88": {
+    "name": "千栗",
+    "cityName": "福岡市西区",
+    "areaName": "大字千里",
+    "population": 2315,
+    "method": "contains"
+  },
+  "89": {
+    "name": "千栗八幡宮前",
+    "cityName": "みやき町",
+    "areaName": "大字白壁千栗",
+    "population": 176,
+    "method": "contains"
+  },
+  "90": {
+    "name": "千歳市民センター入口",
+    "cityName": "久留米市",
+    "areaName": "東合川五丁目",
+    "population": 145,
+    "method": "contains"
+  },
+  "91": {
+    "name": "南湯納楚",
+    "cityName": "広川町",
+    "areaName": "大字新代",
+    "population": 902,
+    "method": "contains"
+  },
+  "92": {
+    "name": "南町",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "93": {
+    "name": "南野伏間",
+    "cityName": "筑紫野市",
+    "areaName": "原田五丁目",
+    "population": 893,
+    "method": "contains"
+  },
+  "94": {
+    "name": "原の町",
+    "cityName": "神埼市",
+    "areaName": "大字境原字原の町",
+    "population": 379,
+    "method": "contains"
+  },
+  "95": {
+    "name": "又南里",
+    "cityName": "志免町",
+    "areaName": "南里六丁目",
+    "population": 1537,
+    "method": "contains"
+  },
+  "96": {
+    "name": "古町",
+    "cityName": "大牟田市",
+    "areaName": "古町",
+    "population": 45,
+    "method": "contains"
+  },
+  "97": {
+    "name": "古賀",
+    "cityName": "小郡市",
+    "areaName": "三沢古賀",
+    "population": 2466,
+    "method": "contains"
+  },
+  "98": {
+    "name": "合川",
+    "cityName": "久留米市",
+    "areaName": "東合川三丁目",
+    "population": 991,
+    "method": "contains"
+  },
+  "99": {
+    "name": "合楽",
+    "cityName": "久留米市",
+    "areaName": "大橋町常持",
+    "population": 724,
+    "method": "contains"
+  },
+  "100": {
+    "name": "合楽団地前",
+    "cityName": "久留米市",
+    "areaName": "大橋町常持",
+    "population": 724,
+    "method": "contains"
+  },
+  "101": {
+    "name": "吉井中町",
+    "cityName": "久留米市",
+    "areaName": "善導寺町木塚",
+    "population": 1207,
+    "method": "contains"
+  },
+  "102": {
+    "name": "吉井営業所",
+    "cityName": "うきは市",
+    "areaName": "吉井",
+    "population": 1263,
+    "method": "contains"
+  },
+  "103": {
+    "name": "吉井駅前",
+    "cityName": "うきは市",
+    "areaName": "吉井",
+    "population": 899,
+    "method": "contains"
+  },
+  "104": {
+    "name": "吉原",
+    "cityName": "久留米市",
+    "areaName": "東櫛原町",
+    "population": 5767,
+    "method": "contains"
+  },
+  "105": {
+    "name": "吉木",
+    "cityName": "久留米市",
+    "areaName": "山本町耳納",
+    "population": 1333,
+    "method": "contains"
+  },
+  "106": {
+    "name": "吉木温室前",
+    "cityName": "久留米市",
+    "areaName": "草野町吉木",
+    "population": 657,
+    "method": "contains"
+  },
+  "107": {
+    "name": "吉木西",
+    "cityName": "鳥栖市",
+    "areaName": "下野町",
+    "population": 514,
+    "method": "contains"
+  },
+  "108": {
+    "name": "吉田",
+    "cityName": "久留米市",
+    "areaName": "田主丸町吉本",
+    "population": 0,
+    "method": "contains"
+  },
+  "109": {
+    "name": "呉服元町",
+    "cityName": "久留米市",
+    "areaName": "城島町城島",
+    "population": 430,
+    "method": "contains"
+  },
+  "110": {
+    "name": "和楽園",
+    "cityName": "久留米市",
+    "areaName": "津福本町",
+    "population": 0,
+    "method": "contains"
+  },
+  "111": {
+    "name": "和泉",
+    "cityName": "久留米市",
+    "areaName": "東合川町",
+    "population": 1800,
+    "method": "contains"
+  },
+  "112": {
+    "name": "唐島",
+    "cityName": "久留米市",
+    "areaName": "田主丸町以真恵",
+    "population": 696,
+    "method": "contains"
+  },
+  "113": {
+    "name": "善導寺",
+    "cityName": "久留米市",
+    "areaName": "善導寺町飯田",
+    "population": 3672,
+    "method": "contains"
+  },
+  "114": {
+    "name": "嘉納",
+    "cityName": "柳川市",
+    "areaName": "大字金納",
+    "population": 678,
+    "method": "contains"
+  },
+  "115": {
+    "name": "団地入口",
+    "cityName": "福岡市城南区",
+    "areaName": "樋井川四丁目",
+    "population": 1385,
+    "method": "contains"
+  },
+  "116": {
+    "name": "国分",
+    "cityName": "久留米市",
+    "areaName": "国分町",
+    "population": 6742,
+    "method": "contains"
+  },
+  "117": {
+    "name": "土取",
+    "cityName": "うきは市",
+    "areaName": "大字浮羽",
+    "population": 1233,
+    "method": "contains"
+  },
+  "118": {
+    "name": "地場産業センター入口",
+    "cityName": "久留米市",
+    "areaName": "東合川五丁目",
+    "population": 145,
+    "method": "contains"
+  },
+  "119": {
+    "name": "坂の上",
+    "cityName": "福岡市南区",
+    "areaName": "井尻四丁目",
+    "population": 3326,
+    "method": "contains"
+  },
+  "120": {
+    "name": "城南中学校前",
+    "cityName": "久留米市",
+    "areaName": "城南町",
+    "population": 1627,
+    "method": "contains"
+  },
+  "121": {
+    "name": "城東中学校前",
+    "cityName": "筑前町",
+    "areaName": "栗田",
+    "population": 729,
+    "method": "contains"
+  },
+  "122": {
+    "name": "基里公民館前",
+    "cityName": "久留米市",
+    "areaName": "東櫛原町",
+    "population": 5767,
+    "method": "contains"
+  },
+  "123": {
+    "name": "堀立",
+    "cityName": "福岡市博多区",
+    "areaName": "御供所町",
+    "population": 1300,
+    "method": "contains"
+  },
+  "124": {
+    "name": "境原",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 4829,
+    "method": "contains"
+  },
+  "125": {
+    "name": "境橋",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 300,
+    "method": "contains"
+  },
+  "126": {
+    "name": "大善寺",
+    "cityName": "久留米市",
+    "areaName": "大善寺町宮本",
+    "population": 2489,
+    "method": "contains"
+  },
+  "128": {
+    "name": "大学医療センター入口",
+    "cityName": "久留米市",
+    "areaName": "山川追分一丁目",
+    "population": 729,
+    "method": "contains"
+  },
+  "129": {
+    "name": "大学病院",
+    "cityName": "久留米市",
+    "areaName": "旭町",
+    "population": 379,
+    "method": "contains"
+  },
+  "130": {
+    "name": "大学稲荷前",
+    "cityName": "大木町",
+    "areaName": "大字前牟田",
+    "population": 950,
+    "method": "contains"
+  },
+  "131": {
+    "name": "大島",
+    "cityName": "久留米市",
+    "areaName": "城島町楢津",
+    "population": 648,
+    "method": "contains"
+  },
+  "132": {
+    "name": "大町橋",
+    "cityName": "久留米市",
+    "areaName": "大橋町合楽",
+    "population": 433,
+    "method": "contains"
+  },
+  "133": {
+    "name": "大石町",
+    "cityName": "久留米市",
+    "areaName": "大石町",
+    "population": 2541,
+    "method": "contains"
+  },
+  "134": {
+    "name": "大石町南",
+    "cityName": "久留米市",
+    "areaName": "合川町",
+    "population": 7676,
+    "method": "contains"
+  },
+  "135": {
+    "name": "大財町",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 4829,
+    "method": "contains"
+  },
+  "136": {
+    "name": "大野",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "137": {
+    "name": "太郎原",
+    "cityName": "久留米市",
+    "areaName": "太郎原町",
+    "population": 621,
+    "method": "contains"
+  },
+  "138": {
+    "name": "姉",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 2480,
+    "method": "contains"
+  },
+  "139": {
+    "name": "姉川",
+    "cityName": "久留米市",
+    "areaName": "荒木町藤田",
+    "population": 981,
+    "method": "contains"
+  },
+  "140": {
+    "name": "安武堤防",
+    "cityName": "久留米市",
+    "areaName": "安武町安武本",
+    "population": 3109,
+    "method": "contains"
+  },
+  "141": {
+    "name": "安武学校前",
+    "cityName": "久留米市",
+    "areaName": "安武町安武本",
+    "population": 3109,
+    "method": "contains"
+  },
+  "142": {
+    "name": "宮前",
+    "cityName": "久留米市",
+    "areaName": "大善寺町夜明",
+    "population": 1525,
+    "method": "contains"
+  },
+  "143": {
+    "name": "寄人橋",
+    "cityName": "みやき町",
+    "areaName": "大字寄人字和泉",
+    "population": 183,
+    "method": "contains"
+  },
+  "144": {
+    "name": "寛元寺",
+    "cityName": "久留米市",
+    "areaName": "東合川四丁目",
+    "population": 533,
+    "method": "contains"
+  },
+  "145": {
+    "name": "寺田",
+    "cityName": "久留米市",
+    "areaName": "善導寺町飯田",
+    "population": 3672,
+    "method": "contains"
+  },
+  "146": {
+    "name": "小森野",
+    "cityName": "久留米市",
+    "areaName": "小森野一丁目",
+    "population": 878,
+    "method": "contains"
+  },
+  "147": {
+    "name": "小森野4丁目",
+    "cityName": "久留米市",
+    "areaName": "小森野四丁目",
+    "population": 819,
+    "method": "contains"
+  },
+  "148": {
+    "name": "山本",
+    "cityName": "久留米市",
+    "areaName": "合川町",
+    "population": 7676,
+    "method": "contains"
+  },
+  "149": {
+    "name": "山本コミュニティセンター前",
+    "cityName": "唐津市",
+    "areaName": "山本",
+    "population": 2435,
+    "method": "contains"
+  },
+  "150": {
+    "name": "川崎",
+    "cityName": "久留米市",
+    "areaName": "田主丸町中尾",
+    "population": 1045,
+    "method": "contains"
+  },
+  "151": {
+    "name": "川瀬",
+    "cityName": "久留米市",
+    "areaName": "田主丸町秋成",
+    "population": 648,
+    "method": "contains"
+  },
+  "152": {
+    "name": "工業大学前",
+    "cityName": "久留米市",
+    "areaName": "上津町",
+    "population": 0,
+    "method": "contains"
+  },
+  "153": {
+    "name": "巨勢公民館前",
+    "cityName": "佐賀市",
+    "areaName": "巨勢町大字高尾",
+    "population": 976,
+    "method": "contains"
+  },
+  "154": {
+    "name": "市役所前",
+    "cityName": "久留米市",
+    "areaName": "城南町",
+    "population": 1627,
+    "method": "contains"
+  },
+  "155": {
+    "name": "市役所南",
+    "cityName": "久留米市",
+    "areaName": "中央町",
+    "population": 3970,
+    "method": "contains"
+  },
+  "156": {
+    "name": "常持",
+    "cityName": "久留米市",
+    "areaName": "大橋町常持",
+    "population": 724,
+    "method": "contains"
+  },
+  "157": {
+    "name": "広又",
+    "cityName": "久留米市",
+    "areaName": "天神町",
+    "population": 651,
+    "method": "contains"
+  },
+  "158": {
+    "name": "弓削農協前",
+    "cityName": "久留米市",
+    "areaName": "合川町",
+    "population": 7676,
+    "method": "contains"
+  },
+  "159": {
+    "name": "御井町",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 4829,
+    "method": "contains"
+  },
+  "160": {
+    "name": "御井駅前",
+    "cityName": "久留米市",
+    "areaName": "御井旗崎五丁目",
+    "population": 649,
+    "method": "contains"
+  },
+  "161": {
+    "name": "徳童",
+    "cityName": "久留米市",
+    "areaName": "田主丸町秋成",
+    "population": 648,
+    "method": "contains"
+  },
+  "162": {
+    "name": "戸上電機前",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "163": {
+    "name": "扇島",
+    "cityName": "久留米市",
+    "areaName": "善導寺町飯田",
+    "population": 3672,
+    "method": "contains"
+  },
+  "164": {
+    "name": "放光寺",
+    "cityName": "久留米市",
+    "areaName": "山本町豊田",
+    "population": 1612,
+    "method": "contains"
+  },
+  "165": {
+    "name": "文化センター前",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "166": {
+    "name": "旗崎",
+    "cityName": "久留米市",
+    "areaName": "御井旗崎二丁目",
+    "population": 737,
+    "method": "contains"
+  },
+  "167": {
+    "name": "日吉町",
+    "cityName": "久留米市",
+    "areaName": "日吉町",
+    "population": 1778,
+    "method": "contains"
+  },
+  "168": {
+    "name": "日吉町・シティプラザ前",
+    "cityName": "久留米市",
+    "areaName": "日吉町",
+    "population": 1778,
+    "method": "contains"
+  },
+  "169": {
+    "name": "日野曽根",
+    "cityName": "久留米市",
+    "areaName": "山本町豊田",
+    "population": 1612,
+    "method": "contains"
+  },
+  "170": {
+    "name": "旭町団地前",
+    "cityName": "久留米市",
+    "areaName": "旭町",
+    "population": 379,
+    "method": "contains"
+  },
+  "172": {
+    "name": "朝妻",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 2480,
+    "method": "contains"
+  },
+  "173": {
+    "name": "本分",
+    "cityName": "久留米市",
+    "areaName": "津福今町",
+    "population": 6162,
+    "method": "contains"
+  },
+  "174": {
+    "name": "本山",
+    "cityName": "久留米市",
+    "areaName": "合川町",
+    "population": 7676,
+    "method": "contains"
+  },
+  "175": {
+    "name": "本町",
+    "cityName": "久留米市",
+    "areaName": "本町",
+    "population": 1403,
+    "method": "contains"
+  },
+  "176": {
+    "name": "本町2丁目",
+    "cityName": "久留米市",
+    "areaName": "本町",
+    "population": 1403,
+    "method": "contains"
+  },
+  "177": {
+    "name": "本町四ツ角",
+    "cityName": "久留米市",
+    "areaName": "本町",
+    "population": 1403,
+    "method": "contains"
+  },
+  "178": {
+    "name": "本通町1丁目",
+    "cityName": "福岡市西区",
+    "areaName": "拾六町一丁目",
+    "population": 748,
+    "method": "contains"
+  },
+  "179": {
+    "name": "本鳥栖",
+    "cityName": "鳥栖市",
+    "areaName": "京町",
+    "population": 96,
+    "method": "contains"
+  },
+  "180": {
+    "name": "杉土井団地前",
+    "cityName": "福岡市東区",
+    "areaName": "土井三丁目",
+    "population": 507,
+    "method": "contains"
+  },
+  "181": {
+    "name": "東佐賀",
+    "cityName": "吉野ヶ里町",
+    "areaName": "豆田上豆田",
+    "population": 815,
+    "method": "contains"
+  },
+  "182": {
+    "name": "東分",
+    "cityName": "久留米市",
+    "areaName": "国分町",
+    "population": 7682,
+    "method": "contains"
+  },
+  "183": {
+    "name": "東合川",
+    "cityName": "久留米市",
+    "areaName": "東合川七丁目",
+    "population": 668,
+    "method": "contains"
+  },
+  "184": {
+    "name": "東合川商工団地",
+    "cityName": "久留米市",
+    "areaName": "東合川七丁目",
+    "population": 668,
+    "method": "contains"
+  },
+  "185": {
+    "name": "東尾・みやき町庁舎前",
+    "cityName": "福岡市南区",
+    "areaName": "柏原六丁目",
+    "population": 2959,
+    "method": "contains"
+  },
+  "186": {
+    "name": "東目達原",
+    "cityName": "広川町",
+    "areaName": "大字吉常",
+    "population": 404,
+    "method": "contains"
+  },
+  "187": {
+    "name": "東野中",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "188": {
+    "name": "松山",
+    "cityName": "久留米市",
+    "areaName": "御井旗崎二丁目",
+    "population": 737,
+    "method": "contains"
+  },
+  "189": {
+    "name": "板部",
+    "cityName": "福岡市南区",
+    "areaName": "柏原六丁目",
+    "population": 2959,
+    "method": "contains"
+  },
+  "190": {
+    "name": "柳坂",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "191": {
+    "name": "柳病院前",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 0,
+    "method": "contains"
+  },
+  "192": {
+    "name": "梅林寺",
+    "cityName": "久留米市",
+    "areaName": "京町",
+    "population": 1164,
+    "method": "contains"
+  },
+  "193": {
+    "name": "森山",
+    "cityName": "筑前町",
+    "areaName": "森山",
+    "population": 315,
+    "method": "contains"
+  },
+  "194": {
+    "name": "椛目",
+    "cityName": "久留米市",
+    "areaName": "善導寺町島",
+    "population": 170,
+    "method": "contains"
+  },
+  "195": {
+    "name": "樋の口",
+    "cityName": "久留米市",
+    "areaName": "田主丸町鷹取",
+    "population": 289,
+    "method": "contains"
+  },
+  "196": {
+    "name": "横小路",
+    "cityName": "久留米市",
+    "areaName": "上津町",
+    "population": 2963,
+    "method": "contains"
+  },
+  "197": {
+    "name": "横武",
+    "cityName": "小郡市",
+    "areaName": "三沢古賀",
+    "population": 2466,
+    "method": "contains"
+  },
+  "198": {
+    "name": "横馬場",
+    "cityName": "筑後市",
+    "areaName": "大字西牟田",
+    "population": 4849,
+    "method": "contains"
+  },
+  "199": {
+    "name": "樹蘭マルシェ",
+    "cityName": "大刀洗町",
+    "areaName": "大字本郷",
+    "population": 2626,
+    "method": "contains"
+  },
+  "200": {
+    "name": "櫛原町",
+    "cityName": "久留米市",
+    "areaName": "櫛原町",
+    "population": 1406,
+    "method": "contains"
+  },
+  "201": {
+    "name": "殖木",
+    "cityName": "久留米市",
+    "areaName": "田主丸町殖木",
+    "population": 735,
+    "method": "contains"
+  },
+  "202": {
+    "name": "江口",
+    "cityName": "久留米市",
+    "areaName": "長門石三丁目",
+    "population": 1059,
+    "method": "contains"
+  },
+  "203": {
+    "name": "江戸屋敷",
+    "cityName": "久留米市",
+    "areaName": "南一丁目",
+    "population": 1656,
+    "method": "contains"
+  },
+  "204": {
+    "name": "江見",
+    "cityName": "久留米市",
+    "areaName": "城島町下田",
+    "population": 326,
+    "method": "contains"
+  },
+  "205": {
+    "name": "池の本",
+    "cityName": "広川町",
+    "areaName": "大字小椎尾",
+    "population": 51,
+    "method": "contains"
+  },
+  "206": {
+    "name": "池の谷",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 2480,
+    "method": "contains"
+  },
+  "207": {
+    "name": "池田",
+    "cityName": "久留米市",
+    "areaName": "北野町中川",
+    "population": 316,
+    "method": "contains"
+  },
+  "208": {
+    "name": "津福今町",
+    "cityName": "久留米市",
+    "areaName": "津福本町",
+    "population": 6890,
+    "method": "contains"
+  },
+  "209": {
+    "name": "津福今町(構内)",
+    "cityName": "久留米市",
+    "areaName": "津福本町",
+    "population": 6890,
+    "method": "contains"
+  },
+  "210": {
+    "name": "津福新堀",
+    "cityName": "久留米市",
+    "areaName": "津福本町",
+    "population": 6890,
+    "method": "contains"
+  },
+  "211": {
+    "name": "津遊川",
+    "cityName": "久留米市",
+    "areaName": "善導寺町木塚",
+    "population": 1207,
+    "method": "contains"
+  },
+  "212": {
+    "name": "流",
+    "cityName": "久留米市",
+    "areaName": "東櫛原町",
+    "population": 5767,
+    "method": "contains"
+  },
+  "213": {
+    "name": "浄化センター前",
+    "cityName": "久留米市",
+    "areaName": "梅満町",
+    "population": 6817,
+    "method": "contains"
+  },
+  "214": {
+    "name": "浮羽工業前",
+    "cityName": "久留米市",
+    "areaName": "田主丸町田主丸",
+    "population": 3886,
+    "method": "contains"
+  },
+  "215": {
+    "name": "浮羽発着所",
+    "cityName": "うきは市",
+    "areaName": "大字西隈上",
+    "population": 1547,
+    "method": "contains"
+  },
+  "216": {
+    "name": "浮羽究真館高校前",
+    "cityName": "うきは市",
+    "areaName": "大字生葉字岩光",
+    "population": 302,
+    "method": "contains"
+  },
+  "218": {
+    "name": "清導寺",
+    "cityName": "久留米市",
+    "areaName": "三潴町西牟田",
+    "population": 1303,
+    "method": "contains"
+  },
+  "219": {
+    "name": "清瀬",
+    "cityName": "うきは市",
+    "areaName": "大字清瀬字上吉井",
+    "population": 300,
+    "method": "contains"
+  },
+  "220": {
+    "name": "湯納楚",
+    "cityName": "広川町",
+    "areaName": "大字藤田",
+    "population": 724,
+    "method": "contains"
+  },
+  "221": {
+    "name": "瀬戸",
+    "cityName": "久留米市",
+    "areaName": "中央町",
+    "population": 3970,
+    "method": "contains"
+  },
+  "222": {
+    "name": "片田江",
+    "cityName": "みやき町",
+    "areaName": "大字寄人字新村",
+    "population": 284,
+    "method": "contains"
+  },
+  "223": {
+    "name": "牧",
+    "cityName": "久留米市",
+    "areaName": "田主丸町牧",
+    "population": 361,
+    "method": "contains"
+  },
+  "224": {
+    "name": "玄ケ野",
+    "cityName": "筑後市",
+    "areaName": "大字熊野",
+    "population": 5499,
+    "method": "contains"
+  },
+  "225": {
+    "name": "瓦町",
+    "cityName": "大牟田市",
+    "areaName": "瓦町",
+    "population": 213,
+    "method": "contains"
+  },
+  "226": {
+    "name": "田主丸そよ風ホール",
+    "cityName": "久留米市",
+    "areaName": "田主丸町田主丸",
+    "population": 3886,
+    "method": "contains"
+  },
+  "227": {
+    "name": "田主丸中央",
+    "cityName": "久留米市",
+    "areaName": "田主丸町田主丸",
+    "population": 3886,
+    "method": "contains"
+  },
+  "228": {
+    "name": "田主丸中央病院",
+    "cityName": "久留米市",
+    "areaName": "田主丸町益生田",
+    "population": 1695,
+    "method": "contains"
+  },
+  "229": {
+    "name": "田主丸中央病院北",
+    "cityName": "久留米市",
+    "areaName": "田主丸町田主丸",
+    "population": 3886,
+    "method": "contains"
+  },
+  "230": {
+    "name": "田主丸駅前",
+    "cityName": "久留米市",
+    "areaName": "田主丸町田主丸",
+    "population": 3886,
+    "method": "contains"
+  },
+  "231": {
+    "name": "田手・吉野ケ里歴史公園南",
+    "cityName": "大牟田市",
+    "areaName": "大字倉永",
+    "population": 2315,
+    "method": "contains"
+  },
+  "232": {
+    "name": "町",
+    "cityName": "久留米市",
+    "areaName": "東合川四丁目",
+    "population": 533,
+    "method": "contains"
+  },
+  "233": {
+    "name": "白口",
+    "cityName": "久留米市",
+    "areaName": "荒木町白口",
+    "population": 3683,
+    "method": "contains"
+  },
+  "234": {
+    "name": "百年公園",
+    "cityName": "久留米市",
+    "areaName": "合川町",
+    "population": 7676,
+    "method": "contains"
+  },
+  "235": {
+    "name": "益永",
+    "cityName": "小郡市",
+    "areaName": "三沢三沢",
+    "population": 1642,
+    "method": "contains"
+  },
+  "236": {
+    "name": "目達原",
+    "cityName": "八女市",
+    "areaName": "黒木町大淵",
+    "population": 61,
+    "method": "contains"
+  },
+  "237": {
+    "name": "直代",
+    "cityName": "福岡市博多区",
+    "areaName": "店屋町",
+    "population": 756,
+    "method": "contains"
+  },
+  "238": {
+    "name": "直鳥",
+    "cityName": "久留米市",
+    "areaName": "中央町",
+    "population": 3970,
+    "method": "contains"
+  },
+  "239": {
+    "name": "相川",
+    "cityName": "大川市",
+    "areaName": "大字中古賀",
+    "population": 390,
+    "method": "contains"
+  },
+  "240": {
+    "name": "矢作",
+    "cityName": "久留米市",
+    "areaName": "草野町矢作",
+    "population": 324,
+    "method": "contains"
+  },
+  "241": {
+    "name": "矢取",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 4829,
+    "method": "contains"
+  },
+  "242": {
+    "name": "石崎",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 4829,
+    "method": "contains"
+  },
+  "243": {
+    "name": "祐誠高等学校前",
+    "cityName": "久留米市",
+    "areaName": "国分町",
+    "population": 6742,
+    "method": "contains"
+  },
+  "244": {
+    "name": "神代",
+    "cityName": "久留米市",
+    "areaName": "京町",
+    "population": 1164,
+    "method": "contains"
+  },
+  "245": {
+    "name": "神埼協和町",
+    "cityName": "神埼市",
+    "areaName": "大字田道ケ里字駅通り",
+    "population": 683,
+    "method": "contains"
+  },
+  "246": {
+    "name": "神埼市役所前",
+    "cityName": "神埼市",
+    "areaName": "大字田道ケ里字駅通り",
+    "population": 683,
+    "method": "contains"
+  },
+  "247": {
+    "name": "神埼駅通り",
+    "cityName": "神埼市",
+    "areaName": "大字田道ケ里字駅通り",
+    "population": 683,
+    "method": "contains"
+  },
+  "248": {
+    "name": "禅院",
+    "cityName": "久留米市",
+    "areaName": "荒木町下荒木",
+    "population": 1115,
+    "method": "contains"
+  },
+  "249": {
+    "name": "福島",
+    "cityName": "久留米市",
+    "areaName": "安武町武島",
+    "population": 1156,
+    "method": "contains"
+  },
+  "250": {
+    "name": "福島高校前",
+    "cityName": "小郡市",
+    "areaName": "山隈今隈",
+    "population": 564,
+    "method": "contains"
+  },
+  "251": {
+    "name": "税務署前",
+    "cityName": "久留米市",
+    "areaName": "諏訪野町",
+    "population": 8455,
+    "method": "contains"
+  },
+  "252": {
+    "name": "競輪場口",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "253": {
+    "name": "竹の子",
+    "cityName": "久留米市",
+    "areaName": "高良内町",
+    "population": 9097,
+    "method": "contains"
+  },
+  "254": {
+    "name": "竹重",
+    "cityName": "久留米市",
+    "areaName": "田主丸町田主丸",
+    "population": 3886,
+    "method": "contains"
+  },
+  "255": {
+    "name": "竹野小学校前",
+    "cityName": "大刀洗町",
+    "areaName": "大字春日",
+    "population": 246,
+    "method": "contains"
+  },
+  "256": {
+    "name": "笹野団地前",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "257": {
+    "name": "筑後北小学校",
+    "cityName": "筑後市",
+    "areaName": "大字蔵数",
+    "population": 2873,
+    "method": "contains"
+  },
+  "259": {
+    "name": "筑後自動車免許試験場",
+    "cityName": "久留米市",
+    "areaName": "山本町耳納",
+    "population": 1333,
+    "method": "contains"
+  },
+  "260": {
+    "name": "筑水高校前",
+    "cityName": "久留米市",
+    "areaName": "山川町",
+    "population": 3684,
+    "method": "contains"
+  },
+  "261": {
+    "name": "築島",
+    "cityName": "久留米市",
+    "areaName": "城南町",
+    "population": 1627,
+    "method": "contains"
+  },
+  "262": {
+    "name": "篠山3丁目",
+    "cityName": "久留米市",
+    "areaName": "城南町",
+    "population": 1627,
+    "method": "contains"
+  },
+  "264": {
+    "name": "紅葉ケ丘",
+    "cityName": "春日市",
+    "areaName": "紅葉ケ丘東八丁目",
+    "population": 357,
+    "method": "contains"
+  },
+  "265": {
+    "name": "紫山住宅前",
+    "cityName": "久留米市",
+    "areaName": "御井町",
+    "population": 2480,
+    "method": "contains"
+  },
+  "266": {
+    "name": "続命院",
+    "cityName": "那珂川市",
+    "areaName": "大字成竹",
+    "population": 413,
+    "method": "contains"
+  },
+  "267": {
+    "name": "総合福祉会館前",
+    "cityName": "久留米市",
+    "areaName": "長門石一丁目",
+    "population": 808,
+    "method": "contains"
+  },
+  "268": {
+    "name": "縄手",
+    "cityName": "久留米市",
+    "areaName": "縄手町",
+    "population": 12,
+    "method": "contains"
+  },
+  "269": {
+    "name": "羽犬塚下町",
+    "cityName": "筑後市",
+    "areaName": "大字山ノ井",
+    "population": 2767,
+    "method": "contains"
+  },
+  "270": {
+    "name": "羽犬塚小学校前",
+    "cityName": "久留米市",
+    "areaName": "三潴町玉満",
+    "population": 821,
+    "method": "contains"
+  },
+  "271": {
+    "name": "羽犬塚駅東口",
+    "cityName": "久留米市",
+    "areaName": "三潴町玉満",
+    "population": 821,
+    "method": "contains"
+  },
+  "272": {
+    "name": "老人センター",
+    "cityName": "久留米市",
+    "areaName": "上津町",
+    "population": 2963,
+    "method": "contains"
+  },
+  "273": {
+    "name": "聖マリア病院",
+    "cityName": "久留米市",
+    "areaName": "津福本町",
+    "population": 0,
+    "method": "contains"
+  },
+  "274": {
+    "name": "聖マリア病院前駅",
+    "cityName": "久留米市",
+    "areaName": "津福本町",
+    "population": 0,
+    "method": "contains"
+  },
+  "275": {
+    "name": "自衛隊アパート前",
+    "cityName": "那珂川市",
+    "areaName": "大字五ケ山",
+    "population": 0,
+    "method": "contains"
+  },
+  "276": {
+    "name": "自衛隊幹部候補生学校",
+    "cityName": "久留米市",
+    "areaName": "荒木町白口",
+    "population": 3683,
+    "method": "contains"
+  },
+  "277": {
+    "name": "花畑",
+    "cityName": "久留米市",
+    "areaName": "花畑一丁目",
+    "population": 695,
+    "method": "contains"
+  },
+  "278": {
+    "name": "花畑北",
+    "cityName": "久留米市",
+    "areaName": "花畑一丁目",
+    "population": 695,
+    "method": "contains"
+  },
+  "279": {
+    "name": "苅原",
+    "cityName": "小郡市",
+    "areaName": "大板井中央二",
+    "population": 231,
+    "method": "contains"
+  },
+  "280": {
+    "name": "若宮橋",
+    "cityName": "糸島市",
+    "areaName": "板持二丁目",
+    "population": 366,
+    "method": "contains"
+  },
+  "281": {
+    "name": "草野上町",
+    "cityName": "久留米市",
+    "areaName": "山本町豊田",
+    "population": 1612,
+    "method": "contains"
+  },
+  "282": {
+    "name": "草野局前",
+    "cityName": "久留米市",
+    "areaName": "山本町耳納",
+    "population": 1333,
+    "method": "contains"
+  },
+  "283": {
+    "name": "草野駅前",
+    "cityName": "久留米市",
+    "areaName": "草野町紅桃林",
+    "population": 296,
+    "method": "contains"
+  },
+  "284": {
+    "name": "荒木駅前",
+    "cityName": "久留米市",
+    "areaName": "荒木町白口",
+    "population": 3683,
+    "method": "contains"
+  },
+  "285": {
+    "name": "荘島",
+    "cityName": "久留米市",
+    "areaName": "荘島町",
+    "population": 1973,
+    "method": "contains"
+  },
+  "286": {
+    "name": "蔵町松原",
+    "cityName": "久留米市",
+    "areaName": "田主丸町秋成",
+    "population": 648,
+    "method": "contains"
+  },
+  "287": {
+    "name": "藤ノ木",
+    "cityName": "みやき町",
+    "areaName": "大字寄人字続命院",
+    "population": 123,
+    "method": "contains"
+  },
+  "288": {
+    "name": "藤光1丁目",
+    "cityName": "久留米市",
+    "areaName": "藤光",
+    "population": 603,
+    "method": "contains"
+  },
+  "289": {
+    "name": "西分",
+    "cityName": "久留米市",
+    "areaName": "諏訪野町",
+    "population": 8455,
+    "method": "contains"
+  },
+  "290": {
+    "name": "西原",
+    "cityName": "久留米市",
+    "areaName": "合川町",
+    "population": 7676,
+    "method": "contains"
+  },
+  "291": {
+    "name": "西原の町",
+    "cityName": "神埼市",
+    "areaName": "大字境原字原の町",
+    "population": 379,
+    "method": "contains"
+  },
+  "292": {
+    "name": "西唐人町",
+    "cityName": "八女市",
+    "areaName": "本町",
+    "population": 269,
+    "method": "contains"
+  },
+  "293": {
+    "name": "西島",
+    "cityName": "久留米市",
+    "areaName": "長門石三丁目",
+    "population": 1059,
+    "method": "contains"
+  },
+  "294": {
+    "name": "西泉",
+    "cityName": "久留米市",
+    "areaName": "山本町耳納",
+    "population": 1333,
+    "method": "contains"
+  },
+  "295": {
+    "name": "西町",
+    "cityName": "久留米市",
+    "areaName": "西町",
+    "population": 5164,
+    "method": "contains"
+  },
+  "296": {
+    "name": "西鉄久留米",
+    "cityName": "久留米市",
+    "areaName": "東町",
+    "population": 2637,
+    "method": "contains"
+  },
+  "297": {
+    "name": "西鉄鳥栖",
+    "cityName": "大刀洗町",
+    "areaName": "大字今",
+    "population": 356,
+    "method": "contains"
+  },
+  "298": {
+    "name": "詫田",
+    "cityName": "久留米市",
+    "areaName": "田主丸町田主丸",
+    "population": 3886,
+    "method": "contains"
+  },
+  "299": {
+    "name": "諏訪野町5丁目",
+    "cityName": "久留米市",
+    "areaName": "諏訪野町",
+    "population": 8455,
+    "method": "contains"
+  },
+  "300": {
+    "name": "豆津",
+    "cityName": "久留米市",
+    "areaName": "大石町",
+    "population": 2541,
+    "method": "contains"
+  },
+  "301": {
+    "name": "豆津橋",
+    "cityName": "久留米市",
+    "areaName": "大石町",
+    "population": 2541,
+    "method": "contains"
+  },
+  "302": {
+    "name": "資生堂前",
+    "cityName": "久留米市",
+    "areaName": "田主丸町鷹取",
+    "population": 289,
+    "method": "contains"
+  },
+  "303": {
+    "name": "赤坂",
+    "cityName": "久留米市",
+    "areaName": "山川町",
+    "population": 3684,
+    "method": "contains"
+  },
+  "304": {
+    "name": "追分",
+    "cityName": "久留米市",
+    "areaName": "山川追分一丁目",
+    "population": 729,
+    "method": "contains"
+  },
+  "306": {
+    "name": "通町6丁目",
+    "cityName": "久留米市",
+    "areaName": "通町",
+    "population": 1173,
+    "method": "contains"
+  },
+  "307": {
+    "name": "造出",
+    "cityName": "福岡市早良区",
+    "areaName": "東入部七丁目",
+    "population": 180,
+    "method": "contains"
+  },
+  "308": {
+    "name": "道堀",
+    "cityName": "久留米市",
+    "areaName": "荒木町藤田",
+    "population": 981,
+    "method": "contains"
+  },
+  "309": {
+    "name": "道崎",
+    "cityName": "佐賀市",
+    "areaName": "巨勢町大字修理田",
+    "population": 1189,
+    "method": "contains"
+  },
+  "310": {
+    "name": "道瀬橋",
+    "cityName": "みやき町",
+    "areaName": "大字白壁白壁",
+    "population": 1116,
+    "method": "contains"
+  },
+  "311": {
+    "name": "都紀女加王墓前",
+    "cityName": "上峰町",
+    "areaName": "大字坊所字井手口",
+    "population": 1454,
+    "method": "contains"
+  },
+  "312": {
+    "name": "酒井",
+    "cityName": "久留米市",
+    "areaName": "東櫛原町",
+    "population": 5767,
+    "method": "contains"
+  },
+  "313": {
+    "name": "酒井西",
+    "cityName": "久留米市",
+    "areaName": "長門石三丁目",
+    "population": 1059,
+    "method": "contains"
+  },
+  "314": {
+    "name": "野中中通り",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "315": {
+    "name": "野伏間",
+    "cityName": "久留米市",
+    "areaName": "大橋町蜷川",
+    "population": 409,
+    "method": "contains"
+  },
+  "316": {
+    "name": "野口",
+    "cityName": "久留米市",
+    "areaName": "大善寺町藤吉",
+    "population": 272,
+    "method": "contains"
+  },
+  "317": {
+    "name": "野添",
+    "cityName": "久留米市",
+    "areaName": "諏訪野町",
+    "population": 8455,
+    "method": "contains"
+  },
+  "318": {
+    "name": "野田",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "319": {
+    "name": "鑓水",
+    "cityName": "久留米市",
+    "areaName": "山川安居野三丁目",
+    "population": 644,
+    "method": "contains"
+  },
+  "320": {
+    "name": "長園",
+    "cityName": "久留米市",
+    "areaName": "山川町",
+    "population": 3684,
+    "method": "contains"
+  },
+  "321": {
+    "name": "長門石",
+    "cityName": "久留米市",
+    "areaName": "長門石町",
+    "population": 209,
+    "method": "contains"
+  },
+  "322": {
+    "name": "長門石団地入口",
+    "cityName": "久留米市",
+    "areaName": "長門石四丁目",
+    "population": 1519,
+    "method": "contains"
+  },
+  "323": {
+    "name": "長門石農協前",
+    "cityName": "久留米市",
+    "areaName": "長門石二丁目",
+    "population": 1903,
+    "method": "contains"
+  },
+  "324": {
+    "name": "門の上",
+    "cityName": "久留米市",
+    "areaName": "田主丸町志塚島",
+    "population": 586,
+    "method": "contains"
+  },
+  "325": {
+    "name": "附属校前",
+    "cityName": "久留米市",
+    "areaName": "西町",
+    "population": 4022,
+    "method": "contains"
+  },
+  "326": {
+    "name": "附設高校前",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "327": {
+    "name": "隈",
+    "cityName": "小郡市",
+    "areaName": "三国が丘一丁目",
+    "population": 755,
+    "method": "contains"
+  },
+  "328": {
+    "name": "青少年科学館前",
+    "cityName": "久留米市",
+    "areaName": "合川町",
+    "population": 7676,
+    "method": "contains"
+  },
+  "329": {
+    "name": "青峰団地",
+    "cityName": "久留米市",
+    "areaName": "高良内町",
+    "population": 1120,
+    "method": "contains"
+  },
+  "330": {
+    "name": "青峰団地角",
+    "cityName": "久留米市",
+    "areaName": "青峰三丁目",
+    "population": 1062,
+    "method": "contains"
+  },
+  "331": {
+    "name": "青峰校前",
+    "cityName": "久留米市",
+    "areaName": "青峰二丁目",
+    "population": 423,
+    "method": "contains"
+  },
+  "332": {
+    "name": "鞍打",
+    "cityName": "久留米市",
+    "areaName": "西町",
+    "population": 5164,
+    "method": "contains"
+  },
+  "333": {
+    "name": "駅ケ里",
+    "cityName": "神埼市",
+    "areaName": "大字田道ケ里字駅ケ里",
+    "population": 635,
+    "method": "contains"
+  },
+  "334": {
+    "name": "高専前",
+    "cityName": "糸島市",
+    "areaName": "伊都の杜一丁目",
+    "population": 403,
+    "method": "contains"
+  },
+  "335": {
+    "name": "高尾",
+    "cityName": "久留米市",
+    "areaName": "上津町",
+    "population": 2963,
+    "method": "contains"
+  },
+  "336": {
+    "name": "高屋敷",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "337": {
+    "name": "高田",
+    "cityName": "久留米市",
+    "areaName": "善導寺町飯田",
+    "population": 3672,
+    "method": "contains"
+  },
+  "338": {
+    "name": "高良",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "339": {
+    "name": "高良北",
+    "cityName": "久留米市",
+    "areaName": "北野町高良",
+    "population": 1100,
+    "method": "contains"
+  },
+  "340": {
+    "name": "高良台",
+    "cityName": "久留米市",
+    "areaName": "上津町",
+    "population": 2963,
+    "method": "contains"
+  },
+  "341": {
+    "name": "高良台リハビリテーション病院前",
+    "cityName": "久留米市",
+    "areaName": "荒木町荒木",
+    "population": 7160,
+    "method": "contains"
+  },
+  "342": {
+    "name": "高良川",
+    "cityName": "久留米市",
+    "areaName": "野中町",
+    "population": 9352,
+    "method": "contains"
+  },
+  "343": {
+    "name": "鳥栖元町",
+    "cityName": "鳥栖市",
+    "areaName": "蔵上町",
+    "population": 0,
+    "method": "contains"
+  },
+  "344": {
+    "name": "鳥栖駅前",
+    "cityName": "鳥栖市",
+    "areaName": "京町",
+    "population": 96,
+    "method": "contains"
+  },
+  "345": {
+    "name": "麦生",
+    "cityName": "福岡市中央区",
+    "areaName": "長浜一丁目",
+    "population": 786,
+    "method": "contains"
+  }
+}
