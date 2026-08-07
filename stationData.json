@@ -1,0 +1,3634 @@
+{
+  "metricLabel": "1日平均乗車人員",
+  "sourceNote": "JR九州公式サイト「駅別乗車人員上位300駅（2023年度）」(https://www.jrkyushu.co.jp/company/info/data/pdf/2023ekibetsu.pdf、企業情報＞交通・営業データ https://www.jrkyushu.co.jp/company/info/data/station.html )を主データとして使用。同PDF内「（参考）西九州新幹線の駅別乗車人員（2023年度）」に記載の嬉野温泉駅（228人/日）のみ追加収録。乗車人員は2023年度(2023年4月〜2024年3月)の1日平均値。座標はOpenStreetMapのデータを利用。connectedStopIdsは同一路線内は駅の緯度経度に基づく近接順で接続し、主要な乗換駅については実際の路線接続関係に基づき追加で接続を補完した(概算のグラフ構造であり、正確な営業キロ順を保証するものではない)。",
+  "stops": [
+    {
+      "id": 1,
+      "name": "博多",
+      "lat": 33.59,
+      "lng": 130.421006,
+      "connectedStopIds": [
+        16,
+        40,
+        116
+      ],
+      "population": 119562,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 2,
+      "name": "長者原",
+      "lat": 33.613552,
+      "lng": 130.47776,
+      "connectedStopIds": [
+        27,
+        66
+      ],
+      "population": 3845,
+      "populationArea": "篠栗線"
+    },
+    {
+      "id": 3,
+      "name": "八代",
+      "lat": 32.504005,
+      "lng": 130.621742,
+      "connectedStopIds": [
+        47,
+        107
+      ],
+      "population": 1691,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 4,
+      "name": "小倉",
+      "lat": 33.886846,
+      "lng": 130.882509,
+      "connectedStopIds": [
+        94,
+        124
+      ],
+      "population": 32073,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 5,
+      "name": "原田",
+      "lat": 33.451553,
+      "lng": 130.539308,
+      "connectedStopIds": [
+        59,
+        172
+      ],
+      "population": 3508,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 6,
+      "name": "南宮崎",
+      "lat": 31.895132,
+      "lng": 131.422674,
+      "connectedStopIds": [
+        97,
+        209,
+        220,
+        222
+      ],
+      "population": 1691,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 7,
+      "name": "鹿児島中央",
+      "lat": 31.583713,
+      "lng": 130.541791,
+      "connectedStopIds": [
+        9,
+        47,
+        90,
+        129
+      ],
+      "population": 19437,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 8,
+      "name": "基山",
+      "lat": 33.420993,
+      "lng": 130.532414,
+      "connectedStopIds": [
+        81,
+        172
+      ],
+      "population": 3467,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 9,
+      "name": "鹿児島",
+      "lat": 31.602143,
+      "lng": 130.564094,
+      "connectedStopIds": [
+        7,
+        146,
+        284
+      ],
+      "population": 1679,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 10,
+      "name": "大分",
+      "lat": 33.232626,
+      "lng": 131.606026,
+      "connectedStopIds": [
+        167,
+        187,
+        200,
+        290
+      ],
+      "population": 16949,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 11,
+      "name": "水前寺",
+      "lat": 32.797036,
+      "lng": 130.72991,
+      "connectedStopIds": [
+        112,
+        140
+      ],
+      "population": 3426,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 12,
+      "name": "加治木",
+      "lat": 31.739267,
+      "lng": 130.670612,
+      "connectedStopIds": [
+        30,
+        293
+      ],
+      "population": 1670,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 13,
+      "name": "熊本",
+      "lat": 32.790317,
+      "lng": 130.688974,
+      "connectedStopIds": [
+        41,
+        69,
+        107,
+        112,
+        254,
+        261
+      ],
+      "population": 16292,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 14,
+      "name": "佐世保",
+      "lat": 33.16371,
+      "lng": 129.7261,
+      "connectedStopIds": [
+        153
+      ],
+      "population": 3399,
+      "populationArea": "佐世保線"
+    },
+    {
+      "id": 15,
+      "name": "松橋",
+      "lat": 32.652302,
+      "lng": 130.670542,
+      "connectedStopIds": [
+        137,
+        151
+      ],
+      "population": 1633,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 16,
+      "name": "吉塚",
+      "lat": 33.607025,
+      "lng": 130.423834,
+      "connectedStopIds": [
+        1,
+        73,
+        145
+      ],
+      "population": 14867,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 17,
+      "name": "千鳥",
+      "lat": 33.748675,
+      "lng": 130.476097,
+      "connectedStopIds": [
+        49,
+        82
+      ],
+      "population": 3302,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 18,
+      "name": "小波瀬西工大前",
+      "lat": 33.75321,
+      "lng": 130.971891,
+      "connectedStopIds": [
+        74,
+        100
+      ],
+      "population": 1627,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 19,
+      "name": "折尾",
+      "lat": 33.864218,
+      "lng": 130.712263,
+      "connectedStopIds": [
+        119,
+        125,
+        160
+      ],
+      "population": 13983,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 20,
+      "name": "谷山",
+      "lat": 31.526879,
+      "lng": 130.518496,
+      "connectedStopIds": [
+        72,
+        99
+      ],
+      "population": 3241,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 21,
+      "name": "喜々津",
+      "lat": 32.832716,
+      "lng": 129.986918,
+      "connectedStopIds": [
+        169,
+        249
+      ],
+      "population": 1622,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 22,
+      "name": "千早",
+      "lat": 33.64917,
+      "lng": 130.440379,
+      "connectedStopIds": [
+        25,
+        73
+      ],
+      "population": 13559,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 23,
+      "name": "海老津",
+      "lat": 33.840136,
+      "lng": 130.623316,
+      "connectedStopIds": [
+        80,
+        95
+      ],
+      "population": 3207,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 24,
+      "name": "和白",
+      "lat": 33.688955,
+      "lng": 130.429767,
+      "connectedStopIds": [
+        144,
+        196
+      ],
+      "population": 1619,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 25,
+      "name": "香椎",
+      "lat": 33.659655,
+      "lng": 130.444104,
+      "connectedStopIds": [
+        22,
+        61,
+        196
+      ],
+      "population": 13470,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 26,
+      "name": "スペースワールド",
+      "lat": 33.871264,
+      "lng": 130.806361,
+      "connectedStopIds": [
+        38,
+        85
+      ],
+      "population": 3048,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 27,
+      "name": "原町",
+      "lat": 33.611796,
+      "lng": 130.470877,
+      "connectedStopIds": [
+        2,
+        145
+      ],
+      "population": 1617,
+      "populationArea": "篠栗線"
+    },
+    {
+      "id": 28,
+      "name": "黒崎",
+      "lat": 33.867004,
+      "lng": 130.766243,
+      "connectedStopIds": [
+        85,
+        119
+      ],
+      "population": 13247,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 29,
+      "name": "直方",
+      "lat": 33.748639,
+      "lng": 130.724229,
+      "connectedStopIds": [
+        188,
+        237
+      ],
+      "population": 3029,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 30,
+      "name": "隼人",
+      "lat": 31.743887,
+      "lng": 130.740268,
+      "connectedStopIds": [
+        12,
+        50
+      ],
+      "population": 1614,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 31,
+      "name": "佐賀",
+      "lat": 33.2494,
+      "lng": 130.2989,
+      "connectedStopIds": [
+        60,
+        70,
+        242
+      ],
+      "population": 11722,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 32,
+      "name": "肥後大津",
+      "lat": 32.877478,
+      "lng": 130.866219,
+      "connectedStopIds": [
+        57,
+        246
+      ],
+      "population": 2978,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 33,
+      "name": "桂川",
+      "lat": 33.584656,
+      "lng": 130.662279,
+      "connectedStopIds": [
+        145,
+        227
+      ],
+      "population": 1614,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 34,
+      "name": "福工大前",
+      "lat": 33.698069,
+      "lng": 130.44014,
+      "connectedStopIds": [
+        61,
+        109
+      ],
+      "population": 10922,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 35,
+      "name": "下山門",
+      "lat": 33.581892,
+      "lng": 130.308064,
+      "connectedStopIds": [
+        88,
+        106
+      ],
+      "population": 2798,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 36,
+      "name": "土井",
+      "lat": 33.635046,
+      "lng": 130.466164,
+      "connectedStopIds": [
+        208,
+        214
+      ],
+      "population": 1600,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 37,
+      "name": "南福岡",
+      "lat": 33.541893,
+      "lng": 130.460416,
+      "connectedStopIds": [
+        103,
+        136
+      ],
+      "population": 9711,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 38,
+      "name": "枝光",
+      "lat": 33.879231,
+      "lng": 130.813044,
+      "connectedStopIds": [
+        26,
+        52
+      ],
+      "population": 2751,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 39,
+      "name": "高城",
+      "lat": 33.242867,
+      "lng": 131.655816,
+      "connectedStopIds": [
+        131,
+        167
+      ],
+      "population": 1583,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 40,
+      "name": "竹下",
+      "lat": 33.568646,
+      "lng": 130.431465,
+      "connectedStopIds": [
+        1,
+        103
+      ],
+      "population": 9470,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 41,
+      "name": "上熊本",
+      "lat": 32.81781,
+      "lng": 130.699239,
+      "connectedStopIds": [
+        13,
+        48
+      ],
+      "population": 2717,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 42,
+      "name": "早岐",
+      "lat": 33.133701,
+      "lng": 129.799291,
+      "connectedStopIds": [
+        275,
+        298
+      ],
+      "population": 1568,
+      "populationArea": "佐世保線"
+    },
+    {
+      "id": 43,
+      "name": "九大学研都市",
+      "lat": 33.578163,
+      "lng": 130.2599,
+      "connectedStopIds": [
+        106,
+        127
+      ],
+      "population": 8985,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 44,
+      "name": "羽犬塚",
+      "lat": 33.20999,
+      "lng": 130.497586,
+      "connectedStopIds": [
+        123,
+        168
+      ],
+      "population": 2688,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 45,
+      "name": "須恵中央",
+      "lat": 33.586945,
+      "lng": 130.50517,
+      "connectedStopIds": [
+        256,
+        282
+      ],
+      "population": 1556,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 46,
+      "name": "長崎",
+      "lat": 32.752173,
+      "lng": 129.868881,
+      "connectedStopIds": [
+        71
+      ],
+      "population": 8863,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 47,
+      "name": "川内",
+      "lat": 31.813783,
+      "lng": 130.312256,
+      "connectedStopIds": [
+        3,
+        7,
+        147,
+        192
+      ],
+      "population": 2676,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 48,
+      "name": "崇城大学前",
+      "lat": 32.83112,
+      "lng": 130.694818,
+      "connectedStopIds": [
+        41,
+        223
+      ],
+      "population": 1549,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 49,
+      "name": "福間",
+      "lat": 33.763483,
+      "lng": 130.486819,
+      "connectedStopIds": [
+        17,
+        65
+      ],
+      "population": 8549,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 50,
+      "name": "国分",
+      "lat": 31.743675,
+      "lng": 130.763441,
+      "connectedStopIds": [
+        30,
+        296
+      ],
+      "population": 2629,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 51,
+      "name": "ししぶ",
+      "lat": 33.721739,
+      "lng": 130.458327,
+      "connectedStopIds": [
+        82,
+        109
+      ],
+      "population": 1518,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 52,
+      "name": "戸畑",
+      "lat": 33.897218,
+      "lng": 130.820611,
+      "connectedStopIds": [
+        38,
+        148
+      ],
+      "population": 8372,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 53,
+      "name": "中津",
+      "lat": 33.599195,
+      "lng": 131.190889,
+      "connectedStopIds": [
+        288,
+        291
+      ],
+      "population": 2556,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 54,
+      "name": "帖佐",
+      "lat": 31.726951,
+      "lng": 130.632725,
+      "connectedStopIds": [
+        157,
+        293
+      ],
+      "population": 1507,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 55,
+      "name": "大野城",
+      "lat": 33.525527,
+      "lng": 130.479526,
+      "connectedStopIds": [
+        104,
+        136
+      ],
+      "population": 7823,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 56,
+      "name": "光の森",
+      "lat": 32.857879,
+      "lng": 130.786903,
+      "connectedStopIds": [
+        86,
+        155
+      ],
+      "population": 2499,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 57,
+      "name": "原水",
+      "lat": 32.870619,
+      "lng": 130.829042,
+      "connectedStopIds": [
+        32,
+        155
+      ],
+      "population": 1445,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 58,
+      "name": "赤間",
+      "lat": 33.808294,
+      "lng": 130.569595,
+      "connectedStopIds": [
+        95,
+        115
+      ],
+      "population": 7511,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 59,
+      "name": "天拝山",
+      "lat": 33.481943,
+      "lng": 130.530203,
+      "connectedStopIds": [
+        5,
+        67
+      ],
+      "population": 2422,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 60,
+      "name": "神埼",
+      "lat": 33.315844,
+      "lng": 130.3746,
+      "connectedStopIds": [
+        31,
+        102
+      ],
+      "population": 1440,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 61,
+      "name": "九産大前",
+      "lat": 33.673803,
+      "lng": 130.441116,
+      "connectedStopIds": [
+        25,
+        34
+      ],
+      "population": 7442,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 62,
+      "name": "糸島高校前",
+      "lat": 33.560702,
+      "lng": 130.21332,
+      "connectedStopIds": [
+        68,
+        76
+      ],
+      "population": 2377,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 63,
+      "name": "宇島",
+      "lat": 33.621316,
+      "lng": 131.126574,
+      "connectedStopIds": [
+        164,
+        288
+      ],
+      "population": 1437,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 64,
+      "name": "久留米",
+      "lat": 33.320642,
+      "lng": 130.501404,
+      "connectedStopIds": [
+        116,
+        120,
+        123,
+        126,
+        268
+      ],
+      "population": 7294,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 65,
+      "name": "東福間",
+      "lat": 33.774069,
+      "lng": 130.510968,
+      "connectedStopIds": [
+        49,
+        115
+      ],
+      "population": 2376,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 66,
+      "name": "門松",
+      "lat": 33.620585,
+      "lng": 130.496409,
+      "connectedStopIds": [
+        2,
+        118
+      ],
+      "population": 1416,
+      "populationArea": "篠栗線"
+    },
+    {
+      "id": 67,
+      "name": "二日市",
+      "lat": 33.494431,
+      "lng": 130.518755,
+      "connectedStopIds": [
+        59,
+        132
+      ],
+      "population": 6971,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 68,
+      "name": "波多江",
+      "lat": 33.563969,
+      "lng": 130.226845,
+      "connectedStopIds": [
+        62,
+        127
+      ],
+      "population": 2323,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 69,
+      "name": "西熊本",
+      "lat": 32.762403,
+      "lng": 130.683052,
+      "connectedStopIds": [
+        13,
+        211
+      ],
+      "population": 1412,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 70,
+      "name": "鳥栖",
+      "lat": 33.373914,
+      "lng": 130.519883,
+      "connectedStopIds": [
+        31,
+        268,
+        269
+      ],
+      "population": 6475,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 71,
+      "name": "浦上",
+      "lat": 32.765402,
+      "lng": 129.863322,
+      "connectedStopIds": [
+        46,
+        235
+      ],
+      "population": 2313,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 72,
+      "name": "慈眼寺",
+      "lat": 31.517241,
+      "lng": 130.506149,
+      "connectedStopIds": [
+        20,
+        83
+      ],
+      "population": 1387,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 73,
+      "name": "箱崎",
+      "lat": 33.618017,
+      "lng": 130.426867,
+      "connectedStopIds": [
+        16,
+        22
+      ],
+      "population": 6317,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 74,
+      "name": "苅田",
+      "lat": 33.78455,
+      "lng": 130.978792,
+      "connectedStopIds": [
+        18,
+        122
+      ],
+      "population": 2308,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 75,
+      "name": "大分大学前",
+      "lat": 33.176915,
+      "lng": 131.619114,
+      "connectedStopIds": [
+        187,
+        286
+      ],
+      "population": 1378,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 76,
+      "name": "筑前前原",
+      "lat": 33.55714,
+      "lng": 130.199293,
+      "connectedStopIds": [
+        62,
+        244
+      ],
+      "population": 6267,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 77,
+      "name": "安部山公園",
+      "lat": 33.844026,
+      "lng": 130.904296,
+      "connectedStopIds": [
+        79,
+        139
+      ],
+      "population": 2276,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 78,
+      "name": "中間",
+      "lat": 33.827891,
+      "lng": 130.709402,
+      "connectedStopIds": [
+        225,
+        228
+      ],
+      "population": 1377,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 79,
+      "name": "下曽根",
+      "lat": 33.832356,
+      "lng": 130.934719,
+      "connectedStopIds": [
+        77,
+        122
+      ],
+      "population": 6158,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 80,
+      "name": "遠賀川",
+      "lat": 33.846857,
+      "lng": 130.673779,
+      "connectedStopIds": [
+        23,
+        125
+      ],
+      "population": 2214,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 81,
+      "name": "弥生が丘",
+      "lat": 33.402517,
+      "lng": 130.52861,
+      "connectedStopIds": [
+        8,
+        269
+      ],
+      "population": 1367,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 82,
+      "name": "古賀",
+      "lat": 33.732671,
+      "lng": 130.466837,
+      "connectedStopIds": [
+        17,
+        51
+      ],
+      "population": 6157,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 83,
+      "name": "坂之上",
+      "lat": 31.50005,
+      "lng": 130.50761,
+      "connectedStopIds": [
+        72,
+        156
+      ],
+      "population": 2213,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 84,
+      "name": "ハウステンボス",
+      "lat": 33.091794,
+      "lng": 129.796595,
+      "connectedStopIds": [
+        289
+      ],
+      "population": 1344,
+      "populationArea": "大村線"
+    },
+    {
+      "id": 85,
+      "name": "八幡",
+      "lat": 33.869281,
+      "lng": 130.795484,
+      "connectedStopIds": [
+        26,
+        28
+      ],
+      "population": 5712,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 86,
+      "name": "武蔵塚",
+      "lat": 32.849799,
+      "lng": 130.769977,
+      "connectedStopIds": [
+        56,
+        274
+      ],
+      "population": 2166,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 87,
+      "name": "由布院",
+      "lat": 33.262452,
+      "lng": 131.355001,
+      "connectedStopIds": [
+        194,
+        197
+      ],
+      "population": 1341,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 88,
+      "name": "姪浜",
+      "lat": 33.583709,
+      "lng": 130.325104,
+      "connectedStopIds": [
+        35,
+        106
+      ],
+      "population": 5636,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 89,
+      "name": "玉名",
+      "lat": 32.926035,
+      "lng": 130.54933,
+      "connectedStopIds": [
+        216,
+        240
+      ],
+      "population": 2164,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 90,
+      "name": "南鹿児島",
+      "lat": 31.555158,
+      "lng": 130.543894,
+      "connectedStopIds": [
+        7,
+        99,
+        181
+      ],
+      "population": 1298,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 91,
+      "name": "別府",
+      "lat": 33.279616,
+      "lng": 131.500307,
+      "connectedStopIds": [
+        143,
+        290
+      ],
+      "population": 5621,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 92,
+      "name": "伊集院",
+      "lat": 31.630086,
+      "lng": 130.396478,
+      "connectedStopIds": [
+        236,
+        276
+      ],
+      "population": 2161,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 93,
+      "name": "二島",
+      "lat": 33.889568,
+      "lng": 130.748462,
+      "connectedStopIds": [
+        190,
+        255
+      ],
+      "population": 1287,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 94,
+      "name": "門司",
+      "lat": 33.904516,
+      "lng": 130.932921,
+      "connectedStopIds": [
+        4,
+        108
+      ],
+      "population": 5618,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 95,
+      "name": "教育大前",
+      "lat": 33.808405,
+      "lng": 130.591415,
+      "connectedStopIds": [
+        23,
+        58
+      ],
+      "population": 2149,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 96,
+      "name": "亀川",
+      "lat": 33.331343,
+      "lng": 131.492951,
+      "connectedStopIds": [
+        143,
+        253
+      ],
+      "population": 1281,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 97,
+      "name": "宮崎",
+      "lat": 31.915754,
+      "lng": 131.431953,
+      "connectedStopIds": [
+        6,
+        257
+      ],
+      "population": 5438,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 98,
+      "name": "大牟田",
+      "lat": 33.029486,
+      "lng": 130.4436,
+      "connectedStopIds": [
+        191,
+        202
+      ],
+      "population": 2143,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 99,
+      "name": "宇宿",
+      "lat": 31.544185,
+      "lng": 130.536364,
+      "connectedStopIds": [
+        20,
+        90
+      ],
+      "population": 1253,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 100,
+      "name": "行橋",
+      "lat": 33.728706,
+      "lng": 130.970129,
+      "connectedStopIds": [
+        18,
+        111
+      ],
+      "population": 5426,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 101,
+      "name": "大在",
+      "lat": 33.24399,
+      "lng": 131.720307,
+      "connectedStopIds": [
+        117,
+        131
+      ],
+      "population": 2118,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 102,
+      "name": "吉野ヶ里公園",
+      "lat": 33.324802,
+      "lng": 130.399195,
+      "connectedStopIds": [
+        60,
+        175
+      ],
+      "population": 1249,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 103,
+      "name": "笹原",
+      "lat": 33.552916,
+      "lng": 130.448918,
+      "connectedStopIds": [
+        37,
+        40
+      ],
+      "population": 5310,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 104,
+      "name": "水城",
+      "lat": 33.517846,
+      "lng": 130.49019,
+      "connectedStopIds": [
+        55,
+        132
+      ],
+      "population": 2057,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 105,
+      "name": "平成",
+      "lat": 32.781441,
+      "lng": 130.703151,
+      "connectedStopIds": [
+        135
+      ],
+      "population": 1226,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 106,
+      "name": "今宿",
+      "lat": 33.579354,
+      "lng": 130.273627,
+      "connectedStopIds": [
+        35,
+        43,
+        88
+      ],
+      "population": 5277,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 107,
+      "name": "新八代",
+      "lat": 32.51804,
+      "lng": 130.634839,
+      "connectedStopIds": [
+        3,
+        13,
+        205,
+        272
+      ],
+      "population": 2049,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 108,
+      "name": "小森江",
+      "lat": 33.915445,
+      "lng": 130.938461,
+      "connectedStopIds": [
+        94,
+        130
+      ],
+      "population": 1224,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 109,
+      "name": "新宮中央",
+      "lat": 33.711719,
+      "lng": 130.449186,
+      "connectedStopIds": [
+        34,
+        51
+      ],
+      "population": 5177,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 110,
+      "name": "唐津",
+      "lat": 33.446273,
+      "lng": 129.967751,
+      "connectedStopIds": [
+        171,
+        300
+      ],
+      "population": 1958,
+      "populationArea": "唐津線"
+    },
+    {
+      "id": 111,
+      "name": "南行橋",
+      "lat": 33.716066,
+      "lng": 130.981591,
+      "connectedStopIds": [
+        100,
+        158
+      ],
+      "population": 1221,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 112,
+      "name": "新水前寺",
+      "lat": 32.793643,
+      "lng": 130.726087,
+      "connectedStopIds": [
+        11,
+        13,
+        135
+      ],
+      "population": 5100,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 113,
+      "name": "武雄温泉",
+      "lat": 33.196479,
+      "lng": 130.023066,
+      "connectedStopIds": [
+        252,
+        301
+      ],
+      "population": 1953,
+      "populationArea": "佐世保線"
+    },
+    {
+      "id": 114,
+      "name": "日向市",
+      "lat": 32.425766,
+      "lng": 131.627993,
+      "connectedStopIds": [
+        162,
+        285
+      ],
+      "population": 1215,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 115,
+      "name": "東郷",
+      "lat": 33.794509,
+      "lng": 130.528852,
+      "connectedStopIds": [
+        58,
+        65
+      ],
+      "population": 4912,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 116,
+      "name": "新鳥栖",
+      "lat": 33.369791,
+      "lng": 130.491417,
+      "connectedStopIds": [
+        1,
+        64,
+        251
+      ],
+      "population": 1936,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 117,
+      "name": "坂ノ市",
+      "lat": 33.236754,
+      "lng": 131.751952,
+      "connectedStopIds": [
+        101,
+        234
+      ],
+      "population": 1194,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 118,
+      "name": "篠栗",
+      "lat": 33.624072,
+      "lng": 130.524253,
+      "connectedStopIds": [
+        66,
+        189
+      ],
+      "population": 4892,
+      "populationArea": "篠栗線"
+    },
+    {
+      "id": 119,
+      "name": "陣原",
+      "lat": 33.868171,
+      "lng": 130.742862,
+      "connectedStopIds": [
+        19,
+        28
+      ],
+      "population": 1922,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 120,
+      "name": "久留米大学前",
+      "lat": 33.310987,
+      "lng": 130.548629,
+      "connectedStopIds": [
+        64,
+        207,
+        287
+      ],
+      "population": 1192,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 121,
+      "name": "諫早",
+      "lat": 32.851581,
+      "lng": 130.041437,
+      "connectedStopIds": [
+        169,
+        238
+      ],
+      "population": 4845,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 122,
+      "name": "朽網",
+      "lat": 33.807241,
+      "lng": 130.955171,
+      "connectedStopIds": [
+        74,
+        79
+      ],
+      "population": 1913,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 123,
+      "name": "筑後船小屋",
+      "lat": 33.178216,
+      "lng": 130.491608,
+      "connectedStopIds": [
+        44,
+        64,
+        247,
+        248
+      ],
+      "population": 1177,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 124,
+      "name": "西小倉",
+      "lat": 33.888601,
+      "lng": 130.874016,
+      "connectedStopIds": [
+        4,
+        148
+      ],
+      "population": 4812,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 125,
+      "name": "水巻",
+      "lat": 33.852392,
+      "lng": 130.695363,
+      "connectedStopIds": [
+        19,
+        80
+      ],
+      "population": 1911,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 126,
+      "name": "荒木",
+      "lat": 33.276705,
+      "lng": 130.502682,
+      "connectedStopIds": [
+        64,
+        168
+      ],
+      "population": 1164,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 127,
+      "name": "周船寺",
+      "lat": 33.570788,
+      "lng": 130.24627,
+      "connectedStopIds": [
+        43,
+        68
+      ],
+      "population": 4793,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 128,
+      "name": "大村",
+      "lat": 32.910729,
+      "lng": 129.962368,
+      "connectedStopIds": [
+        292
+      ],
+      "population": 1908,
+      "populationArea": "大村線"
+    },
+    {
+      "id": 129,
+      "name": "広木",
+      "lat": 31.576666,
+      "lng": 130.504516,
+      "connectedStopIds": [
+        7
+      ],
+      "population": 1156,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 130,
+      "name": "門司港",
+      "lat": 33.944882,
+      "lng": 130.961257,
+      "connectedStopIds": [
+        108
+      ],
+      "population": 4776,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 131,
+      "name": "鶴崎",
+      "lat": 33.242759,
+      "lng": 131.686962,
+      "connectedStopIds": [
+        39,
+        101
+      ],
+      "population": 1850,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 132,
+      "name": "都府楼南",
+      "lat": 33.503096,
+      "lng": 130.506705,
+      "connectedStopIds": [
+        67,
+        104
+      ],
+      "population": 1154,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 133,
+      "name": "南小倉",
+      "lat": 33.870601,
+      "lng": 130.864409,
+      "connectedStopIds": [
+        139
+      ],
+      "population": 4767,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 134,
+      "name": "宇美",
+      "lat": 33.568907,
+      "lng": 130.513328,
+      "connectedStopIds": [
+        282
+      ],
+      "population": 1838,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 135,
+      "name": "南熊本",
+      "lat": 32.785028,
+      "lng": 130.711631,
+      "connectedStopIds": [
+        105,
+        112
+      ],
+      "population": 1152,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 136,
+      "name": "春日",
+      "lat": 33.535097,
+      "lng": 130.468863,
+      "connectedStopIds": [
+        37,
+        55
+      ],
+      "population": 4441,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 137,
+      "name": "宇土",
+      "lat": 32.69413,
+      "lng": 130.669034,
+      "connectedStopIds": [
+        15,
+        261,
+        277
+      ],
+      "population": 1819,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 138,
+      "name": "佐土原",
+      "lat": 32.022366,
+      "lng": 131.477116,
+      "connectedStopIds": [
+        166,
+        259
+      ],
+      "population": 1136,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 139,
+      "name": "城野",
+      "lat": 33.857959,
+      "lng": 130.886454,
+      "connectedStopIds": [
+        77,
+        133,
+        262
+      ],
+      "population": 4306,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 140,
+      "name": "東海学園前",
+      "lat": 32.811457,
+      "lng": 130.742776,
+      "connectedStopIds": [
+        11,
+        274
+      ],
+      "population": 1755,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 141,
+      "name": "道ノ尾",
+      "lat": 32.80396,
+      "lng": 129.852916,
+      "connectedStopIds": [
+        233,
+        235
+      ],
+      "population": 1127,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 142,
+      "name": "新飯塚",
+      "lat": 33.644168,
+      "lng": 130.694208,
+      "connectedStopIds": [
+        163,
+        180
+      ],
+      "population": 4230,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 143,
+      "name": "別府大学",
+      "lat": 33.31299,
+      "lng": 131.499406,
+      "connectedStopIds": [
+        91,
+        96
+      ],
+      "population": 1715,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 144,
+      "name": "奈多",
+      "lat": 33.686707,
+      "lng": 130.412542,
+      "connectedStopIds": [
+        24,
+        204
+      ],
+      "population": 1122,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 145,
+      "name": "柚須",
+      "lat": 33.613299,
+      "lng": 130.444635,
+      "connectedStopIds": [
+        16,
+        27,
+        33
+      ],
+      "population": 4223,
+      "populationArea": "篠栗線"
+    },
+    {
+      "id": 146,
+      "name": "上伊集院",
+      "lat": 31.593972,
+      "lng": 130.459467,
+      "connectedStopIds": [
+        9,
+        236
+      ],
+      "population": 1703,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 147,
+      "name": "出水",
+      "lat": 32.089725,
+      "lng": 130.357784,
+      "connectedStopIds": [
+        47,
+        272
+      ],
+      "population": 1122,
+      "populationArea": "九州新幹線"
+    },
+    {
+      "id": 148,
+      "name": "九州工大前",
+      "lat": 33.900456,
+      "lng": 130.840134,
+      "connectedStopIds": [
+        52,
+        124
+      ],
+      "population": 4065,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 149,
+      "name": "長与",
+      "lat": 32.81903,
+      "lng": 129.879367,
+      "connectedStopIds": [
+        161,
+        233
+      ],
+      "population": 1697,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 150,
+      "name": "江北",
+      "lat": 33.219264,
+      "lng": 130.160989,
+      "connectedStopIds": [
+        176,
+        182
+      ],
+      "population": 1088,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 151,
+      "name": "小川",
+      "lat": 32.60098,
+      "lng": 130.69421,
+      "connectedStopIds": [
+        15,
+        205
+      ],
+      "population": 1083,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 152,
+      "name": "串木野",
+      "lat": 31.721254,
+      "lng": 130.274405,
+      "connectedStopIds": [
+        184,
+        192
+      ],
+      "population": 700,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 153,
+      "name": "日宇",
+      "lat": 33.157268,
+      "lng": 129.758008,
+      "connectedStopIds": [
+        14,
+        275
+      ],
+      "population": 445,
+      "populationArea": "佐世保線"
+    },
+    {
+      "id": 154,
+      "name": "延岡",
+      "lat": 32.589806,
+      "lng": 131.672258,
+      "connectedStopIds": [
+        250,
+        295
+      ],
+      "population": 1067,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 155,
+      "name": "三里木",
+      "lat": 32.8618,
+      "lng": 130.7966,
+      "connectedStopIds": [
+        56,
+        57
+      ],
+      "population": 694,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 156,
+      "name": "五位野",
+      "lat": 31.475192,
+      "lng": 130.504072,
+      "connectedStopIds": [
+        83,
+        271
+      ],
+      "population": 439,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 157,
+      "name": "姶良",
+      "lat": 31.715262,
+      "lng": 130.623297,
+      "connectedStopIds": [
+        54,
+        284
+      ],
+      "population": 1066,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 158,
+      "name": "新田原",
+      "lat": 33.695266,
+      "lng": 131.008208,
+      "connectedStopIds": [
+        111,
+        206
+      ],
+      "population": 687,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 159,
+      "name": "石田",
+      "lat": 33.831963,
+      "lng": 130.888941,
+      "connectedStopIds": [
+        262
+      ],
+      "population": 431,
+      "populationArea": "日田彦山線"
+    },
+    {
+      "id": 160,
+      "name": "若松",
+      "lat": 33.901041,
+      "lng": 130.806026,
+      "connectedStopIds": [
+        19,
+        255
+      ],
+      "population": 1040,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 161,
+      "name": "現川",
+      "lat": 32.79101,
+      "lng": 129.925942,
+      "connectedStopIds": [
+        149,
+        249
+      ],
+      "population": 684,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 162,
+      "name": "門川",
+      "lat": 32.477349,
+      "lng": 131.653927,
+      "connectedStopIds": [
+        114,
+        250
+      ],
+      "population": 429,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 163,
+      "name": "飯塚",
+      "lat": 33.62868,
+      "lng": 130.689526,
+      "connectedStopIds": [
+        142,
+        227
+      ],
+      "population": 1040,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 164,
+      "name": "椎田",
+      "lat": 33.65342,
+      "lng": 131.057826,
+      "connectedStopIds": [
+        63,
+        206
+      ],
+      "population": 682,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 165,
+      "name": "福吉",
+      "lat": 33.501593,
+      "lng": 130.079688,
+      "connectedStopIds": [
+        229,
+        230
+      ],
+      "population": 418,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 166,
+      "name": "日向住吉",
+      "lat": 31.990769,
+      "lng": 131.457621,
+      "connectedStopIds": [
+        138,
+        257
+      ],
+      "population": 1035,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 167,
+      "name": "牧",
+      "lat": 33.237076,
+      "lng": 131.637717,
+      "connectedStopIds": [
+        10,
+        39
+      ],
+      "population": 677,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 168,
+      "name": "西牟田",
+      "lat": 33.246631,
+      "lng": 130.501037,
+      "connectedStopIds": [
+        44,
+        126
+      ],
+      "population": 414,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 169,
+      "name": "西諫早",
+      "lat": 32.839835,
+      "lng": 130.02158,
+      "connectedStopIds": [
+        21,
+        121
+      ],
+      "population": 1029,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 170,
+      "name": "三重町",
+      "lat": 32.983781,
+      "lng": 131.584277,
+      "connectedStopIds": [
+        246,
+        286
+      ],
+      "population": 672,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 171,
+      "name": "西唐津",
+      "lat": 33.461657,
+      "lng": 129.957611,
+      "connectedStopIds": [
+        110
+      ],
+      "population": 411,
+      "populationArea": "唐津線"
+    },
+    {
+      "id": 172,
+      "name": "けやき台",
+      "lat": 33.434388,
+      "lng": 130.533338,
+      "connectedStopIds": [
+        5,
+        8
+      ],
+      "population": 1020,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 173,
+      "name": "津久見",
+      "lat": 33.072857,
+      "lng": 131.863413,
+      "connectedStopIds": [
+        221,
+        295
+      ],
+      "population": 657,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 174,
+      "name": "筑後吉井",
+      "lat": 33.341038,
+      "lng": 130.752161,
+      "connectedStopIds": [
+        194,
+        287
+      ],
+      "population": 408,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 175,
+      "name": "中原",
+      "lat": 33.346486,
+      "lng": 130.440534,
+      "connectedStopIds": [
+        102,
+        251
+      ],
+      "population": 1016,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 176,
+      "name": "牛津",
+      "lat": 33.247824,
+      "lng": 130.201156,
+      "connectedStopIds": [
+        150,
+        212
+      ],
+      "population": 631,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 177,
+      "name": "一貴山",
+      "lat": 33.534333,
+      "lng": 130.168249,
+      "connectedStopIds": [
+        185,
+        229
+      ],
+      "population": 408,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 178,
+      "name": "小城",
+      "lat": 33.285631,
+      "lng": 130.198653,
+      "connectedStopIds": [
+        264
+      ],
+      "population": 1007,
+      "populationArea": "唐津線"
+    },
+    {
+      "id": 179,
+      "name": "久留米高校前",
+      "lat": 33.298465,
+      "lng": 130.516416,
+      "connectedStopIds": [
+        207
+      ],
+      "population": 624,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 180,
+      "name": "鯰田",
+      "lat": 33.668968,
+      "lng": 130.702474,
+      "connectedStopIds": [
+        142,
+        188
+      ],
+      "population": 403,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 181,
+      "name": "郡元",
+      "lat": 31.56525,
+      "lng": 130.542318,
+      "connectedStopIds": [
+        90
+      ],
+      "population": 977,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 182,
+      "name": "肥前白石",
+      "lat": 33.186889,
+      "lng": 130.135858,
+      "connectedStopIds": [
+        150,
+        238
+      ],
+      "population": 623,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 183,
+      "name": "薩摩今和泉",
+      "lat": 31.290689,
+      "lng": 130.599119,
+      "connectedStopIds": [
+        243,
+        281
+      ],
+      "population": 396,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 184,
+      "name": "神村学園前",
+      "lat": 31.703868,
+      "lng": 130.283973,
+      "connectedStopIds": [
+        152,
+        258
+      ],
+      "population": 975,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 185,
+      "name": "加布里",
+      "lat": 33.543349,
+      "lng": 130.176331,
+      "connectedStopIds": [
+        177,
+        244
+      ],
+      "population": 623,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 186,
+      "name": "宇佐",
+      "lat": 33.532188,
+      "lng": 131.412002,
+      "connectedStopIds": [
+        219,
+        239
+      ],
+      "population": 394,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 187,
+      "name": "敷戸",
+      "lat": 33.187831,
+      "lng": 131.615276,
+      "connectedStopIds": [
+        10,
+        75,
+        195
+      ],
+      "population": 974,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 188,
+      "name": "小竹",
+      "lat": 33.696601,
+      "lng": 130.710554,
+      "connectedStopIds": [
+        29,
+        180
+      ],
+      "population": 623,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 189,
+      "name": "城戸南蔵院前",
+      "lat": 33.618126,
+      "lng": 130.571872,
+      "connectedStopIds": [
+        118,
+        224
+      ],
+      "population": 394,
+      "populationArea": "篠栗線"
+    },
+    {
+      "id": 190,
+      "name": "本城",
+      "lat": 33.874793,
+      "lng": 130.722736,
+      "connectedStopIds": [
+        93,
+        225
+      ],
+      "population": 972,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 191,
+      "name": "銀水",
+      "lat": 33.055094,
+      "lng": 130.46092,
+      "connectedStopIds": [
+        98,
+        201
+      ],
+      "population": 620,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 192,
+      "name": "隈之城",
+      "lat": 31.792413,
+      "lng": 130.307125,
+      "connectedStopIds": [
+        47,
+        152
+      ],
+      "population": 392,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 193,
+      "name": "都城",
+      "lat": 31.736539,
+      "lng": 131.074446,
+      "connectedStopIds": [
+        213,
+        266,
+        296
+      ],
+      "population": 964,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 194,
+      "name": "日田",
+      "lat": 33.31711,
+      "lng": 130.938578,
+      "connectedStopIds": [
+        87,
+        174
+      ],
+      "population": 620,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 195,
+      "name": "滝尾",
+      "lat": 33.209292,
+      "lng": 131.623161,
+      "connectedStopIds": [
+        187
+      ],
+      "population": 388,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 196,
+      "name": "香椎神宮",
+      "lat": 33.650204,
+      "lng": 130.452363,
+      "connectedStopIds": [
+        24,
+        25,
+        214
+      ],
+      "population": 956,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 197,
+      "name": "向之原",
+      "lat": 33.19668,
+      "lng": 131.514083,
+      "connectedStopIds": [
+        87,
+        273
+      ],
+      "population": 617,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 198,
+      "name": "大神",
+      "lat": 33.383562,
+      "lng": 131.575263,
+      "connectedStopIds": [
+        253,
+        260
+      ],
+      "population": 386,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 199,
+      "name": "海ノ中道",
+      "lat": 33.664164,
+      "lng": 130.361649,
+      "connectedStopIds": [
+        204,
+        232
+      ],
+      "population": 955,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 200,
+      "name": "南大分",
+      "lat": 33.214157,
+      "lng": 131.585854,
+      "connectedStopIds": [
+        10,
+        263,
+        278
+      ],
+      "population": 611,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 201,
+      "name": "吉野",
+      "lat": 33.075804,
+      "lng": 130.466352,
+      "connectedStopIds": [
+        191,
+        247
+      ],
+      "population": 384,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 202,
+      "name": "荒尾",
+      "lat": 32.994749,
+      "lng": 130.434731,
+      "connectedStopIds": [
+        98,
+        267
+      ],
+      "population": 920,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 203,
+      "name": "長洲",
+      "lat": 32.935504,
+      "lng": 130.454513,
+      "connectedStopIds": [
+        240,
+        267
+      ],
+      "population": 611,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 204,
+      "name": "雁ノ巣",
+      "lat": 33.683959,
+      "lng": 130.403494,
+      "connectedStopIds": [
+        144,
+        199
+      ],
+      "population": 383,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 205,
+      "name": "有佐",
+      "lat": 32.562781,
+      "lng": 130.670281,
+      "connectedStopIds": [
+        107,
+        151
+      ],
+      "population": 916,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 206,
+      "name": "築城",
+      "lat": 33.673197,
+      "lng": 131.037675,
+      "connectedStopIds": [
+        158,
+        164
+      ],
+      "population": 608,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 207,
+      "name": "南久留米",
+      "lat": 33.303246,
+      "lng": 130.532877,
+      "connectedStopIds": [
+        120,
+        179
+      ],
+      "population": 376,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 208,
+      "name": "伊賀",
+      "lat": 33.620784,
+      "lng": 130.473593,
+      "connectedStopIds": [
+        36,
+        217
+      ],
+      "population": 914,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 209,
+      "name": "清武",
+      "lat": 31.859383,
+      "lng": 131.389231,
+      "connectedStopIds": [
+        6,
+        266
+      ],
+      "population": 602,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 210,
+      "name": "飫肥",
+      "lat": 31.627382,
+      "lng": 131.361958,
+      "connectedStopIds": [
+        222
+      ],
+      "population": 375,
+      "populationArea": "日南線"
+    },
+    {
+      "id": 211,
+      "name": "川尻",
+      "lat": 32.743765,
+      "lng": 130.679914,
+      "connectedStopIds": [
+        69,
+        277
+      ],
+      "population": 910,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 212,
+      "name": "久保田",
+      "lat": 33.255603,
+      "lng": 130.22887,
+      "connectedStopIds": [
+        176,
+        242
+      ],
+      "population": 599,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 213,
+      "name": "小林",
+      "lat": 31.990963,
+      "lng": 130.975688,
+      "connectedStopIds": [
+        193
+      ],
+      "population": 373,
+      "populationArea": "吉都線"
+    },
+    {
+      "id": 214,
+      "name": "舞松原",
+      "lat": 33.645164,
+      "lng": 130.455159,
+      "connectedStopIds": [
+        36,
+        196
+      ],
+      "population": 908,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 215,
+      "name": "指宿",
+      "lat": 31.236833,
+      "lng": 130.642661,
+      "connectedStopIds": [
+        243
+      ],
+      "population": 595,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 216,
+      "name": "木葉",
+      "lat": 32.916286,
+      "lng": 130.626481,
+      "connectedStopIds": [
+        89,
+        283
+      ],
+      "population": 368,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 217,
+      "name": "酒殿",
+      "lat": 33.602626,
+      "lng": 130.486333,
+      "connectedStopIds": [
+        208,
+        256
+      ],
+      "population": 907,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 218,
+      "name": "鞍手",
+      "lat": 33.797818,
+      "lng": 130.699562,
+      "connectedStopIds": [
+        228,
+        299
+      ],
+      "population": 595,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 219,
+      "name": "豊後豊岡",
+      "lat": 33.361963,
+      "lng": 131.501548,
+      "connectedStopIds": [
+        186,
+        226
+      ],
+      "population": 367,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 220,
+      "name": "宮崎空港",
+      "lat": 31.872461,
+      "lng": 131.440162,
+      "connectedStopIds": [
+        6
+      ],
+      "population": 887,
+      "populationArea": "宮崎空港線"
+    },
+    {
+      "id": 221,
+      "name": "臼杵",
+      "lat": 33.118602,
+      "lng": 131.807899,
+      "connectedStopIds": [
+        173,
+        270
+      ],
+      "population": 592,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 222,
+      "name": "木花",
+      "lat": 31.831475,
+      "lng": 131.436772,
+      "connectedStopIds": [
+        6,
+        210
+      ],
+      "population": 352,
+      "populationArea": "日南線"
+    },
+    {
+      "id": 223,
+      "name": "西里",
+      "lat": 32.854565,
+      "lng": 130.700083,
+      "connectedStopIds": [
+        48,
+        283
+      ],
+      "population": 878,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 224,
+      "name": "筑前大分",
+      "lat": 33.590238,
+      "lng": 130.62965,
+      "connectedStopIds": [
+        189
+      ],
+      "population": 590,
+      "populationArea": "篠栗線"
+    },
+    {
+      "id": 225,
+      "name": "東水巻",
+      "lat": 33.840485,
+      "lng": 130.70815,
+      "connectedStopIds": [
+        78,
+        190
+      ],
+      "population": 351,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 226,
+      "name": "暘谷",
+      "lat": 33.370177,
+      "lng": 131.530421,
+      "connectedStopIds": [
+        219,
+        260
+      ],
+      "population": 874,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 227,
+      "name": "天道",
+      "lat": 33.605338,
+      "lng": 130.677922,
+      "connectedStopIds": [
+        33,
+        163
+      ],
+      "population": 582,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 228,
+      "name": "筑前垣生",
+      "lat": 33.818344,
+      "lng": 130.702187,
+      "connectedStopIds": [
+        78,
+        218
+      ],
+      "population": 348,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 229,
+      "name": "筑前深江",
+      "lat": 33.515033,
+      "lng": 130.139448,
+      "connectedStopIds": [
+        165,
+        177
+      ],
+      "population": 863,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 230,
+      "name": "浜崎",
+      "lat": 33.446772,
+      "lng": 130.036464,
+      "connectedStopIds": [
+        165,
+        280
+      ],
+      "population": 573,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 231,
+      "name": "和多田",
+      "lat": 33.436935,
+      "lng": 129.980772,
+      "connectedStopIds": [
+        280
+      ],
+      "population": 343,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 232,
+      "name": "西戸崎",
+      "lat": 33.650315,
+      "lng": 130.358003,
+      "connectedStopIds": [
+        199
+      ],
+      "population": 856,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 233,
+      "name": "高田",
+      "lat": 32.819349,
+      "lng": 129.869003,
+      "connectedStopIds": [
+        141,
+        149
+      ],
+      "population": 573,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 234,
+      "name": "熊崎",
+      "lat": 33.136088,
+      "lng": 131.787591,
+      "connectedStopIds": [
+        117,
+        270
+      ],
+      "population": 342,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 235,
+      "name": "西浦上",
+      "lat": 32.790568,
+      "lng": 129.858954,
+      "connectedStopIds": [
+        71,
+        141
+      ],
+      "population": 846,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 236,
+      "name": "薩摩松元",
+      "lat": 31.605393,
+      "lng": 130.438798,
+      "connectedStopIds": [
+        92,
+        146
+      ],
+      "population": 570,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 237,
+      "name": "新入",
+      "lat": 33.76391,
+      "lng": 130.713566,
+      "connectedStopIds": [
+        29,
+        299
+      ],
+      "population": 342,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 238,
+      "name": "肥前鹿島",
+      "lat": 33.114394,
+      "lng": 130.097753,
+      "connectedStopIds": [
+        121,
+        182
+      ],
+      "population": 845,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 239,
+      "name": "柳ケ浦",
+      "lat": 33.565036,
+      "lng": 131.3626,
+      "connectedStopIds": [
+        186,
+        291
+      ],
+      "population": 555,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 240,
+      "name": "大野下",
+      "lat": 32.921624,
+      "lng": 130.502616,
+      "connectedStopIds": [
+        89,
+        203
+      ],
+      "population": 335,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 241,
+      "name": "竹松",
+      "lat": 32.940048,
+      "lng": 129.952915,
+      "connectedStopIds": [
+        289,
+        292
+      ],
+      "population": 843,
+      "populationArea": "大村線"
+    },
+    {
+      "id": 242,
+      "name": "鍋島",
+      "lat": 33.259062,
+      "lng": 130.265759,
+      "connectedStopIds": [
+        31,
+        212
+      ],
+      "population": 554,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 243,
+      "name": "二月田",
+      "lat": 31.254246,
+      "lng": 130.63012,
+      "connectedStopIds": [
+        183,
+        215
+      ],
+      "population": 332,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 244,
+      "name": "美咲が丘",
+      "lat": 33.549925,
+      "lng": 130.185554,
+      "connectedStopIds": [
+        76,
+        185
+      ],
+      "population": 825,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 245,
+      "name": "田川伊田",
+      "lat": 33.641996,
+      "lng": 130.817744,
+      "connectedStopIds": [
+        262,
+        265
+      ],
+      "population": 553,
+      "populationArea": "日田彦山線"
+    },
+    {
+      "id": 246,
+      "name": "豊後竹田",
+      "lat": 32.970914,
+      "lng": 131.389985,
+      "connectedStopIds": [
+        32,
+        170
+      ],
+      "population": 327,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 247,
+      "name": "瀬高",
+      "lat": 33.157044,
+      "lng": 130.485486,
+      "connectedStopIds": [
+        123,
+        201
+      ],
+      "population": 824,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 248,
+      "name": "新大牟田",
+      "lat": 33.071199,
+      "lng": 130.48876,
+      "connectedStopIds": [
+        123,
+        254
+      ],
+      "population": 552,
+      "populationArea": "九州新幹線"
+    },
+    {
+      "id": 249,
+      "name": "肥前古賀",
+      "lat": 32.798199,
+      "lng": 129.951409,
+      "connectedStopIds": [
+        21,
+        161
+      ],
+      "population": 320,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 250,
+      "name": "南延岡",
+      "lat": 32.559536,
+      "lng": 131.676865,
+      "connectedStopIds": [
+        154,
+        162
+      ],
+      "population": 811,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 251,
+      "name": "肥前麓",
+      "lat": 33.36587,
+      "lng": 130.47805,
+      "connectedStopIds": [
+        116,
+        175
+      ],
+      "population": 542,
+      "populationArea": "長崎本線"
+    },
+    {
+      "id": 252,
+      "name": "三間坂",
+      "lat": 33.194725,
+      "lng": 129.947693,
+      "connectedStopIds": [
+        113,
+        298
+      ],
+      "population": 319,
+      "populationArea": "佐世保線"
+    },
+    {
+      "id": 253,
+      "name": "杵築",
+      "lat": 33.411126,
+      "lng": 131.575572,
+      "connectedStopIds": [
+        96,
+        198
+      ],
+      "population": 798,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 254,
+      "name": "新玉名",
+      "lat": 32.942387,
+      "lng": 130.573776,
+      "connectedStopIds": [
+        13,
+        248
+      ],
+      "population": 531,
+      "populationArea": "九州新幹線"
+    },
+    {
+      "id": 255,
+      "name": "奥洞海",
+      "lat": 33.889091,
+      "lng": 130.764387,
+      "connectedStopIds": [
+        93,
+        160
+      ],
+      "population": 317,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 256,
+      "name": "須恵",
+      "lat": 33.596634,
+      "lng": 130.498185,
+      "connectedStopIds": [
+        45,
+        217
+      ],
+      "population": 785,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 257,
+      "name": "宮崎神宮",
+      "lat": 31.938426,
+      "lng": 131.430539,
+      "connectedStopIds": [
+        97,
+        166
+      ],
+      "population": 530,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 258,
+      "name": "市来",
+      "lat": 31.689371,
+      "lng": 130.303311,
+      "connectedStopIds": [
+        184,
+        294
+      ],
+      "population": 316,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 259,
+      "name": "高鍋",
+      "lat": 32.122192,
+      "lng": 131.533468,
+      "connectedStopIds": [
+        138,
+        279
+      ],
+      "population": 774,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 260,
+      "name": "日出",
+      "lat": 33.369197,
+      "lng": 131.542463,
+      "connectedStopIds": [
+        198,
+        226
+      ],
+      "population": 519,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 261,
+      "name": "三角",
+      "lat": 32.607746,
+      "lng": 130.469676,
+      "connectedStopIds": [
+        13,
+        137
+      ],
+      "population": 314,
+      "populationArea": "三角線"
+    },
+    {
+      "id": 262,
+      "name": "志井公園",
+      "lat": 33.818311,
+      "lng": 130.879708,
+      "connectedStopIds": [
+        139,
+        159,
+        245
+      ],
+      "population": 772,
+      "populationArea": "日田彦山線"
+    },
+    {
+      "id": 263,
+      "name": "古国府",
+      "lat": 33.220741,
+      "lng": 131.607905,
+      "connectedStopIds": [
+        200
+      ],
+      "population": 515,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 264,
+      "name": "中多久",
+      "lat": 33.283298,
+      "lng": 130.112369,
+      "connectedStopIds": [
+        178,
+        297
+      ],
+      "population": 314,
+      "populationArea": "唐津線"
+    },
+    {
+      "id": 265,
+      "name": "田川後藤寺",
+      "lat": 33.630353,
+      "lng": 130.80007,
+      "connectedStopIds": [
+        245
+      ],
+      "population": 763,
+      "populationArea": "日田彦山線"
+    },
+    {
+      "id": 266,
+      "name": "田野",
+      "lat": 31.83786,
+      "lng": 131.304954,
+      "connectedStopIds": [
+        193,
+        209
+      ],
+      "population": 510,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 267,
+      "name": "南荒尾",
+      "lat": 32.965884,
+      "lng": 130.433104,
+      "connectedStopIds": [
+        202,
+        203
+      ],
+      "population": 313,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 268,
+      "name": "肥前旭",
+      "lat": 33.3501,
+      "lng": 130.49612,
+      "connectedStopIds": [
+        64,
+        70
+      ],
+      "population": 760,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 269,
+      "name": "田代",
+      "lat": 33.384114,
+      "lng": 130.524704,
+      "connectedStopIds": [
+        70,
+        81
+      ],
+      "population": 507,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 270,
+      "name": "上臼杵",
+      "lat": 33.112547,
+      "lng": 131.792926,
+      "connectedStopIds": [
+        221,
+        234
+      ],
+      "population": 309,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 271,
+      "name": "平川",
+      "lat": 31.450015,
+      "lng": 130.513719,
+      "connectedStopIds": [
+        156,
+        281
+      ],
+      "population": 754,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 272,
+      "name": "新水俣",
+      "lat": 32.210578,
+      "lng": 130.428667,
+      "connectedStopIds": [
+        107,
+        147
+      ],
+      "population": 506,
+      "populationArea": "九州新幹線"
+    },
+    {
+      "id": 273,
+      "name": "豊後国分",
+      "lat": 33.194785,
+      "lng": 131.550958,
+      "connectedStopIds": [
+        197,
+        278
+      ],
+      "population": 308,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 274,
+      "name": "竜田口",
+      "lat": 32.820537,
+      "lng": 130.746949,
+      "connectedStopIds": [
+        86,
+        140
+      ],
+      "population": 745,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 275,
+      "name": "大塔",
+      "lat": 33.148978,
+      "lng": 129.782044,
+      "connectedStopIds": [
+        42,
+        153
+      ],
+      "population": 504,
+      "populationArea": "佐世保線"
+    },
+    {
+      "id": 276,
+      "name": "東市来",
+      "lat": 31.65549,
+      "lng": 130.347237,
+      "connectedStopIds": [
+        92,
+        294
+      ],
+      "population": 305,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 277,
+      "name": "富合",
+      "lat": 32.713511,
+      "lng": 130.67275,
+      "connectedStopIds": [
+        137,
+        211
+      ],
+      "population": 742,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 278,
+      "name": "賀来",
+      "lat": 33.212969,
+      "lng": 131.562288,
+      "connectedStopIds": [
+        200,
+        273
+      ],
+      "population": 497,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 279,
+      "name": "川南",
+      "lat": 32.192188,
+      "lng": 131.553193,
+      "connectedStopIds": [
+        259,
+        285
+      ],
+      "population": 300,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 280,
+      "name": "東唐津",
+      "lat": 33.439405,
+      "lng": 129.996849,
+      "connectedStopIds": [
+        230,
+        231
+      ],
+      "population": 739,
+      "populationArea": "筑肥線"
+    },
+    {
+      "id": 281,
+      "name": "喜入",
+      "lat": 31.371339,
+      "lng": 130.538913,
+      "connectedStopIds": [
+        183,
+        271
+      ],
+      "population": 493,
+      "populationArea": "指宿枕崎線"
+    },
+    {
+      "id": 282,
+      "name": "新原",
+      "lat": 33.579049,
+      "lng": 130.508872,
+      "connectedStopIds": [
+        45,
+        134
+      ],
+      "population": 295,
+      "populationArea": "香椎線"
+    },
+    {
+      "id": 283,
+      "name": "植木",
+      "lat": 32.880128,
+      "lng": 130.681365,
+      "connectedStopIds": [
+        216,
+        223
+      ],
+      "population": 735,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 284,
+      "name": "重富",
+      "lat": 31.703164,
+      "lng": 130.614417,
+      "connectedStopIds": [
+        9,
+        157
+      ],
+      "population": 489,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 285,
+      "name": "都農",
+      "lat": 32.250983,
+      "lng": 131.568248,
+      "connectedStopIds": [
+        114,
+        279
+      ],
+      "population": 294,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 286,
+      "name": "中判田",
+      "lat": 33.164105,
+      "lng": 131.638814,
+      "connectedStopIds": [
+        75,
+        170
+      ],
+      "population": 731,
+      "populationArea": "豊肥本線"
+    },
+    {
+      "id": 287,
+      "name": "田主丸",
+      "lat": 33.338799,
+      "lng": 130.692322,
+      "connectedStopIds": [
+        120,
+        174
+      ],
+      "population": 488,
+      "populationArea": "久大本線"
+    },
+    {
+      "id": 288,
+      "name": "吉富",
+      "lat": 33.604767,
+      "lng": 131.173639,
+      "connectedStopIds": [
+        53,
+        63
+      ],
+      "population": 292,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 289,
+      "name": "川棚",
+      "lat": 33.068495,
+      "lng": 129.863469,
+      "connectedStopIds": [
+        84,
+        241
+      ],
+      "population": 726,
+      "populationArea": "大村線"
+    },
+    {
+      "id": 290,
+      "name": "西大分",
+      "lat": 33.24482,
+      "lng": 131.58309,
+      "connectedStopIds": [
+        10,
+        91
+      ],
+      "population": 486,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 291,
+      "name": "東中津",
+      "lat": 33.587445,
+      "lng": 131.239255,
+      "connectedStopIds": [
+        53,
+        239
+      ],
+      "population": 288,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 292,
+      "name": "新大村",
+      "lat": 32.93298,
+      "lng": 129.95705,
+      "connectedStopIds": [
+        128,
+        241,
+        301
+      ],
+      "population": 725,
+      "populationArea": "大村線"
+    },
+    {
+      "id": 293,
+      "name": "錦江",
+      "lat": 31.736881,
+      "lng": 130.653293,
+      "connectedStopIds": [
+        12,
+        54
+      ],
+      "population": 467,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 294,
+      "name": "湯之元",
+      "lat": 31.673877,
+      "lng": 130.336712,
+      "connectedStopIds": [
+        258,
+        276
+      ],
+      "population": 285,
+      "populationArea": "鹿児島本線"
+    },
+    {
+      "id": 295,
+      "name": "佐伯",
+      "lat": 32.972476,
+      "lng": 131.901884,
+      "connectedStopIds": [
+        154,
+        173
+      ],
+      "population": 710,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 296,
+      "name": "西都城",
+      "lat": 31.723521,
+      "lng": 131.056981,
+      "connectedStopIds": [
+        50,
+        193
+      ],
+      "population": 466,
+      "populationArea": "日豊本線"
+    },
+    {
+      "id": 297,
+      "name": "多久",
+      "lat": 33.288089,
+      "lng": 130.096141,
+      "connectedStopIds": [
+        264,
+        300
+      ],
+      "population": 282,
+      "populationArea": "唐津線"
+    },
+    {
+      "id": 298,
+      "name": "有田",
+      "lat": 33.183592,
+      "lng": 129.881971,
+      "connectedStopIds": [
+        42,
+        252
+      ],
+      "population": 701,
+      "populationArea": "佐世保線"
+    },
+    {
+      "id": 299,
+      "name": "筑前植木",
+      "lat": 33.776507,
+      "lng": 130.708235,
+      "connectedStopIds": [
+        218,
+        237
+      ],
+      "population": 461,
+      "populationArea": "筑豊本線"
+    },
+    {
+      "id": 300,
+      "name": "山本",
+      "lat": 33.393373,
+      "lng": 129.981104,
+      "connectedStopIds": [
+        110,
+        297
+      ],
+      "population": 282,
+      "populationArea": "唐津線"
+    },
+    {
+      "id": 301,
+      "name": "嬉野温泉",
+      "lat": 33.106672,
+      "lng": 129.998944,
+      "connectedStopIds": [
+        113,
+        292
+      ],
+      "population": 228,
+      "populationArea": "西九州新幹線"
+    }
+  ]
+}

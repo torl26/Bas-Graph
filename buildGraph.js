@@ -109,8 +109,8 @@ export function buildGraphFromLocalData(busData, { layout = 'geo', weights } = {
       lat: hasCoords ? s.lat : null,
       lon: hasCoords ? s.lng : null,
       hasCoords,
-      x: hasCoords ? s.lng : 0,  // sigma用: 経度をX座標に(座標未確定なら後で推定)
-      y: hasCoords ? -s.lat : 0, // sigma用: 緯度をY座標に（上下反転）
+      x: hasCoords ? s.lng : 0, // sigma用: 経度をX座標に(座標未確定なら後で推定)
+      y: hasCoords ? s.lat : 0, // sigma用: 緯度をY座標に(sigmaはy値が大きいほど上に描画するため反転不要、上が北になる)
       size: 3,
       color: '#3b82f6',
       population: typeof s.population === 'number' ? s.population : null,
@@ -223,8 +223,8 @@ export function buildGraphFromOSM(stopElements, routeElements) {
       label: el.tags?.name || el.tags?.['name:ja'] || `停留所 ${el.id}`,
       lat: el.lat,
       lon: el.lon,
-      x: el.lon,  // sigma用: 経度をX座標に
-      y: -el.lat, // sigma用: 緯度をY座標に（上下反転）
+      x: el.lon, // sigma用: 経度をX座標に
+      y: el.lat, // sigma用: 緯度をY座標に(sigmaはy値が大きいほど上に描画するため反転不要、上が北になる)
       size: 3,
       color: '#3b82f6',
     });

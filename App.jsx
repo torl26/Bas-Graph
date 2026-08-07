@@ -2,8 +2,35 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { SigmaContainer, useRegisterEvents, useSigma } from '@react-sigma/core';
 import '@react-sigma/core/lib/style.css';
 import busData from './busData.json';
+import stationData from './stationData.json';
 import { buildGraphFromLocalData } from './buildGraph.js';
 import { assessRemovalSafety } from './removalSafety.js';
+
+// ===== データセット定義(バス停 / 駅) =====
+const DATASETS = {
+  bus: {
+    label: 'バス停(久留米市)',
+    title: '久留米バス停 重要度グラフ',
+    data: busData,
+    metricLabel: '地域人口(町丁目)',
+    metricUnit: '人',
+    areaDesc: '久留米市 全域',
+    placeholderDesc: (
+      <>busData.json から久留米市のバス停と接続関係を読み込み、<br />グラフ中心性で重要度を計算して可視化します</>
+    ),
+  },
+  station: {
+    label: '駅(JR九州)',
+    title: 'JR九州 駅 重要度グラフ',
+    data: stationData,
+    metricLabel: '1日平均乗車人員',
+    metricUnit: '人',
+    areaDesc: '九州全県',
+    placeholderDesc: (
+      <>stationData.json からJR九州の駅と路線の接続関係を読み込み、<br />グラフ中心性と乗車人員で重要度を計算して可視化します</>
+    ),
+  },
+};
 
 // ===== ホバー時のみ表示するラベル（背景ボックス付き） =====
 function drawHoverLabel(context, data, settings) {
@@ -60,14 +87,14 @@ function GraphEvents({ onNodeClick, onNodeHover, onStageClick }) {
 }
 
 // ===== 重みスライダー =====
-function WeightPanel({ weights, onChange }) {
+function WeightPanel({ weights, onChange, metricLabel }) {
   return (
     <div>
       <p style={styles.sectionTitle}>重要度の重み付け</p>
       {[
         { key: 'degree', label: '次数中心性' },
         { key: 'betweenness', label: '媒介中心性' },
-        { key: 'population', label: '地域人口(町丁目)' },
+        { key: 'population', label: metricLabel },
       ].map(({ key, label }) => (
         <div key={key} style={styles.weightRow}>
           <div style={styles.weightRowTop}>
@@ -82,6 +109,26 @@ function WeightPanel({ weights, onChange }) {
           />
         </div>
       ))}
+    </div>
+  );
+}
+
+// ===== データセット切り替え(バス停 / 駅) =====
+function DatasetToggle({ datasetKey, onChange }) {
+  return (
+    <div style={{ marginBottom: 20 }}>
+      <p style={styles.sectionTitle}>データセット</p>
+      <div style={styles.modeToggle}>
+        {Object.entries(DATASETS).map(([key, d]) => (
+          <button
+            key={key}
+            onClick={() => onChange(key)}
+            style={{ ...styles.modeToggleBtn, ...(datasetKey === key ? styles.modeToggleBtnActive : {}) }}
+          >
+            {d.label}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }
@@ -139,13 +186,13 @@ function Legend() {
 }
 
 // ===== エリア概況 =====
-function AreaStats({ stats }) {
+function AreaStats({ stats, itemLabel }) {
   if (!stats) return null;
   return (
     <div style={styles.statsBox}>
       <p style={styles.statsBoxTitle}>エリア概況</p>
       <div style={styles.statsRow}>
-        <span style={styles.statsKey}>対象バス停</span>
+        <span style={styles.statsKey}>対象{itemLabel}</span>
         <span style={styles.statsValue}>{stats.count}件</span>
       </div>
       <div style={styles.statsRow}>
@@ -244,7 +291,7 @@ function RemovalSafety({ safety }) {
 }
 
 // ===== 選択ノード詳細パネル =====
-function NodeDetail({ node, safety, onClose }) {
+function NodeDetail({ node, safety, onClose, metricLabel }) {
   if (!node) return null;
   const score = (node.importance * 100).toFixed(1);
   const deg = node.degree?.toFixed ? node.degree.toFixed(3) : node.degree;
@@ -266,7 +313,7 @@ function NodeDetail({ node, safety, onClose }) {
         <span style={styles.statsValue}>{bet}</span>
       </div>
       <div style={styles.statsRow}>
-        <span style={styles.statsKey}>地域人口{node.populationArea ? `(${node.populationArea})` : ''}</span>
+        <span style={styles.statsKey}>{metricLabel}{node.populationArea ? `(${node.populationArea})` : ''}</span>
         <span style={styles.statsValue}>
           {typeof node.population === 'number' ? `${node.population.toLocaleString()}人` : '不明'}
         </span>
@@ -286,6 +333,7 @@ function NodeDetail({ node, safety, onClose }) {
 
 // ===== メインアプリ =====
 export default function App() {
+  const [datasetKey, setDatasetKey] = useState('bus'); // 'bus' | 'station'
   const [graph, setGraph] = useState(null);
   const [status, setStatus] = useState('idle'); // idle | loading | done | error
   const [errorMsg, setErrorMsg] = useState('');
@@ -294,11 +342,14 @@ export default function App() {
   const [loaded, setLoaded] = useState(false);
   const [layoutMode, setLayoutMode] = useState('geo'); // 'geo' | 'force'
 
+  const activeDataset = DATASETS[datasetKey];
+  const rawData = activeDataset.data;
+
   const load = useCallback(() => {
     setStatus('loading');
     setErrorMsg('');
     try {
-      const g = buildGraphFromLocalData(busData, { layout: layoutMode, weights });
+      const g = buildGraphFromLocalData(rawData, { layout: layoutMode, weights });
       setGraph(g);
       setLoaded(true);
       setStatus('done');
@@ -306,17 +357,28 @@ export default function App() {
       setErrorMsg(e.message);
       setStatus('error');
     }
-  }, [layoutMode, weights]);
+  }, [rawData, layoutMode, weights]);
 
   // 重み・表示モードが変わったら再計算（読み込み済みなら）
   useEffect(() => {
     if (!loaded) return;
-    const g = buildGraphFromLocalData(busData, { layout: layoutMode, weights });
+    const g = buildGraphFromLocalData(rawData, { layout: layoutMode, weights });
     setGraph(g);
-  }, [weights, loaded, layoutMode]);
+  }, [rawData, weights, loaded, layoutMode]);
 
   const handleWeightChange = (key, val) => {
     setWeights(prev => ({ ...prev, [key]: val }));
+  };
+
+  // データセット切り替え時は読込状態をリセットし、再読込を促す
+  const handleDatasetChange = (key) => {
+    if (key === datasetKey) return;
+    setDatasetKey(key);
+    setGraph(null);
+    setSelectedNode(null);
+    setLoaded(false);
+    setStatus('idle');
+    setErrorMsg('');
   };
 
   // ランキング・エリア概況はグラフから導出
@@ -330,11 +392,11 @@ export default function App() {
     return arr;
   }, [graph]);
 
-  // バス停ごとの削除安全度（関節点判定 + Vitality + 近隣代替バス停の有無）
+  // ノードごとの削除安全度（関節点判定 + Vitality + 近隣代替ノードの有無）
   const removalSafety = useMemo(() => {
     if (!graph) return null;
-    return assessRemovalSafety(graph, busData);
-  }, [graph]);
+    return assessRemovalSafety(graph, rawData);
+  }, [graph, rawData]);
 
   // 危険度ランキング（危険 > 注意 > 安全、同レベル内はVitality降順）
   const dangerRanking = useMemo(() => {
@@ -377,9 +439,9 @@ export default function App() {
     <div style={styles.root}>
       {/* ヘッダー */}
       <div style={styles.header}>
-        <span style={styles.headerTitle}>久留米バス停 重要度グラフ</span>
+        <span style={styles.headerTitle}>{activeDataset.title}</span>
         <span style={styles.badge}>{badgeLabel}</span>
-        <span style={styles.headerDate}>久留米市 全域　|　{today} 更新</span>
+        <span style={styles.headerDate}>{activeDataset.areaDesc}　|　{today} 更新</span>
         <button
           onClick={load}
           disabled={status === 'loading'}
@@ -393,8 +455,9 @@ export default function App() {
       <div style={styles.main}>
         {/* 左サイドパネル */}
         <div style={styles.leftPanel}>
+          <DatasetToggle datasetKey={datasetKey} onChange={handleDatasetChange} />
           <LayoutModeToggle mode={layoutMode} onChange={setLayoutMode} />
-          <WeightPanel weights={weights} onChange={handleWeightChange} />
+          <WeightPanel weights={weights} onChange={handleWeightChange} metricLabel={activeDataset.metricLabel} />
           <hr style={styles.divider} />
           <Legend />
         </div>
@@ -405,8 +468,7 @@ export default function App() {
             <div style={styles.placeholder}>
               <p style={styles.placeholderTitle}>「データ読込・描画」を押してください</p>
               <p style={styles.placeholderSub}>
-                busData.json から久留米市のバス停と接続関係を読み込み、<br />
-                グラフ中心性で重要度を計算して可視化します
+                {activeDataset.placeholderDesc}
               </p>
             </div>
           )}
@@ -465,7 +527,7 @@ export default function App() {
 
         {/* 右サイドパネル */}
         <div style={styles.rightPanel}>
-          <AreaStats stats={areaStats} />
+          <AreaStats stats={areaStats} itemLabel={datasetKey === 'station' ? '駅' : 'バス停'} />
           <RankingList ranking={ranking} onSelect={handleSelectFromRanking} />
           <DangerRankingList ranking={dangerRanking} onSelect={handleSelectFromRanking} />
           {selectedNode && (
@@ -473,6 +535,7 @@ export default function App() {
               node={selectedNode}
               safety={removalSafety?.[selectedNode.id]}
               onClose={() => setSelectedNode(null)}
+              metricLabel={activeDataset.metricLabel}
             />
           )}
         </div>
