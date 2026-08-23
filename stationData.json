@@ -1,6 +1,6 @@
 {
   "metricLabel": "1日平均乗車人員",
-  "sourceNote": "JR九州公式サイト「駅別乗車人員上位300駅（2023年度）」(https://www.jrkyushu.co.jp/company/info/data/pdf/2023ekibetsu.pdf、企業情報＞交通・営業データ https://www.jrkyushu.co.jp/company/info/data/station.html )を主データとして使用。同PDF内「（参考）西九州新幹線の駅別乗車人員（2023年度）」に記載の嬉野温泉駅（228人/日）のみ追加収録。乗車人員は2023年度(2023年4月〜2024年3月)の1日平均値。座標はOpenStreetMapのデータを利用。connectedStopIdsは同一路線内は駅の緯度経度に基づく近接順で接続し、主要な乗換駅については実際の路線接続関係に基づき追加で接続を補完した(概算のグラフ構造であり、正確な営業キロ順を保証するものではない)。",
+  "sourceNote": "JR九州公式サイト「駅別乗車人員上位300駅（2023年度）」(https://www.jrkyushu.co.jp/company/info/data/pdf/2023ekibetsu.pdf、企業情報＞交通・営業データ https://www.jrkyushu.co.jp/company/info/data/station.html )を主データとして使用。同PDF内「（参考）西九州新幹線の駅別乗車人員（2023年度）」に記載の嬉野温泉駅（228人/日）のみ追加収録。乗車人員は2023年度(2023年4月〜2024年3月)の1日平均値。座標はOpenStreetMapのデータを利用。connectedStopIdsは同一路線内は駅の緯度経度に基づく近接順で接続し、主要な乗換駅については実際の路線接続関係に基づき追加で接続を補完した(概算のグラフ構造であり、正確な営業キロ順を保証するものではない)。 【追記：福岡市地下鉄】空港線・箱崎線・七隈線の駅データは、福岡市オープンデータカタログ「福岡市 地下鉄駅別乗車人員(１日平均)」(https://data.bodik.jp/dataset/401307_tikatetuekibetujoushajinin ／福岡市地下鉄公式サイト「駅別乗車人員の推移」https://subway.city.fukuoka.lg.jp/ 掲載データと同一集計)の令和5年度(2023年度、JR九州データと同一年度)１日平均乗車人員を使用。空港線と箱崎線の結節点である中洲川端駅は、公表データ上「空港線」区分の値(14,920人)を採用し、「箱崎線」区分で別途集計されている値(2,293人)は合算していない。西鉄貝塚線・JR筑肥線側の集計値はこのデータセットの対象外(JR九州の駅のみ収録する既存方針を維持)のため収録していない。座標はOpenStreetMap(Nominatim)およびWikipedia各駅記事のInfobox座標(国土地理院データに基づく)を突き合わせて採用。博多駅(id=1)は空港線・七隈線(2023年3月延伸後)の乗換駅、姪浜駅(id=88)はJR筑肥線と空港線が直通運転する実質同一駅として、新規ノードを作らず既存idにconnectedStopIdsのみ追加した。天神駅と天神南駅は地下街で連絡しているため、参考として接続関係を追加している(乗換駅としての公式な統合はしていない)。 【追記：西日本鉄道(西鉄)】天神大牟田線(西鉄福岡(天神)〜大牟田、50駅)・太宰府線(西鉄二日市〜太宰府、2駅)・甘木線(宮の陣〜甘木、11駅)・貝塚線(貝塚〜西鉄新宮、10駅)の計73駅を追加収録し(id=336〜408)、JR九州の駅のみを収録するとした従来方針を変更した。乗降人員データは国土交通省「国土数値情報(駅別乗降客数データ)」令和5年度(2023年度)分を集計した二次情報サイト(statresearch.jp「西日本鉄道の駅別乗降客数ランキング」、opendata-web.site「路線：天神大牟田線」等)経由で取得した1日平均「乗降人員」(乗車+降車の合計)であり、JR九州・福岡市地下鉄側の指標である「乗車人員」とは単位が異なるため、population欄の値を路線間で単純比較する際は注意が必要(西鉄側はおおむね同規模の駅同士でも乗車人員換算で概ね半分程度になる見込み)。聖マリア病院前駅(id=364)は2024年3月の改称前の旧駅名「試験場前」名義で公表された2023年度値(2,923人)を収録した。桜並木駅(id=343)は2024年3月16日開業のため2023年度実績が存在せず、代わりに2024年度の参考値(5,368人、乗降人員、出典の年度が他駅と異なる点に注意)を暫定収録した。座標はOverpass API経由のOpenStreetMapデータ(西鉄福岡(天神)駅を除く各駅ノード)を使用。connectedStopIdsは天神大牟田線・太宰府線・甘木線・貝塚線それぞれの同一路線内を駅順に接続したうえで、西鉄福岡(天神)駅⇄天神駅・天神南駅(地下街連絡、参考接続)、大牟田駅(西鉄)⇄大牟田駅(JR、id=98)、貝塚駅(西鉄貝塚線)⇄貝塚駅(地下鉄箱崎線、id=318)、西鉄二日市駅⇄西鉄五条駅(太宰府線分岐点)、宮の陣駅⇄五郎丸駅(甘木線分岐点)の各接続を追加した。",
   "stops": [
     {
       "id": 1,
@@ -10,7 +10,10 @@
       "connectedStopIds": [
         16,
         40,
-        116
+        116,
+        310,
+        335,
+        311
       ],
       "population": 119562,
       "populationArea": "鹿児島本線"
@@ -1072,7 +1075,8 @@
       "lng": 130.325104,
       "connectedStopIds": [
         35,
-        106
+        106,
+        302
       ],
       "population": 5636,
       "populationArea": "筑肥線"
@@ -1193,7 +1197,8 @@
       "lng": 130.4436,
       "connectedStopIds": [
         191,
-        202
+        202,
+        385
       ],
       "population": 2143,
       "populationArea": "鹿児島本線"
@@ -3629,6 +3634,1293 @@
       ],
       "population": 228,
       "populationArea": "西九州新幹線"
+    },
+    {
+      "id": 302,
+      "name": "室見",
+      "lat": 33.58096111,
+      "lng": 130.340075,
+      "connectedStopIds": [
+        88,
+        303
+      ],
+      "population": 7939,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 303,
+      "name": "藤崎",
+      "lat": 33.58136111,
+      "lng": 130.34816944,
+      "connectedStopIds": [
+        302,
+        304
+      ],
+      "population": 11071,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 304,
+      "name": "西新",
+      "lat": 33.58380278,
+      "lng": 130.35974167,
+      "connectedStopIds": [
+        303,
+        305
+      ],
+      "population": 22056,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 305,
+      "name": "唐人町",
+      "lat": 33.59026389,
+      "lng": 130.37053333,
+      "connectedStopIds": [
+        304,
+        306
+      ],
+      "population": 12492,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 306,
+      "name": "大濠公園",
+      "lat": 33.59008333,
+      "lng": 130.37885278,
+      "connectedStopIds": [
+        305,
+        307
+      ],
+      "population": 10861,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 307,
+      "name": "赤坂",
+      "lat": 33.58911667,
+      "lng": 130.39085,
+      "connectedStopIds": [
+        306,
+        308
+      ],
+      "population": 16083,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 308,
+      "name": "天神",
+      "lat": 33.59148889,
+      "lng": 130.39935833,
+      "connectedStopIds": [
+        307,
+        309,
+        334,
+        336
+      ],
+      "population": 64938,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 309,
+      "name": "中洲川端",
+      "lat": 33.59498333,
+      "lng": 130.40660278,
+      "connectedStopIds": [
+        308,
+        310,
+        313
+      ],
+      "population": 14920,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 310,
+      "name": "祇園",
+      "lat": 33.59404444,
+      "lng": 130.41467778,
+      "connectedStopIds": [
+        309,
+        1
+      ],
+      "population": 6841,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 311,
+      "name": "東比恵",
+      "lat": 33.58989444,
+      "lng": 130.43127778,
+      "connectedStopIds": [
+        1,
+        312
+      ],
+      "population": 11441,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 312,
+      "name": "福岡空港",
+      "lat": 33.59707778,
+      "lng": 130.44854167,
+      "connectedStopIds": [
+        311
+      ],
+      "population": 28571,
+      "populationArea": "地下鉄空港線"
+    },
+    {
+      "id": 313,
+      "name": "呉服町",
+      "lat": 33.59821667,
+      "lng": 130.40988889,
+      "connectedStopIds": [
+        309,
+        314
+      ],
+      "population": 4083,
+      "populationArea": "地下鉄箱崎線"
+    },
+    {
+      "id": 314,
+      "name": "千代県庁口",
+      "lat": 33.6028,
+      "lng": 130.41455833,
+      "connectedStopIds": [
+        313,
+        315
+      ],
+      "population": 4780,
+      "populationArea": "地下鉄箱崎線"
+    },
+    {
+      "id": 315,
+      "name": "馬出九大病院前",
+      "lat": 33.60921389,
+      "lng": 130.41931667,
+      "connectedStopIds": [
+        314,
+        316
+      ],
+      "population": 6045,
+      "populationArea": "地下鉄箱崎線"
+    },
+    {
+      "id": 316,
+      "name": "箱崎宮前",
+      "lat": 33.61583333,
+      "lng": 130.41958056,
+      "connectedStopIds": [
+        315,
+        317
+      ],
+      "population": 4269,
+      "populationArea": "地下鉄箱崎線"
+    },
+    {
+      "id": 317,
+      "name": "箱崎九大前",
+      "lat": 33.62211111,
+      "lng": 130.42103889,
+      "connectedStopIds": [
+        316,
+        318
+      ],
+      "population": 2736,
+      "populationArea": "地下鉄箱崎線"
+    },
+    {
+      "id": 318,
+      "name": "貝塚",
+      "lat": 33.632175,
+      "lng": 130.42557778,
+      "connectedStopIds": [
+        317,
+        399
+      ],
+      "population": 6700,
+      "populationArea": "地下鉄箱崎線"
+    },
+    {
+      "id": 319,
+      "name": "橋本",
+      "lat": 33.55520556,
+      "lng": 130.32106389,
+      "connectedStopIds": [
+        320
+      ],
+      "population": 4284,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 320,
+      "name": "次郎丸",
+      "lat": 33.55272778,
+      "lng": 130.32954444,
+      "connectedStopIds": [
+        319,
+        321
+      ],
+      "population": 3403,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 321,
+      "name": "賀茂",
+      "lat": 33.55048056,
+      "lng": 130.33787778,
+      "connectedStopIds": [
+        320,
+        322
+      ],
+      "population": 3350,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 322,
+      "name": "野芥",
+      "lat": 33.54833056,
+      "lng": 130.34655833,
+      "connectedStopIds": [
+        321,
+        323
+      ],
+      "population": 4286,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 323,
+      "name": "梅林",
+      "lat": 33.54580556,
+      "lng": 130.35493889,
+      "connectedStopIds": [
+        322,
+        324
+      ],
+      "population": 1469,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 324,
+      "name": "福大前",
+      "lat": 33.54746944,
+      "lng": 130.36222778,
+      "connectedStopIds": [
+        323,
+        325
+      ],
+      "population": 6754,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 325,
+      "name": "七隈",
+      "lat": 33.55326389,
+      "lng": 130.36168056,
+      "connectedStopIds": [
+        324,
+        326
+      ],
+      "population": 4742,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 326,
+      "name": "金山",
+      "lat": 33.55937222,
+      "lng": 130.36156111,
+      "connectedStopIds": [
+        325,
+        327
+      ],
+      "population": 3104,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 327,
+      "name": "茶山",
+      "lat": 33.56606389,
+      "lng": 130.36543056,
+      "connectedStopIds": [
+        326,
+        328
+      ],
+      "population": 2676,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 328,
+      "name": "別府",
+      "lat": 33.57416944,
+      "lng": 130.36962778,
+      "connectedStopIds": [
+        327,
+        329
+      ],
+      "population": 6937,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 329,
+      "name": "六本松",
+      "lat": 33.57767778,
+      "lng": 130.37728611,
+      "connectedStopIds": [
+        328,
+        330
+      ],
+      "population": 9029,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 330,
+      "name": "桜坂",
+      "lat": 33.57729167,
+      "lng": 130.38681944,
+      "connectedStopIds": [
+        329,
+        331
+      ],
+      "population": 2396,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 331,
+      "name": "薬院大通",
+      "lat": 33.58040556,
+      "lng": 130.39615833,
+      "connectedStopIds": [
+        330,
+        332
+      ],
+      "population": 4188,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 332,
+      "name": "薬院",
+      "lat": 33.581925,
+      "lng": 130.40168333,
+      "connectedStopIds": [
+        331,
+        333
+      ],
+      "population": 13368,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 333,
+      "name": "渡辺通",
+      "lat": 33.58396944,
+      "lng": 130.40484444,
+      "connectedStopIds": [
+        332,
+        334
+      ],
+      "population": 5052,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 334,
+      "name": "天神南",
+      "lat": 33.58819722,
+      "lng": 130.40172778,
+      "connectedStopIds": [
+        333,
+        335,
+        308,
+        336
+      ],
+      "population": 20740,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 335,
+      "name": "櫛田神社前",
+      "lat": 33.59133333,
+      "lng": 130.41158333,
+      "connectedStopIds": [
+        334,
+        1
+      ],
+      "population": 7105,
+      "populationArea": "地下鉄七隈線"
+    },
+    {
+      "id": 336,
+      "name": "西鉄福岡（天神）",
+      "lat": 33.5892548,
+      "lng": 130.3994222,
+      "connectedStopIds": [
+        337,
+        308,
+        334
+      ],
+      "population": 109641,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 337,
+      "name": "薬院",
+      "lat": 33.5824351,
+      "lng": 130.401673,
+      "connectedStopIds": [
+        336,
+        338
+      ],
+      "population": 35012,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 338,
+      "name": "西鉄平尾",
+      "lat": 33.5739778,
+      "lng": 130.4059716,
+      "connectedStopIds": [
+        337,
+        339
+      ],
+      "population": 12541,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 339,
+      "name": "高宮",
+      "lat": 33.567236,
+      "lng": 130.4144951,
+      "connectedStopIds": [
+        338,
+        340
+      ],
+      "population": 18514,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 340,
+      "name": "大橋",
+      "lat": 33.5592046,
+      "lng": 130.4264658,
+      "connectedStopIds": [
+        339,
+        341
+      ],
+      "population": 37294,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 341,
+      "name": "井尻",
+      "lat": 33.5520634,
+      "lng": 130.4433399,
+      "connectedStopIds": [
+        340,
+        342
+      ],
+      "population": 20625,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 342,
+      "name": "雑餉隈",
+      "lat": 33.547399,
+      "lng": 130.4618515,
+      "connectedStopIds": [
+        341,
+        343
+      ],
+      "population": 14203,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 343,
+      "name": "桜並木",
+      "lat": 33.5446837,
+      "lng": 130.4664742,
+      "connectedStopIds": [
+        342,
+        344
+      ],
+      "population": 5368,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 344,
+      "name": "春日原",
+      "lat": 33.5380094,
+      "lng": 130.4730964,
+      "connectedStopIds": [
+        343,
+        345
+      ],
+      "population": 20274,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 345,
+      "name": "白木原",
+      "lat": 33.528286,
+      "lng": 130.4831101,
+      "connectedStopIds": [
+        344,
+        346
+      ],
+      "population": 8973,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 346,
+      "name": "下大利",
+      "lat": 33.5223102,
+      "lng": 130.4893813,
+      "connectedStopIds": [
+        345,
+        347
+      ],
+      "population": 14148,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 347,
+      "name": "都府楼前",
+      "lat": 33.5119218,
+      "lng": 130.5076633,
+      "connectedStopIds": [
+        346,
+        348
+      ],
+      "population": 6451,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 348,
+      "name": "西鉄二日市",
+      "lat": 33.5021529,
+      "lng": 130.5177779,
+      "connectedStopIds": [
+        347,
+        349,
+        386
+      ],
+      "population": 16904,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 349,
+      "name": "紫",
+      "lat": 33.4963998,
+      "lng": 130.5221372,
+      "connectedStopIds": [
+        348,
+        350
+      ],
+      "population": 6072,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 350,
+      "name": "朝倉街道",
+      "lat": 33.4839356,
+      "lng": 130.5326394,
+      "connectedStopIds": [
+        349,
+        351
+      ],
+      "population": 11853,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 351,
+      "name": "桜台",
+      "lat": 33.4717091,
+      "lng": 130.5423899,
+      "connectedStopIds": [
+        350,
+        352
+      ],
+      "population": 1749,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 352,
+      "name": "筑紫",
+      "lat": 33.4628934,
+      "lng": 130.5529283,
+      "connectedStopIds": [
+        351,
+        353
+      ],
+      "population": 7006,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 353,
+      "name": "津古",
+      "lat": 33.4464557,
+      "lng": 130.5655736,
+      "connectedStopIds": [
+        352,
+        354
+      ],
+      "population": 2092,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 354,
+      "name": "三国が丘",
+      "lat": 33.4369137,
+      "lng": 130.5632042,
+      "connectedStopIds": [
+        353,
+        355
+      ],
+      "population": 5454,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 355,
+      "name": "三沢",
+      "lat": 33.4233944,
+      "lng": 130.5604271,
+      "connectedStopIds": [
+        354,
+        356
+      ],
+      "population": 1709,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 356,
+      "name": "大保",
+      "lat": 33.4108241,
+      "lng": 130.5579293,
+      "connectedStopIds": [
+        355,
+        357
+      ],
+      "population": 2392,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 357,
+      "name": "西鉄小郡",
+      "lat": 33.3962305,
+      "lng": 130.5535881,
+      "connectedStopIds": [
+        356,
+        358
+      ],
+      "population": 9236,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 358,
+      "name": "端間",
+      "lat": 33.3785125,
+      "lng": 130.55077,
+      "connectedStopIds": [
+        357,
+        359
+      ],
+      "population": 1440,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 359,
+      "name": "味坂",
+      "lat": 33.3527452,
+      "lng": 130.5405499,
+      "connectedStopIds": [
+        358,
+        360
+      ],
+      "population": 178,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 360,
+      "name": "宮の陣",
+      "lat": 33.3294038,
+      "lng": 130.5308202,
+      "connectedStopIds": [
+        359,
+        361,
+        388
+      ],
+      "population": 2066,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 361,
+      "name": "櫛原",
+      "lat": 33.3196233,
+      "lng": 130.5243651,
+      "connectedStopIds": [
+        360,
+        362
+      ],
+      "population": 968,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 362,
+      "name": "西鉄久留米",
+      "lat": 33.3122586,
+      "lng": 130.5210838,
+      "connectedStopIds": [
+        361,
+        363
+      ],
+      "population": 28355,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 363,
+      "name": "花畑",
+      "lat": 33.3059351,
+      "lng": 130.5151628,
+      "connectedStopIds": [
+        362,
+        364
+      ],
+      "population": 7370,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 364,
+      "name": "聖マリア病院前",
+      "lat": 33.3020704,
+      "lng": 130.5102128,
+      "connectedStopIds": [
+        363,
+        365
+      ],
+      "population": 2923,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 365,
+      "name": "津福",
+      "lat": 33.2966172,
+      "lng": 130.4979135,
+      "connectedStopIds": [
+        364,
+        366
+      ],
+      "population": 2100,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 366,
+      "name": "安武",
+      "lat": 33.2865006,
+      "lng": 130.4892775,
+      "connectedStopIds": [
+        365,
+        367
+      ],
+      "population": 905,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 367,
+      "name": "大善寺",
+      "lat": 33.2705282,
+      "lng": 130.4740525,
+      "connectedStopIds": [
+        366,
+        368
+      ],
+      "population": 2973,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 368,
+      "name": "三潴",
+      "lat": 33.2562161,
+      "lng": 130.4695223,
+      "connectedStopIds": [
+        367,
+        369
+      ],
+      "population": 822,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 369,
+      "name": "犬塚",
+      "lat": 33.247766,
+      "lng": 130.4631816,
+      "connectedStopIds": [
+        368,
+        370
+      ],
+      "population": 992,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 370,
+      "name": "大溝",
+      "lat": 33.2274413,
+      "lng": 130.4500944,
+      "connectedStopIds": [
+        369,
+        371
+      ],
+      "population": 1000,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 371,
+      "name": "八丁牟田",
+      "lat": 33.2094065,
+      "lng": 130.4379661,
+      "connectedStopIds": [
+        370,
+        372
+      ],
+      "population": 1187,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 372,
+      "name": "蒲池",
+      "lat": 33.1896376,
+      "lng": 130.4226307,
+      "connectedStopIds": [
+        371,
+        373
+      ],
+      "population": 411,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 373,
+      "name": "矢加部",
+      "lat": 33.1740438,
+      "lng": 130.4156613,
+      "connectedStopIds": [
+        372,
+        374
+      ],
+      "population": 180,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 374,
+      "name": "西鉄柳川",
+      "lat": 33.1651756,
+      "lng": 130.4192323,
+      "connectedStopIds": [
+        373,
+        375
+      ],
+      "population": 10072,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 375,
+      "name": "徳益",
+      "lat": 33.1550007,
+      "lng": 130.426892,
+      "connectedStopIds": [
+        374,
+        376
+      ],
+      "population": 171,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 376,
+      "name": "塩塚",
+      "lat": 33.1435191,
+      "lng": 130.4313947,
+      "connectedStopIds": [
+        375,
+        377
+      ],
+      "population": 354,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 377,
+      "name": "西鉄中島",
+      "lat": 33.1226018,
+      "lng": 130.4400395,
+      "connectedStopIds": [
+        376,
+        378
+      ],
+      "population": 782,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 378,
+      "name": "江の浦",
+      "lat": 33.1093289,
+      "lng": 130.4464817,
+      "connectedStopIds": [
+        377,
+        379
+      ],
+      "population": 275,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 379,
+      "name": "開",
+      "lat": 33.0968882,
+      "lng": 130.4532405,
+      "connectedStopIds": [
+        378,
+        380
+      ],
+      "population": 562,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 380,
+      "name": "西鉄渡瀬",
+      "lat": 33.086778,
+      "lng": 130.4587412,
+      "connectedStopIds": [
+        379,
+        381
+      ],
+      "population": 314,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 381,
+      "name": "倉永",
+      "lat": 33.0715655,
+      "lng": 130.4638971,
+      "connectedStopIds": [
+        380,
+        382
+      ],
+      "population": 842,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 382,
+      "name": "東甘木",
+      "lat": 33.0619002,
+      "lng": 130.4640169,
+      "connectedStopIds": [
+        381,
+        383
+      ],
+      "population": 349,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 383,
+      "name": "西鉄銀水",
+      "lat": 33.0510774,
+      "lng": 130.4582096,
+      "connectedStopIds": [
+        382,
+        384
+      ],
+      "population": 518,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 384,
+      "name": "新栄町",
+      "lat": 33.0385355,
+      "lng": 130.4499026,
+      "connectedStopIds": [
+        383,
+        385
+      ],
+      "population": 3365,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 385,
+      "name": "大牟田",
+      "lat": 33.0299039,
+      "lng": 130.4433193,
+      "connectedStopIds": [
+        384,
+        98
+      ],
+      "population": 7856,
+      "populationArea": "西鉄天神大牟田線"
+    },
+    {
+      "id": 386,
+      "name": "西鉄五条",
+      "lat": 33.5110871,
+      "lng": 130.5261773,
+      "connectedStopIds": [
+        387,
+        348
+      ],
+      "population": 5053,
+      "populationArea": "西鉄太宰府線"
+    },
+    {
+      "id": 387,
+      "name": "太宰府",
+      "lat": 33.5184903,
+      "lng": 130.5311595,
+      "connectedStopIds": [
+        386
+      ],
+      "population": 11658,
+      "populationArea": "西鉄太宰府線"
+    },
+    {
+      "id": 388,
+      "name": "五郎丸",
+      "lat": 33.3304676,
+      "lng": 130.5399255,
+      "connectedStopIds": [
+        360,
+        389
+      ],
+      "population": 754,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 389,
+      "name": "学校前",
+      "lat": 33.3365542,
+      "lng": 130.5475894,
+      "connectedStopIds": [
+        388,
+        390
+      ],
+      "population": 356,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 390,
+      "name": "古賀茶屋",
+      "lat": 33.3435992,
+      "lng": 130.5668704,
+      "connectedStopIds": [
+        389,
+        391
+      ],
+      "population": 503,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 391,
+      "name": "北野",
+      "lat": 33.3454018,
+      "lng": 130.5828644,
+      "connectedStopIds": [
+        390,
+        392
+      ],
+      "population": 1687,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 392,
+      "name": "大城",
+      "lat": 33.3509506,
+      "lng": 130.6081054,
+      "connectedStopIds": [
+        391,
+        393
+      ],
+      "population": 668,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 393,
+      "name": "金島",
+      "lat": 33.3530947,
+      "lng": 130.6227918,
+      "connectedStopIds": [
+        392,
+        394
+      ],
+      "population": 65,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 394,
+      "name": "大堰",
+      "lat": 33.3723682,
+      "lng": 130.6240591,
+      "connectedStopIds": [
+        393,
+        395
+      ],
+      "population": 343,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 395,
+      "name": "本郷",
+      "lat": 33.3851098,
+      "lng": 130.6289857,
+      "connectedStopIds": [
+        394,
+        396
+      ],
+      "population": 392,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 396,
+      "name": "上浦",
+      "lat": 33.3990587,
+      "lng": 130.6371269,
+      "connectedStopIds": [
+        395,
+        397
+      ],
+      "population": 105,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 397,
+      "name": "馬田",
+      "lat": 33.4078065,
+      "lng": 130.6408411,
+      "connectedStopIds": [
+        396,
+        398
+      ],
+      "population": 110,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 398,
+      "name": "甘木",
+      "lat": 33.4183456,
+      "lng": 130.6549086,
+      "connectedStopIds": [
+        397
+      ],
+      "population": 1163,
+      "populationArea": "西鉄甘木線"
+    },
+    {
+      "id": 399,
+      "name": "貝塚",
+      "lat": 33.6320356,
+      "lng": 130.4255947,
+      "connectedStopIds": [
+        400,
+        318
+      ],
+      "population": 16071,
+      "populationArea": "西鉄貝塚線"
+    },
+    {
+      "id": 400,
+      "name": "名島",
+      "lat": 33.6427887,
+      "lng": 130.4321799,
+      "connectedStopIds": [
+        399,
+        401
+      ],
+      "population": 3114,
+      "populationArea": "西鉄貝塚線"
+    },
+    {
+      "id": 401,
+      "name": "西鉄千早",
+      "lat": 33.649431,
+      "lng": 130.4402564,
+      "connectedStopIds": [
+        400,
+        402
+      ],
+      "population": 6055,
+      "populationArea": "西鉄貝塚線"
+    },
+    {
+      "id": 402,
+      "name": "香椎宮前",
+      "lat": 33.6545713,
+      "lng": 130.4424863,
+      "connectedStopIds": [
+        401,
+        403
+      ],
+      "population": 2181,
+      "populationArea": "西鉄貝塚線"
+    },
+    {
+      "id": 403,
+      "name": "西鉄香椎",
+      "lat": 33.6594936,
+      "lng": 130.4417306,
+      "connectedStopIds": [
+        402,
+        404
+      ],
+      "population": 3925,
+      "populationArea": "西鉄貝塚線"
+    },
+    {
+      "id": 404,
+      "name": "香椎花園前",
+      "lat": 33.6696923,
+      "lng": 130.4345591,
+      "connectedStopIds": [
+        403,
+        405
+      ],
+      "population": 2725,
+      "populationArea": "西鉄貝塚線"
+    },
+    {
+      "id": 405,
+      "name": "唐の原",
+      "lat": 33.6802687,
+      "lng": 130.4345523,
+      "connectedStopIds": [
+        404,
+        406
+      ],
+      "population": 1205,
+      "populationArea": "西鉄貝塚線"
+    },
+    {
+      "id": 406,
+      "name": "和白",
+      "lat": 33.6885239,
+      "lng": 130.4299792,
+      "connectedStopIds": [
+        405,
+        407
+      ],
+      "population": 2114,
+      "populationArea": "西鉄貝塚線"
+    },
+    {
+      "id": 407,
+      "name": "三苫",
+      "lat": 33.7021973,
+      "lng": 130.4225598,
+      "connectedStopIds": [
+        406,
+        408
+      ],
+      "population": 3250,
+      "populationArea": "西鉄貝塚線"
+    },
+    {
+      "id": 408,
+      "name": "西鉄新宮",
+      "lat": 33.7141282,
+      "lng": 130.436913,
+      "connectedStopIds": [
+        407
+      ],
+      "population": 1364,
+      "populationArea": "西鉄貝塚線"
     }
   ]
 }

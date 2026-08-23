@@ -20,14 +20,14 @@ const DATASETS = {
     ),
   },
   station: {
-    label: '駅(JR九州)',
-    title: 'JR九州 駅 重要度グラフ',
+    label: '駅(JR九州・地下鉄・西鉄)',
+    title: 'JR九州・福岡市地下鉄・西鉄 駅 重要度グラフ',
     data: stationData,
-    metricLabel: '1日平均乗車人員',
+    metricLabel: '1日平均乗車人員/乗降人員',
     metricUnit: '人',
-    areaDesc: '九州全県',
+    areaDesc: '九州全県 + 福岡市地下鉄 + 西鉄(天神大牟田線・太宰府線・甘木線・貝塚線)',
     placeholderDesc: (
-      <>stationData.json からJR九州の駅と路線の接続関係を読み込み、<br />グラフ中心性と乗車人員で重要度を計算して可視化します</>
+      <>stationData.json からJR九州・福岡市地下鉄・西鉄の駅と路線の接続関係を読み込み、<br />グラフ中心性と乗車人員/乗降人員で重要度を計算して可視化します</>
     ),
   },
 };
