@@ -185,6 +185,17 @@ function Legend() {
   );
 }
 
+// ===== データ出典・注意事項(sourceNote) =====
+function SourceNote({ note }) {
+  if (!note) return null;
+  return (
+    <details style={styles.sourceNoteBox}>
+      <summary style={styles.sourceNoteSummary}>データ出典・注意事項</summary>
+      <p style={styles.sourceNoteText}>{note}</p>
+    </details>
+  );
+}
+
 // ===== エリア概況 =====
 function AreaStats({ stats, itemLabel }) {
   if (!stats) return null;
@@ -290,12 +301,20 @@ function RemovalSafety({ safety }) {
   );
 }
 
+// 西鉄側は「乗降人員」(乗車+降車)、JR九州・福岡市地下鉄側は「乗車人員」で単位が異なるため、
+// 駅の所属路線(populationArea)に応じて表示ラベルを切り替える(単純比較を誤解させないための対応)。
+function getPopulationMetricLabel(datasetKey, node) {
+  if (datasetKey !== 'station') return null;
+  return node.populationArea?.startsWith('西鉄') ? '1日平均乗降人員' : '1日平均乗車人員';
+}
+
 // ===== 選択ノード詳細パネル =====
-function NodeDetail({ node, safety, onClose, metricLabel }) {
+function NodeDetail({ node, safety, onClose, metricLabel, datasetKey }) {
   if (!node) return null;
   const score = (node.importance * 100).toFixed(1);
   const deg = node.degree?.toFixed ? node.degree.toFixed(3) : node.degree;
   const bet = node.betweenness?.toFixed ? node.betweenness.toFixed(4) : node.betweenness;
+  const populationLabel = getPopulationMetricLabel(datasetKey, node) ?? metricLabel;
   return (
     <div style={styles.statsBox}>
       <button onClick={onClose} style={styles.closeBtn}>×</button>
@@ -313,7 +332,7 @@ function NodeDetail({ node, safety, onClose, metricLabel }) {
         <span style={styles.statsValue}>{bet}</span>
       </div>
       <div style={styles.statsRow}>
-        <span style={styles.statsKey}>{metricLabel}{node.populationArea ? `(${node.populationArea})` : ''}</span>
+        <span style={styles.statsKey}>{populationLabel}{node.populationArea ? `(${node.populationArea})` : ''}</span>
         <span style={styles.statsValue}>
           {typeof node.population === 'number' ? `${node.population.toLocaleString()}人` : '不明'}
         </span>
@@ -460,6 +479,7 @@ export default function App() {
           <WeightPanel weights={weights} onChange={handleWeightChange} metricLabel={activeDataset.metricLabel} />
           <hr style={styles.divider} />
           <Legend />
+          <SourceNote note={rawData.sourceNote} />
         </div>
 
         {/* グラフ本体 */}
@@ -536,6 +556,7 @@ export default function App() {
               safety={removalSafety?.[selectedNode.id]}
               onClose={() => setSelectedNode(null)}
               metricLabel={activeDataset.metricLabel}
+              datasetKey={datasetKey}
             />
           )}
         </div>
@@ -643,6 +664,20 @@ const styles = {
     width: 28, height: 0,
     borderTop: '2px dashed #64748b',
     display: 'inline-block',
+  },
+
+  sourceNoteBox: {
+    marginTop: 20, paddingTop: 16,
+    borderTop: '1px solid rgba(148,163,184,0.12)',
+  },
+  sourceNoteSummary: {
+    cursor: 'pointer', fontSize: 12, fontWeight: 600,
+    color: '#94a3b8', userSelect: 'none',
+  },
+  sourceNoteText: {
+    marginTop: 10, fontSize: 11, lineHeight: 1.7,
+    color: '#64748b', whiteSpace: 'pre-wrap',
+    maxHeight: 260, overflowY: 'auto',
   },
 
   sigmaWrapper: {
