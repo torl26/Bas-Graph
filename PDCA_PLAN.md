@@ -17,11 +17,12 @@
 
 | status | id | 内容 | 備考 |
 |---|---|---|---|
-| todo | sourcenote-bus | `busData.json` に `sourceNote` が無く、バス停データセット選択時に左パネルの「データ出典・注意事項」欄が表示されない | `stationData.json` の `sourceNote` を参考に、バス停データの出典（OpenStreetMap Overpass API、町丁目人口データ等）をまとめて追加する |
 | todo | station-label-bus-text | 駅データセットを選択していても、凡例の「バス停の接続」（App.jsx:182）とノード詳細の「最寄り代替バス停」（App.jsx:293）がバス停表記のまま固定 | `AreaStats` の `itemLabel`（App.jsx:550）と同様に `datasetKey` で出し分ける |
 | todo | dead-code-overpass | `useOverpassBusStops.js`（Overpass APIからのライブ取得フック）がどこからもimportされていない未使用コード | 静的JSON方式に切り替わった後の残骸。削除するか、READMEに「未使用・将来のライブ取得用」と明記するかを判断して対応 |
 | todo | no-tests | `package.json` にtestスクリプトが無く、テストが一切存在しない。`buildGraph.js`（重要度スコア計算）・`removalSafety.js`（関節点・Vitality判定）はロジックが複雑な割に無検証 | vitest等の軽量テストランナーを導入し、`buildGraphFromLocalData` と `assessRemovalSafety` に対する最小限のユニットテストを追加する |
 
 ## Done
 
-(まだなし)
+| id | PR |
+|---|---|
+| sourcenote-bus | https://github.com/torl26/Bas-Graph/pull/1 |
