@@ -1,4 +1,5 @@
 {
+  "sourceNote": "バス停・接続関係: OpenStreetMap(Overpass API)から、久留米市の行政境界(OSM relation id: 4008314)内のhighway=bus_stop / public_transport=stop_position・platformのノードと、route=busの路線(relation)を取得して構築(取得クエリはuseOverpassBusStops.js参照。ただし現在のアプリは取得結果をあらかじめ静的化したこのbusData.jsonを直接読み込む方式で、実行時にOverpass APIへは接続しない)。座標が未取得のバス停は、接続関係から近傍バス停の座標を用いて位置を推定して描画する(詳細はbuildGraph.js・ALGORITHMS.md参照)。地域人口(population/populationArea): 総務省統計局 e-Stat「令和2年国勢調査 小地域(町丁・字等)境界データ」(https://www.e-stat.go.jp/gis/statmap-search、dlserveyId=A002005212020)の町丁目別人口(JINKOフィールド)を、population_data/scripts/assign_population.jsにより各バス停の座標を含む町丁目(見つからない場合は最も近い重心を持つ町丁目)に割り当てたもの(詳細はALGORITHMS.md §5)。町丁目境界データは2020年(令和2年)時点のものであり、行政区画の変更等による現在との差異は反映していない。",
   "stops": [
     {
       "id": 1,
