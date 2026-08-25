@@ -162,7 +162,7 @@ function LayoutModeToggle({ mode, onChange }) {
 }
 
 // ===== 凡例 =====
-function Legend() {
+function Legend({ itemLabel }) {
   return (
     <div>
       <p style={styles.sectionTitle}>凡例</p>
@@ -179,7 +179,7 @@ function Legend() {
       </div>
       <div style={styles.legendRouteRow}>
         <span style={styles.legendDash} />
-        <span style={styles.legendDesc}>バス停の接続</span>
+        <span style={styles.legendDesc}>{itemLabel}の接続</span>
       </div>
     </div>
   );
@@ -275,7 +275,7 @@ function DangerRankingList({ ranking, onSelect }) {
   );
 }
 
-function RemovalSafety({ safety }) {
+function RemovalSafety({ safety, itemLabel }) {
   if (!safety) return null;
   const s = SAFETY_STYLE[safety.level];
   return (
@@ -290,7 +290,7 @@ function RemovalSafety({ safety }) {
         <span style={styles.statsValue}>{(safety.vitality * 100).toFixed(2)}%</span>
       </div>
       <div style={styles.statsRow}>
-        <span style={styles.statsKey}>最寄り代替バス停</span>
+        <span style={styles.statsKey}>最寄り代替{itemLabel}</span>
         <span style={styles.statsValue}>
           {Number.isFinite(safety.nearestAlternativeDistance)
             ? `${Math.round(safety.nearestAlternativeDistance)}m`
@@ -315,6 +315,7 @@ function NodeDetail({ node, safety, onClose, metricLabel, datasetKey }) {
   const deg = node.degree?.toFixed ? node.degree.toFixed(3) : node.degree;
   const bet = node.betweenness?.toFixed ? node.betweenness.toFixed(4) : node.betweenness;
   const populationLabel = getPopulationMetricLabel(datasetKey, node) ?? metricLabel;
+  const itemLabel = datasetKey === 'station' ? '駅' : 'バス停';
   return (
     <div style={styles.statsBox}>
       <button onClick={onClose} style={styles.closeBtn}>×</button>
@@ -345,7 +346,7 @@ function NodeDetail({ node, safety, onClose, metricLabel, datasetKey }) {
         <span style={styles.statsKey}>経度</span>
         <span style={styles.statsValue}>{node.hasCoords ? node.lon.toFixed(5) : '不明'}</span>
       </div>
-      <RemovalSafety safety={safety} />
+      <RemovalSafety safety={safety} itemLabel={itemLabel} />
     </div>
   );
 }
@@ -363,6 +364,7 @@ export default function App() {
 
   const activeDataset = DATASETS[datasetKey];
   const rawData = activeDataset.data;
+  const itemLabel = datasetKey === 'station' ? '駅' : 'バス停';
 
   const load = useCallback(() => {
     setStatus('loading');
@@ -478,7 +480,7 @@ export default function App() {
           <LayoutModeToggle mode={layoutMode} onChange={setLayoutMode} />
           <WeightPanel weights={weights} onChange={handleWeightChange} metricLabel={activeDataset.metricLabel} />
           <hr style={styles.divider} />
-          <Legend />
+          <Legend itemLabel={itemLabel} />
           <SourceNote note={rawData.sourceNote} />
         </div>
 
@@ -547,7 +549,7 @@ export default function App() {
 
         {/* 右サイドパネル */}
         <div style={styles.rightPanel}>
-          <AreaStats stats={areaStats} itemLabel={datasetKey === 'station' ? '駅' : 'バス停'} />
+          <AreaStats stats={areaStats} itemLabel={itemLabel} />
           <RankingList ranking={ranking} onSelect={handleSelectFromRanking} />
           <DangerRankingList ranking={dangerRanking} onSelect={handleSelectFromRanking} />
           {selectedNode && (
