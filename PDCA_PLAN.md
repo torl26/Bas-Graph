@@ -17,7 +17,6 @@
 
 | status | id | 内容 | 備考 |
 |---|---|---|---|
-| todo | dead-code-overpass | `useOverpassBusStops.js`（Overpass APIからのライブ取得フック）がどこからもimportされていない未使用コード | 静的JSON方式に切り替わった後の残骸。削除するか、READMEに「未使用・将来のライブ取得用」と明記するかを判断して対応 |
 | todo | no-tests | `package.json` にtestスクリプトが無く、テストが一切存在しない。`buildGraph.js`（重要度スコア計算）・`removalSafety.js`（関節点・Vitality判定）はロジックが複雑な割に無検証 | vitest等の軽量テストランナーを導入し、`buildGraphFromLocalData` と `assessRemovalSafety` に対する最小限のユニットテストを追加する |
 
 ## Done
@@ -26,3 +25,4 @@
 |---|---|
 | sourcenote-bus | https://github.com/torl26/Bas-Graph/pull/1 |
 | station-label-bus-text | https://github.com/torl26/Bas-Graph/pull/2 |
+| dead-code-overpass | https://github.com/torl26/Bas-Graph/pull/3 (削除ではなく、ALGORITHMS.md §3の`buildGraphFromOSM`と対になる将来のライブ取得用パスとしてREADMEに明記する対応を選択) |
