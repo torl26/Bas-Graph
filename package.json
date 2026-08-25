@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "test": "vitest run"
   },
   "dependencies": {
     "@react-sigma/core": "^5.0.6",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "shapefile": "^0.6.6",
-    "vite": "^4.4.0"
+    "vite": "^4.4.0",
+    "vitest": "^0.34.6"
   }
 }
