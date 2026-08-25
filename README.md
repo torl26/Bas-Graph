@@ -52,7 +52,9 @@ App.jsx                 メイン画面・UI（データセット切り替え、
 main.jsx                エントリーポイント
 buildGraph.js           グラフ構築・重要度スコア計算・レイアウト計算（バス停・駅データ共通）
 removalSafety.js        削除安全度判定（関節点・Vitality・最寄り代替拠点、バス停・駅データ共通）
-useOverpassBusStops.js  Overpass APIからのバス停・路線データ取得（久留米市境界で絞り込み）
+useOverpassBusStops.js  Overpass APIからのバス停・路線データ取得（久留米市境界で絞り込み）。
+                        現状App.jsxからは未使用で、buildGraph.jsのbuildGraphFromOSMと組み合わせて
+                        使う、将来のライブ取得モード用の代替パス（詳細はALGORITHMS.md §3）。
 busData.json            バス停データ本体（座標・接続関係・地域人口を含む）
 stationData.json        駅データ本体（JR九州・福岡市地下鉄・西鉄の座標・接続関係・乗車/乗降人員・出典注記(sourceNote)を含む）
 osm_kurume.json / osm_bbox.json  OSM由来の補助データ
