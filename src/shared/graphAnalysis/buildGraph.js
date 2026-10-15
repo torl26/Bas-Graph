@@ -105,7 +105,7 @@ export function buildGraphFromLocalData(busData, { layout = 'geo', weights } = {
     const nodeId = String(s.id);
     const hasCoords = typeof s.lat === 'number' && typeof s.lng === 'number';
     graph.addNode(nodeId, {
-      label: s.name || `停留所 ${nodeId}`,
+      label: s.name || `地点 ${nodeId}`,
       lat: hasCoords ? s.lat : null,
       lon: hasCoords ? s.lng : null,
       hasCoords,
@@ -220,7 +220,7 @@ export function buildGraphFromOSM(stopElements, routeElements) {
     const nodeId = String(el.id);
     stopIds.add(nodeId);
     graph.addNode(nodeId, {
-      label: el.tags?.name || el.tags?.['name:ja'] || `停留所 ${el.id}`,
+      label: el.tags?.name || el.tags?.['name:ja'] || `地点 ${el.id}`,
       lat: el.lat,
       lon: el.lon,
       x: el.lon, // sigma用: 経度をX座標に
