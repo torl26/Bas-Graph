@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import Graph from 'graphology';
-import { findArticulationPoints, haversineDistance, assessRemovalSafety } from './removalSafety.js';
-import { buildGraphFromLocalData } from './buildGraph.js';
+import { findArticulationPoints, haversineDistance, assessRemovalSafety, computeVitality } from './removalSafety.js';
+import { buildGraphFromLocalData, BETWEENNESS_NODE_THRESHOLD } from './buildGraph.js';
 
 describe('findArticulationPoints', () => {
   it('flags the middle node of a path graph as an articulation point', () => {
@@ -16,6 +16,25 @@ describe('findArticulationPoints', () => {
     expect(points.has('B')).toBe(true);
     expect(points.has('A')).toBe(false);
     expect(points.has('C')).toBe(false);
+  });
+
+  it('does not crash on a long chain (deep DFS, road-network scale)', () => {
+    // 実データ(32,803交差点)で再帰DFS版がスタックオーバーフローした
+    // ("Maximum call stack size exceeded")のを受けた回帰テスト。
+    // 直線道路1本でも、交差点が無ければグラフ上はA-B-C-...の長い1本道になり、
+    // DFSの深さがノード数と同じになる。
+    const graph = new Graph({ type: 'undirected' });
+    const N = 50000;
+    for (let i = 0; i < N; i++) graph.addNode(String(i));
+    for (let i = 0; i < N - 1; i++) graph.addEdge(String(i), String(i + 1));
+
+    let points;
+    expect(() => { points = findArticulationPoints(graph); }).not.toThrow();
+    // 両端以外の全ノードが関節点(削除すると分断される)
+    expect(points.size).toBe(N - 2);
+    expect(points.has('0')).toBe(false);
+    expect(points.has(String(N - 1))).toBe(false);
+    expect(points.has(String(Math.floor(N / 2)))).toBe(true);
   });
 
   it('finds no articulation points in a triangle (cycle)', () => {
@@ -69,6 +88,22 @@ describe('assessRemovalSafety', () => {
     expect(safety['5'].nearestAlternativeDistance).toBeLessThan(400);
   });
 
+  it('finds a nearby alternative even when it falls in an adjacent spatial-grid cell', () => {
+    // 空間グリッド(半径400m換算のセルサイズ、緯度33度)の境界を挟んで
+    // 1.9mしか離れていない2点。セル内総当たりだけでは互いに見つからず、
+    // 3x3近傍セルの探索が実装されていることを確認する回帰テスト。
+    const nearBoundary = {
+      stops: [
+        { id: 1, name: 'A', lat: 33.000, lng: 130.0031498797023, connectedStopIds: [2] },
+        { id: 2, name: 'B', lat: 33.000, lng: 130.0031698797023, connectedStopIds: [1] },
+      ],
+    };
+    const graph = buildGraphFromLocalData(nearBoundary);
+    const safety = assessRemovalSafety(graph, nearBoundary);
+    expect(safety['1'].nearestAlternativeDistance).toBeLessThan(5);
+    expect(safety['1'].level).toBe('safe');
+  });
+
   it('marks stops with missing coordinates as caution', () => {
     const withMissingCoords = {
       stops: [
@@ -80,5 +115,24 @@ describe('assessRemovalSafety', () => {
     const safety = assessRemovalSafety(graph, withMissingCoords);
     expect(safety['2'].hasCoords).toBe(false);
     expect(safety['2'].level).toBe('caution');
+  });
+});
+
+describe('computeVitality', () => {
+  it('skips the expensive betweenness-centrality computation above BETWEENNESS_NODE_THRESHOLD, returning 0 for every node', () => {
+    // buildGraph.test.jsの同名テストと対になる回帰テスト。久留米市道路網の実データ
+    // (32,803ノード)でcomputeVitalityが約161分かかることを確認済み。
+    const N = BETWEENNESS_NODE_THRESHOLD + 1;
+    const graph = new Graph({ type: 'undirected' });
+    for (let i = 0; i < N; i++) graph.addNode(String(i));
+    for (let i = 1; i < N; i++) graph.addEdge('0', String(i)); // 星形(中心0番、媒介中心性なら突出するはずの構造)
+
+    const t0 = Date.now();
+    const vitality = computeVitality(graph);
+    const elapsedMs = Date.now() - t0;
+
+    expect(vitality['0']).toBe(0);
+    expect(vitality['1']).toBe(0);
+    expect(elapsedMs).toBeLessThan(5000);
   });
 });
