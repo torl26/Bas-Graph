@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
+import App from './features/bus-graph/App.jsx';
 
 // スピナーアニメーション
 const style = document.createElement('style');
