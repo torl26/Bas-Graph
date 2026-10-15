@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { SigmaContainer, useRegisterEvents, useSigma } from '@react-sigma/core';
 import '@react-sigma/core/lib/style.css';
-import busData from './busData.json';
-import stationData from './stationData.json';
+import busData from '../../data/busData.json';
+import stationData from '../../data/stationData.json';
 import { buildGraphFromLocalData } from './buildGraph.js';
 import { assessRemovalSafety } from './removalSafety.js';
 
