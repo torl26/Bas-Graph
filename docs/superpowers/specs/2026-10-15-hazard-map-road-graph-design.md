@@ -66,10 +66,15 @@ build_road_graph.js
   → osmWaysToRoadGraph(elements) で変換:
       1. 各wayのnode参照を走査し、「2つ以上のwayに現れるノード」または
          「wayの端点（最初/最後のノード）」を交差点として抽出する
-      2. 交差点間を結ぶ区間ごとに、区間内の全座標点をHaversine距離で
-         積算し、エッジ長（メートル）を算出する
+      2. 交差点間を結ぶ区間ごとに、区間の両端の交差点同士を接続する
+         （区間内の形状点はスキップし、交差点同士の隣接関係のみを残す）
       3. { stops: [{id, name: null, lat, lng, connectedStopIds: [...]}] }
          形式で出力する
+
+（エッジの実距離は`roadData.json`の出力形状に保持する場所がなく、現状
+`buildGraphFromLocalData()`も使わないため、今回は計算しない。将来ルート
+計算サブプロジェクトで必要になれば、`connectedStopIds`を`{id, lengthM}`
+形式に拡張して追加する）
   → src/data/roadData.json に書き出す
 ```
 
