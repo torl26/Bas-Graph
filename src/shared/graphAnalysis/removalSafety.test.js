@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import fs from 'fs';
 import Graph from 'graphology';
 import { findArticulationPoints, haversineDistance, assessRemovalSafety, computeVitality } from './removalSafety.js';
 import { buildGraphFromLocalData, BETWEENNESS_NODE_THRESHOLD } from './buildGraph.js';
@@ -115,6 +116,60 @@ describe('assessRemovalSafety', () => {
     const safety = assessRemovalSafety(graph, withMissingCoords);
     expect(safety['2'].hasCoords).toBe(false);
     expect(safety['2'].level).toBe('caution');
+  });
+
+  it('finds the true nearest alternative even when it lies well beyond the 400m search radius (sparse data)', () => {
+    // 回帰テスト: 空間グリッド導入時、最初の実装は3x3セル(=400m圏内相当)
+    // しか調べず、圏内に何も無ければ最寄り距離をInfinityとして返していた。
+    // バス停・駅データのように拠点間隔が400mを大きく超える疎なデータで
+    // 本来の最寄り距離(920mなど)が消え、既存のバス/駅画面の表示が壊れていた
+    // (コードレビューで指摘・実データで確認済み: バス339件中61件、
+    // 駅408件中348件が "-" 表示になっていた)。
+    // 約2000m離れた2点のみ: 3x3セル探索では絶対に見つからない距離
+    const sparse = {
+      stops: [
+        { id: 1, name: 'A', lat: 33.0000, lng: 130.0000, connectedStopIds: [] },
+        { id: 2, name: 'B', lat: 33.0180, lng: 130.0000, connectedStopIds: [] }, // 緯度差0.018度 ≈ 2003m
+      ],
+    };
+    const graph = buildGraphFromLocalData(sparse);
+    const safety = assessRemovalSafety(graph, sparse);
+    expect(safety['1'].nearestAlternativeDistance).not.toBe(Infinity);
+    expect(safety['1'].nearestAlternativeDistance).toBeGreaterThan(1900);
+    expect(safety['1'].nearestAlternativeDistance).toBeLessThan(2100);
+    expect(safety['1'].level).toBe('caution'); // 400m圏外なので代替なし=注意
+  });
+
+  it('matches brute-force nearest-neighbor distances exactly on the real bus and station datasets', () => {
+    // コードレビューで指摘された箇所の直接的な回帰テスト: 空間グリッドの
+    // 結果が全ペア総当たりの結果と完全一致することを実データで検証する。
+    function bruteForceNearest(stops) {
+      const withCoords = stops.filter(s => typeof s.lat === 'number' && typeof s.lng === 'number');
+      const result = {};
+      withCoords.forEach(stop => {
+        let nearest = Infinity;
+        withCoords.forEach(other => {
+          if (other === stop) return;
+          const d = haversineDistance(stop.lat, stop.lng, other.lat, other.lng);
+          if (d < nearest) nearest = d;
+        });
+        result[String(stop.id)] = nearest;
+      });
+      return result;
+    }
+
+    [
+      JSON.parse(fs.readFileSync(new URL('../../data/busData.json', import.meta.url), 'utf8')),
+      JSON.parse(fs.readFileSync(new URL('../../data/stationData.json', import.meta.url), 'utf8')),
+    ].forEach(data => {
+      const graph = buildGraphFromLocalData(data);
+      const safety = assessRemovalSafety(graph, data);
+      const expected = bruteForceNearest(data.stops);
+
+      Object.keys(expected).forEach(id => {
+        expect(safety[id].nearestAlternativeDistance).toBeCloseTo(expected[id], 0);
+      });
+    });
   });
 });
 

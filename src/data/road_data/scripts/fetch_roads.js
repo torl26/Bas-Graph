@@ -31,8 +31,19 @@ const OSM_API_URL = 'https://api.openstreetmap.org/api/0.6/map';
 const REQUEST_HEADERS = { 'User-Agent': 'bas-graph-hazard-map-road-fetch/1.0 (personal project, non-commercial)' };
 // 久留米市行政境界(relation 4008314)の実ノードから計算したbounding box
 const KURUME_BBOX = { west: 130.3852054, south: 33.2239595, east: 130.7318683, north: 33.3683778 };
-// 車両が使う主要な道路網に絞る(歩道・自転車道・サービス道路は除外)
-const HIGHWAY_TYPES = new Set(['motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'unclassified', 'residential']);
+// 車両が使う主要な道路網に絞る(歩道・自転車道・サービス道路は除外)。
+// *_link(motorway_link等のインターチェンジ・ランプ)も含める: これが無いと
+// motorway/trunkはランプを介してしか他の道路に接続しないOSMのデータ構造上、
+// 高速道路網がグラフ上で完全に孤立してしまう(コードレビューで指摘・実データで
+// 確認済み: 84件のmotorwayノードが1件も最大連結成分に含まれていなかった)。
+const HIGHWAY_TYPES = new Set([
+  'motorway', 'motorway_link',
+  'trunk', 'trunk_link',
+  'primary', 'primary_link',
+  'secondary', 'secondary_link',
+  'tertiary', 'tertiary_link',
+  'unclassified', 'residential',
+]);
 const MAX_SPLIT_DEPTH = 8;
 const REQUEST_DELAY_MS = 1500;
 const MAX_RETRIES_PER_TILE = 3;
