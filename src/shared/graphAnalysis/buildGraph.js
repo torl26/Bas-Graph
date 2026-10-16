@@ -3,6 +3,15 @@ import { degreeCentrality } from 'graphology-metrics/centrality/degree';
 import betweennessCentrality from 'graphology-metrics/centrality/betweenness';
 import forceAtlas2 from 'graphology-layout-forceatlas2';
 
+// 媒介中心性(betweenness centrality)はO(ノード数×エッジ数)で、バス停/駅
+// (数百件)では問題にならないが、道路交差点網(数万件)では実測で数十分かかり
+// ブラウザがフリーズする(32,803ノードの実データで buildGraphFromLocalData 側が
+// 約31分、removalSafety.js の computeVitality 側が約161分かかることを確認済み)。
+// このノード数を超えるグラフでは媒介中心性の計算自体をスキップし、
+// 次数中心性(高速、O(ノード数+エッジ数))と関節点判定(同じく高速)のみで
+// 重要度・危険度を表す。buildGraph.js と removalSafety.js の両方で使う。
+export const BETWEENNESS_NODE_THRESHOLD = 5000;
+
 // 重要度スコアをノードサイズと色にマッピング
 function scoreToSize(score) {
   // 2px〜12pxの範囲にマッピング
@@ -56,12 +65,17 @@ function applyImportanceScores(graph, weights = DEFAULT_WEIGHTS) {
 
   const degree = degreeCentrality(graph);
 
-  // 媒介中心性（ノード数が多いと重いので上限を設定）
+  // 媒介中心性(ノード数が多いと重いので上限を設定。BETWEENNESS_NODE_THRESHOLDの説明を参照)
+  const skipBetweenness = graph.order > BETWEENNESS_NODE_THRESHOLD;
   let betweenness = {};
-  try {
-    betweenness = betweennessCentrality(graph, { normalized: true });
-  } catch {
+  if (skipBetweenness) {
     graph.forEachNode(n => { betweenness[n] = 0; });
+  } else {
+    try {
+      betweenness = betweennessCentrality(graph, { normalized: true });
+    } catch {
+      graph.forEachNode(n => { betweenness[n] = 0; });
+    }
   }
 
   const nodes = graph.nodes();
@@ -75,9 +89,13 @@ function applyImportanceScores(graph, weights = DEFAULT_WEIGHTS) {
   const populationNorm = normalize(populationVals);
 
   // 重みの合計で正規化(スライダーの絶対値に関わらずスコアを0〜1に保つ)。
-  // 全て0の場合は3指標を均等に使う。
-  const totalWeight = weights.degree + weights.betweenness + weights.population;
-  const w = totalWeight > 0 ? weights : { degree: 1 / 3, betweenness: 1 / 3, population: 1 / 3 };
+  // 全て0の場合は3指標を均等に使う。媒介中心性をスキップした場合は、
+  // その重みを使わず残りの指標だけで配分し直す(スキップ分を無視して
+  // 一律0.5を足すような歪みを避ける)。
+  const effectiveWeights = skipBetweenness ? { ...weights, betweenness: 0 } : weights;
+  const totalWeight = effectiveWeights.degree + effectiveWeights.betweenness + effectiveWeights.population;
+  const fallback = skipBetweenness ? { degree: 0.5, betweenness: 0, population: 0.5 } : { degree: 1 / 3, betweenness: 1 / 3, population: 1 / 3 };
+  const w = totalWeight > 0 ? effectiveWeights : fallback;
   const denom = totalWeight > 0 ? totalWeight : 1;
 
   nodes.forEach((node, i) => {
@@ -105,7 +123,7 @@ export function buildGraphFromLocalData(busData, { layout = 'geo', weights } = {
     const nodeId = String(s.id);
     const hasCoords = typeof s.lat === 'number' && typeof s.lng === 'number';
     graph.addNode(nodeId, {
-      label: s.name || `停留所 ${nodeId}`,
+      label: s.name || `地点 ${nodeId}`,
       lat: hasCoords ? s.lat : null,
       lon: hasCoords ? s.lng : null,
       hasCoords,
@@ -220,7 +238,7 @@ export function buildGraphFromOSM(stopElements, routeElements) {
     const nodeId = String(el.id);
     stopIds.add(nodeId);
     graph.addNode(nodeId, {
-      label: el.tags?.name || el.tags?.['name:ja'] || `停留所 ${el.id}`,
+      label: el.tags?.name || el.tags?.['name:ja'] || `地点 ${el.id}`,
       lat: el.lat,
       lon: el.lon,
       x: el.lon, // sigma用: 経度をX座標に

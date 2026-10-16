@@ -48,22 +48,23 @@ npm run build
 ## プロジェクト構成
 
 ```
-App.jsx                 メイン画面・UI（データセット切り替え、重みパネル、ランキング、凡例、出典表示など）
-main.jsx                エントリーポイント
-buildGraph.js           グラフ構築・重要度スコア計算・レイアウト計算（バス停・駅データ共通）
-removalSafety.js        削除安全度判定（関節点・Vitality・最寄り代替拠点、バス停・駅データ共通）
-useOverpassBusStops.js  Overpass APIからのバス停・路線データ取得（久留米市境界で絞り込み）。
-                        現状App.jsxからは未使用で、buildGraph.jsのbuildGraphFromOSMと組み合わせて
-                        使う、将来のライブ取得モード用の代替パス（詳細はALGORITHMS.md §3）。
-busData.json            バス停データ本体（座標・接続関係・地域人口を含む）
-stationData.json        駅データ本体（JR九州・福岡市地下鉄・西鉄の座標・接続関係・乗車/乗降人員・出典注記(sourceNote)を含む）
-osm_kurume.json / osm_bbox.json  OSM由来の補助データ
-population_data/        町丁目人口データとバス停への割り当て前処理スクリプト
-ALGORITHMS.md           アルゴリズム・計算ロジックの詳細解説
+src/main.jsx                                   エントリーポイント
+src/features/bus-graph/App.jsx                 メイン画面・UI（データセット切り替え、重みパネル、ランキング、凡例、出典表示など）
+src/features/bus-graph/buildGraph.js           グラフ構築・重要度スコア計算・レイアウト計算（バス停・駅データ共通）
+src/features/bus-graph/removalSafety.js        削除安全度判定（関節点・Vitality・最寄り代替拠点、バス停・駅データ共通）
+src/features/bus-graph/useOverpassBusStops.js  Overpass APIからのバス停・路線データ取得（久留米市境界で絞り込み）。
+                                               現状App.jsxからは未使用で、buildGraph.jsのbuildGraphFromOSMと組み合わせて
+                                               使う、将来のライブ取得モード用の代替パス（詳細はALGORITHMS.md §3）。
+src/features/hazard-map/                       （プレースホルダー）今後のリアルタイムハザードマップ機能用のディレクトリ
+src/data/busData.json                          バス停データ本体（座標・接続関係・地域人口を含む）
+src/data/stationData.json                      駅データ本体（JR九州・福岡市地下鉄・西鉄の座標・接続関係・乗車/乗降人員・出典注記(sourceNote)を含む）
+src/data/osm_kurume.json / src/data/osm_bbox.json  OSM由来の補助データ
+src/data/population_data/                      町丁目人口データとバス停への割り当て前処理スクリプト
+ALGORITHMS.md                                  アルゴリズム・計算ロジックの詳細解説
 ```
 
 ## データソース
 
 - バス停・道路データ: [OpenStreetMap](https://www.openstreetmap.org/)（Overpass API）
-- 町丁目人口データ: `population_data/chome_raw/` 配下のシェープファイルを前処理し、各バス停に最寄りの町丁目人口を割り当て（詳細は ALGORITHMS.md §5）
+- 町丁目人口データ: `src/data/population_data/chome_raw/` 配下のシェープファイルを前処理し、各バス停に最寄りの町丁目人口を割り当て（詳細は ALGORITHMS.md §5）
 - 駅・乗車/乗降人員データ: JR九州公式サイト、福岡市オープンデータカタログ（福岡市地下鉄）、国土交通省「国土数値情報」経由の集計値（西鉄）。詳細な出典URL・単位の違い等の注意事項は `stationData.json` の `sourceNote`、またはアプリ左パネルの「データ出典・注意事項」を参照。

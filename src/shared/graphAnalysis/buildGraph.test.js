@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { buildGraphFromLocalData, scoreToColor } from './buildGraph.js';
+import { buildGraphFromLocalData, scoreToColor, BETWEENNESS_NODE_THRESHOLD } from './buildGraph.js';
 
 describe('scoreToColor', () => {
   it('returns the lowest color stop at score 0', () => {
@@ -67,5 +67,29 @@ describe('buildGraphFromLocalData', () => {
     const graph = buildGraphFromLocalData(withDangling);
     expect(graph.order).toBe(1);
     expect(graph.size).toBe(0);
+  });
+
+  it('skips the expensive betweenness-centrality computation above BETWEENNESS_NODE_THRESHOLD, scoring by degree only', () => {
+    // 媒介中心性はO(ノード数×エッジ数)で、道路交差点網(数万件)規模では
+    // 実測で数十分かかりブラウザがフリーズすることを確認した
+    // (.superpowers/sdd/2026-10-15-hazard-map-road-graph/progress.md参照)。
+    // 閾値超えのグラフでは計算自体をスキップし、次数中心性のみでスコアを出す。
+    const N = BETWEENNESS_NODE_THRESHOLD + 1;
+    const stops = [];
+    for (let i = 0; i < N; i++) {
+      // 星形: 中心(id 0)が全ノードに接続、媒介中心性なら突出して高いはずの構造
+      stops.push({ id: i, lat: 33.0 + i * 0.0001, lng: 130.0, connectedStopIds: i === 0 ? [] : [0] });
+    }
+    const t0 = Date.now();
+    const graph = buildGraphFromLocalData({ stops });
+    const elapsedMs = Date.now() - t0;
+
+    graph.forEachNode((node, attrs) => {
+      expect(attrs.betweenness).toBe(0);
+    });
+    // 次数中心性のみなら、中心ノード(次数N-1)が最高スコア(1)、葉ノード(次数1)は最低(0)になる
+    expect(graph.getNodeAttribute('0', 'importance')).toBe(1);
+    expect(graph.getNodeAttribute('1', 'importance')).toBe(0);
+    expect(elapsedMs).toBeLessThan(5000);
   });
 });
